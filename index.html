@@ -1,0 +1,2119 @@
+
+<!doctype html>
+<html lang="en-GB" itemscope itemtype="https://schema.org/WebPage" class="wpex-color-scheme-default">
+<head>
+<meta charset="UTF-8">
+<link rel="profile" href="https://gmpg.org/xfn/11">
+<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+<script data-cfasync="false" data-pagespeed-no-defer>
+	var gtm4wp_datalayer_name = "dataLayer";
+	var dataLayer = dataLayer || [];
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Graft Calculator</title><link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&#038;subset=latin&#038;display=swap" /><style id="" media="print" onload="this.media='all'">/* cyrillic-ext */
+@font-face {
+  font-family: 'Lora';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/lora/v32/0QIhMX1D_JOuMw_LLPtLp_A.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Lora';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/lora/v32/0QIhMX1D_JOuMw_LJftLp_A.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Lora';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/lora/v32/0QIhMX1D_JOuMw_LLvtLp_A.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Lora';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/lora/v32/0QIhMX1D_JOuMw_LL_tLp_A.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Lora';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/lora/v32/0QIhMX1D_JOuMw_LIftL.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Lora';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/lora/v32/0QIhMX1D_JOuMw_LLPtLp_A.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Lora';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/lora/v32/0QIhMX1D_JOuMw_LJftLp_A.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Lora';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/lora/v32/0QIhMX1D_JOuMw_LLvtLp_A.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Lora';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/lora/v32/0QIhMX1D_JOuMw_LL_tLp_A.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Lora';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/lora/v32/0QIhMX1D_JOuMw_LIftL.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Lora';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/lora/v32/0QIhMX1D_JOuMw_LLPtLp_A.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Lora';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/lora/v32/0QIhMX1D_JOuMw_LJftLp_A.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Lora';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/lora/v32/0QIhMX1D_JOuMw_LLvtLp_A.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Lora';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/lora/v32/0QIhMX1D_JOuMw_LL_tLp_A.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Lora';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/lora/v32/0QIhMX1D_JOuMw_LIftL.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Lora';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/lora/v32/0QIhMX1D_JOuMw_LLPtLp_A.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Lora';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/lora/v32/0QIhMX1D_JOuMw_LJftLp_A.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Lora';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/lora/v32/0QIhMX1D_JOuMw_LLvtLp_A.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Lora';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/lora/v32/0QIhMX1D_JOuMw_LL_tLp_A.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Lora';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/lora/v32/0QIhMX1D_JOuMw_LIftL.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/lora/v32/0QIvMX1D_JOuMwf7I-NP.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/lora/v32/0QIvMX1D_JOuMw77I-NP.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/lora/v32/0QIvMX1D_JOuMwX7I-NP.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/lora/v32/0QIvMX1D_JOuMwT7I-NP.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/lora/v32/0QIvMX1D_JOuMwr7Iw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/lora/v32/0QIvMX1D_JOuMwf7I-NP.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/lora/v32/0QIvMX1D_JOuMw77I-NP.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/lora/v32/0QIvMX1D_JOuMwX7I-NP.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/lora/v32/0QIvMX1D_JOuMwT7I-NP.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/lora/v32/0QIvMX1D_JOuMwr7Iw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/lora/v32/0QIvMX1D_JOuMwf7I-NP.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/lora/v32/0QIvMX1D_JOuMw77I-NP.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/lora/v32/0QIvMX1D_JOuMwX7I-NP.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/lora/v32/0QIvMX1D_JOuMwT7I-NP.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/lora/v32/0QIvMX1D_JOuMwr7Iw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/lora/v32/0QIvMX1D_JOuMwf7I-NP.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/lora/v32/0QIvMX1D_JOuMw77I-NP.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/lora/v32/0QIvMX1D_JOuMwX7I-NP.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/lora/v32/0QIvMX1D_JOuMwT7I-NP.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/lora/v32/0QIvMX1D_JOuMwr7Iw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+</style><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&#038;subset=latin&#038;display=swap" /></noscript><link rel="stylesheet" href="https://www.hshairclinic.co.uk/wp-content/cache/min/1/520ec54e8b0d20fd3a21e6d0cb1a887e.css" media="all" data-minify="1" />
+<meta name="description" content="Use our graft calculator to work out how many hair follicles are needed to cover your bald area. It will also help with how much a hair transplant costs – here" />
+<link rel="canonical" href="https://www.hshairclinic.co.uk/hair-loss-graft-calculator" />
+<meta property="og:locale" content="en_GB" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Graft Calculator" />
+<meta property="og:description" content="Use our graft calculator to work out how many hair follicles are needed to cover your bald area. It will also help with how much a hair transplant costs – here" />
+<meta property="og:url" content="https://www.hshairclinic.co.uk/hair-loss-graft-calculator" />
+<meta property="og:site_name" content="Harley Street Hair Clinic" />
+<meta property="article:modified_time" content="2021-05-13T11:53:46+00:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:label1" content="Estimated reading time" />
+<meta name="twitter:data1" content="3 minutes" />
+
+<link rel='dns-prefetch' href='//cdnjs.cloudflare.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
+<link rel="alternate" type="application/rss+xml" title="Harley Street Hair Clinic &raquo; Feed" href="https://www.hshairclinic.co.uk/feed" />
+<link rel="alternate" type="application/rss+xml" title="Harley Street Hair Clinic &raquo; Comments Feed" href="https://www.hshairclinic.co.uk/comments/feed" />
+
+<script type="application/ld+json" class="schema-premium">
+[
+    {
+        "@context": "https://schema.org",
+        "@type": "MedicalWebPage",
+        "image": [],
+        "name": "Graft Calculator",
+        "url": "https://www.hshairclinic.co.uk/hair-loss-graft-calculator",
+        "headline": "Graft Calculator",
+        "dateCreated": "2019-11-24T17:07:44+00:00",
+        "datePublished": "2019-11-24T17:07:44+00:00",
+        "dateModified": "2021-05-13T11:53:46+00:00",
+        "author": "The Harley Street Clinic",
+        "primaryImageOfPage": [],
+        "lastReviewed": "2021-05-13T11:53:46+00:00",
+        "reviewedBy": {
+            "@type": "Person",
+            "name": " "
+        },
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://www.hshairclinic.co.uk/hair-loss-graft-calculator#webpage"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "@id": "https://www.hshairclinic.co.uk#organization",
+            "url": "https://www.hshairclinic.co.uk",
+            "name": "Harley Street Hair Clinic",
+            "description": "Hair Transplant UK",
+            "logo": {
+                "@type": "ImageObject",
+                "@id": "https://www.hshairclinic.co.uk#logo",
+                "url": "https://www.hshairclinic.co.uk/wp-content/uploads/2020/12/Logo.svg",
+                "width": 600,
+                "height": 60
+            },
+            "image": {
+                "@type": "ImageObject",
+                "@id": "https://www.hshairclinic.co.uk#logo",
+                "url": "https://www.hshairclinic.co.uk/wp-content/uploads/2020/12/Logo.svg",
+                "width": 600,
+                "height": 60
+            },
+            "sameAs": [
+                "https://www.facebook.com/harleystreethairclinic/",
+                "https://twitter.com/hshairclinic/",
+                "https://www.instagram.com/hshairclinic/",
+                "https://www.pinterest.co.uk/HShairclinic/"
+            ]
+        },
+        "keywords": "",
+        "@id": "https://www.hshairclinic.co.uk/hair-loss-graft-calculator#medicalwebpage"
+    }
+]
+</script>
+
+<style id='wpgb-head-inline-css'>
+.wp-grid-builder:not(.wpgb-template),.wpgb-facet{opacity:0.01}.wpgb-facet fieldset{margin:0;padding:0;border:none;outline:none;box-shadow:none}.wpgb-facet fieldset:last-child{margin-bottom:40px;}.wpgb-facet fieldset legend.wpgb-sr-only{height:1px;width:1px}
+</style>
+<link rel='stylesheet' id='wpex-mobile-menu-breakpoint-max-css' href='https://www.hshairclinic.co.uk/wp-content/themes/Total/assets/css/wpex-mobile-menu-breakpoint-max.css?ver=5.7.0' media='only screen and (max-width:1444px)' />
+<link rel='stylesheet' id='wpex-mobile-menu-breakpoint-min-css' href='https://www.hshairclinic.co.uk/wp-content/themes/Total/assets/css/wpex-mobile-menu-breakpoint-min.css?ver=5.7.0' media='only screen and (min-width:1445px)' />
+<link rel='stylesheet' id='wpex-wpbakery-css' href='https://www.hshairclinic.co.uk/wp-content/themes/Total/assets/css/wpex-wpbakery.css?ver=5.7.0' media='all' />
+<script src='https://www.hshairclinic.co.uk/wp-includes/js/jquery/jquery.min.js?ver=3.6.1' id='jquery-core-js'></script>
+<script src='https://www.hshairclinic.co.uk/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/rangeslider.js/2.3.2/rangeslider.min.js?ver=1.0.0' id='jquery-rangeslider-js'></script>
+<script src='https://www.hshairclinic.co.uk/wp-content/plugins/hshc-vc/assets/graft-calculator.new.js?ver=6.1.1' id='hshc-graft-calculator-script-js'></script>
+<script src='https://www.hshairclinic.co.uk/wp-content/plugins/sticky-menu-or-anything-on-scroll/assets/js/jq-sticky-anything.min.js?ver=2.1.1' id='stickyAnythingLib-js'></script>
+<link rel="https://api.w.org/" href="https://www.hshairclinic.co.uk/wp-json/" /><link rel="alternate" type="application/json" href="https://www.hshairclinic.co.uk/wp-json/wp/v2/pages/367" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.hshairclinic.co.uk/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.hshairclinic.co.uk/wp-includes/wlwmanifest.xml" />
+<meta name="generator" content="WordPress 6.1.1" />
+<link rel='shortlink' href='https://www.hshairclinic.co.uk/?p=367' />
+<link rel="alternate" type="application/json+oembed" href="https://www.hshairclinic.co.uk/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.hshairclinic.co.uk%2Fhair-loss-graft-calculator" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.hshairclinic.co.uk/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.hshairclinic.co.uk%2Fhair-loss-graft-calculator&#038;format=xml" />
+<noscript><style>.wp-grid-builder .wpgb-card.wpgb-card-hidden .wpgb-card-wrapper{opacity:1!important;visibility:visible!important;transform:none!important}.wpgb-facet {opacity:1!important;pointer-events:auto!important}.wpgb-facet *:not(.wpgb-pagination-facet){display:none}</style></noscript>
+
+
+<script data-cfasync="false" data-pagespeed-no-defer type="text/javascript">
+	var dataLayer_content = {"pagePostType":"page","pagePostType2":"single-page","pagePostAuthor":"Wayne Philips"};
+	dataLayer.push( dataLayer_content );
+</script>
+<script data-cfasync="false">
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.'+'js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-W76GX78');
+</script>
+
+
+
+<script type='text/javascript'>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+</script>
+
+<script type='text/javascript'>
+  fbq('init', '310462953384304', {}, {
+    "agent": "wordpress-6.1.1-3.0.8"
+});
+  </script><script type='text/javascript'>
+  fbq('track', 'PageView', []);
+  </script>
+
+<noscript>
+<img height="1" width="1" style="display:none" alt="fbpx"
+src="https://www.facebook.com/tr?id=310462953384304&ev=PageView&noscript=1" />
+</noscript>
+
+<script> !function (w, d, t) { w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(var e=ttq._i[t]||[],i=0;i<ttq.methods.length;i++)ttq.setAndDefer(e,ttq.methods[i]);return e},ttq.load=function(e){var i="https://analytics.tiktok.com/i18n/pixel/events.js";ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=i;var n=document.createElement("script");n.type="text/javascript",n.async=!0,n.src=i+"?sdkid="+e+"&lib="+t;var o=document.getElementsByTagName("script")[0];o.parentNode.insertBefore(n,o)}; ttq.load('BV5550A51PC5REFRVJE0'); ttq.page(); }(window, document, 'ttq'); </script>
+<script type='text/javascript'>
+  fbq('track', 'PageView', []);
+</script>
+<noscript><style>body:not(.content-full-screen) .wpex-vc-row-stretched[data-vc-full-width-init="false"]{visibility:visible;}</style></noscript><link rel="icon" href="https://www.hshairclinic.co.uk/wp-content/uploads/2021/02/cropped-favicon-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://www.hshairclinic.co.uk/wp-content/uploads/2021/02/cropped-favicon-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www.hshairclinic.co.uk/wp-content/uploads/2021/02/cropped-favicon-180x180.png" />
+<meta name="msapplication-TileImage" content="https://www.hshairclinic.co.uk/wp-content/uploads/2021/02/cropped-favicon-270x270.png" />
+<style id="wp-custom-css">
+			body #site-logo a{height:50px}body #site-logo img{height:50px;max-height:50px;display:inline}body #site-logo,body #site-logo-inner{display:block !important;height:50px}.wpforms-error-noscript,.wpforms-recaptcha-container,.grecaptcha-badge{display:none !important}.grecaptcha-badge{visibility:hidden !important}.mobile-toggle-nav-inner{padding:24px}.single-portfolio .page-header-inner{margin-top:120px}.single-portfolio #top-bar-wrap{background-color:#323542 !important;border-bottom:0 !important}.single-portfolio span.text{color:#fff}.single-portfolio .case_split .vcex-custom-field-before{display:block}.single-portfolio .case_split .ticon{float:left;margin-bottom:-15px;margin-top:6px;margin-right:9px}.single-portfolio #content #footer-callout-wrap{background-color:transparent}.single-portfolio #footer-callout-wrap{background-color:#fff}.single-portfolio #sidebar{background-color:transparent;padding:0;width:33.33333%}.single-portfolio .is-sticky #site-logo-link svg{filter:invert(100%)}.page-header .page-subheading{margin:16px 0}.single-treatments .page-header.background-image-page-header{min-height:340px;padding-top:100px}body .navbar .vcex-navbar-inner a{text-decoration:none;transition:all 0.2s ease;border-bottom:2px solid transparent}body .navbar .vcex-navbar-inner .active{text-decoration:none;border-bottom:2px solid}body .navbar .vcex-navbar-inner a:hover{text-decoration:none;border-bottom:2px solid}body.page-child:not(.page-parent) .navbar .vcex-navbar-inner a:first-child{border-bottom:2px solid transparent}body .vcex-navbar{padding-top:15px !important;padding-bottom:0;background-color:#f1f5f7 !important;border-bottom:1px solid rgb(234 234 234)}body .vcex-navbar .vcex-navbar-inner a{margin-right:0!important;padding-bottom:11px;padding:0 11px 11px;float:none}body .vcex-navbar .vcex-navbar-inner{white-space:nowrap;overflow-x:auto;-webkit-overflow-scrolling:touch;-ms-overflow-style:-ms-autohiding-scrollbar}body .vc_toggle{border-bottom:1px solid #eaeaea;padding-bottom:20px}body .vc_toggle_content{margin-bottom:0}body .vc_toggle_active .vc_toggle_icon{border-color:#3f87a9 !important}body .vc_toggle_active .vc_toggle_icon::before{background-color:#3f87a9 !important}body .vc_toggle_active h4{color:#3f87a9 !important}#sidebar{background:#3a3d4b;padding:30px;margin-top:100px;padding-bottom:0}#sidebar a.theme-button.green{background:#56c899}#sidebar div.wpforms-container-full .wpforms-form input[type=submit],#sidebar div.wpforms-container-full .wpforms-form button[type=submit],#sidebar div.wpforms-container-full .wpforms-form .wpforms-page-button{background-color:#3f87a9;border:0 !important;color:#fff;font-size:18px;padding:5px 30px;border-radius:100px}#sidebar div.wpforms-container-full .wpforms-form .wpforms-title{font-size:22px;font-weight:bold;letter-spacing:-0.5px}#sidebar div.wpforms-container-full .wpforms-form .wpforms-description{font-size:14px}#sidebar div.wpforms-container-full{margin-bottom:0}#sidebar .sidebar-box .widget-title{font-size:22px !important}.single-glossary #sidebar,.post-template-default.single-post #sidebar,.single-portfolio #sidebar{margin-top:0}.single-post #sidebar .wpex-widget-recent-posts-title{font-weight:200;letter-spacing:0;color:#fff}.single-post #sidebar .wpex-border-main{border-color:#686e8a}.single-post .wpex-card-media img{max-height:240px}.page-header.background-image-page-header:not(.wpex-supports-mods) .page-subheading{font-size:18px}.page-header.background-image-page-header:not(.wpex-supports-mods) .page-header-title{font-weight:700;font-size:48px !important}.treatment_grid .wpb_wrapper{display:grid;grid-template-columns:1fr 1fr 1fr;grid-template-rows:1fr;gap:20px 20px;grid-template-areas:". . ."}.treatment_grid .vcex-custom-field-before{display:block}.treatment_grid .vcex-custom-field .ticon{background:#3a3d4b;border-radius:50%;color:white;width:40px;height:40px;text-align:center;float:left;padding-top:11px;margin-right:10px;margin-left:10px}.wpex-slider .sp-bottom-thumbnails.sp-has-pointer .sp-selected-thumbnail:before,.wpex-slider .sp-bottom-thumbnails.sp-has-pointer .sp-selected-thumbnail:after{border-bottom-color:#3f87a9}#footer-callout img{height:50px}#footer-callout .owl-carousel .owl-item img{height:50px}#footer-bottom hr{border:1px solid rgba(255,255,255,0.06);margin:1em 0}#catapult-cookie-bar{box-shadow:0 0 1em #00000069;border-radius:19px;padding:0 15px 15px 15px}#catapult-cookie-bar h3{margin-top:5px}#catapult-cookie-bar button{margin-top:10px}body .wpforms-confirmation-container-full p{color:#333 !important}#qlwapp.qlwapp-bubble .qlwapp-toggle .qlwapp-text{color:#01e676;letter-spacing:-1px;margin-right:12px;background:white;line-height:1;padding:12px;height:34px;border-radius:14px;font-weight:500}#qlwapp.qlwapp-middle-left,#qlwapp.qlwapp-bottom-left,#qlwapp.qlwapp-middle-right,#qlwapp.qlwapp-bottom-right{z-index:10}#qlwapp.qlwapp-bottom-right{right:58px}.single-treatments #sidebar{animation-delay:18s;animation:attention 10s ease infinite}@keyframes attention{9%{transform:none}12%{transform:scale(1.04)}16%{transform:scale(0.96)}20%{transform:scale(1.02)}24%{transform:scale(1)}}@media only screen and (max-width:420px){body .vcex-navbar .vcex-navbar-inner::-webkit-scrollbar{display:none}#sidebar{margin-top:0}.sub-menu{box-shadow:none !important}body .vcex-navbar:before{content:'';height:100%;width:15%;display:block;position:absolute;right:0;top:0;background:rgb(241 245 247);background:linear-gradient(to right,rgb(255 255 255 / 0%) 0,rgb(241 245 247) 100%);z-index:999}.treatment_grid .wpb_wrapper{display:block}}		</style>
+<style>
+				:root {
+					--qlwapp-scheme-font-family:inherit;--qlwapp-scheme-font-size:18px;--qlwapp-scheme-icon-size:60px;--qlwapp-scheme-icon-font-size:24px;--qlwapp-scheme-brand:#01e676;--qlwapp-scheme-text:#ffffff;--qlwapp-scheme-qlwapp_scheme_form_nonce:68560974a7;				}
+			</style>
+<style type="text/css" data-type="vc_custom-css">.grafts .status {    margin-top: 60px;}
+
+.hshc-graft-calc-main label[for=results-toggle] {_display:none;}
+
+#_1, #_2, #_3, #_4 , #_5 ,#_6{  filter: drop-shadow(1px 3px 7px rgba(0,0,0,0.9)); ; _stroke: #463a39;    _stroke-width: 0.9;}
+
+body g.numbers path {   fill: white !important;}
+
+
+@media only screen and (max-width: 600px) {
+
+body .theme-button {
+    width: 100%;
+    text-align: center;
+    margin-top: 12px;
+}
+
+.hshc-graft-calc-main fieldset.grafts .range > span:last-of-type {
+    text-align: right;
+    width: 50%;
+}
+
+}</style><style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1609347660322{margin-bottom: 3vh !important;}.vc_custom_1620906497211{padding-top: 15px !important;padding-right: 5% !important;padding-bottom: 15px !important;padding-left: 5% !important;}.vc_custom_1617970467954{margin-top: 2vh !important;padding-bottom: 2vh !important;}.vc_custom_1609349439690{margin-top: 2vh !important;padding-bottom: 2vh !important;}.vc_custom_1618845194912{margin-top: 2vh !important;padding-bottom: 2vh !important;}</style><noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript><style data-type="wpex-css" id="wpex-css">/*TYPOGRAPHY*/body{font-size:18px}#top-bar-content{font-size:12px}.main-navigation-ul .link-inner{font-family:"Lora";font-weight:600;font-size:15px}.main-navigation-ul .sub-menu .link-inner{font-family:Arial,Helvetica,sans-serif;font-weight:500;font-size:14px}.wpex-mobile-menu,#sidr-main{font-weight:500;font-size:14px}.page-header .page-header-title{font-weight:700;font-size:36px !important;line-height:1.1;letter-spacing:-1px}.page-header .page-subheading{font-weight:400;font-size:16px;color:#242635}.site-breadcrumbs{font-size:12px}.sidebar-box .widget-title{font-size:18px}h1,h2,h3,h4,h5,h6,.theme-heading,.page-header-title,.wpex-heading,.vcex-heading,.entry-title,.wpex-font-heading{font-family:"Lora";font-weight:700;letter-spacing:-1px}h1,.wpex-h1{font-family:"Lora"}h3,.wpex-h3{font-size:18px !important}.single-blog-content,.vcex-post-content-c,.wpb_text_column,body.no-composer .single-content,.woocommerce-Tabs-panel--description{font-size:18px}.footer-callout-content{font-size:14px}.vcex-heading{font-size:45px;color:#242635}@media(max-width:959px){.page-header .page-header-title{font-size:24px}}/*ADVANCED STYLING CSS*/#site-logo .logo-img{height:50px;width:auto}/*CUSTOMIZER STYLING*/:root{--wpex-accent:#4087a9;--wpex-accent-alt:#4087a9;--wpex-accent-alt:#3b6fa0;--wpex-btn-padding:8px 25px;--wpex-btn-border-radius:100px;--wpex-site-header-shrink-end-height:45px;--wpex-vc-column-inner-margin-bottom:40px}.page-header.background-image-page-header{min-height:280px}.page-header.wpex-supports-mods{padding-top:40px;padding-bottom:40px;background-color:#ddeff5;border-top-width:0px;border-bottom-width:0px}.site-breadcrumbs{color:#242635}:root,.boxed-main-layout.wpex-responsive #wrap{--wpex-container-width:1280px}.toggle-bar-btn{border-top-color:#3f87a9;border-right-color:#3f87a9}.toggle-bar-btn span{color:#ffffff}#toggle-bar-wrap{--wpex-surface-1:#ededed;background:#ededed}#top-bar-wrap{background-color:#3a3d4b}.wpex-top-bar-sticky{background-color:#3a3d4b}#top-bar{color:#ffffff;padding-top:8px;padding-bottom:8px}.header-padding{padding-top:20px;padding-bottom:20px}#site-navigation-wrap{--wpex-main-nav-gutter:15px;--wpex-main-nav-link-padding-x:5px;--wpex-hover-main-nav-link-color:#4087a9;--wpex-active-main-nav-link-color:#4087a9;--wpex-dropmenu-link-padding-x:6px}.mobile-menu-toggle{--wpex-hamburger-icon-bar-height:2px;--wpex-hamburger-icon-gutter:6px}.mobile-toggle-nav{background:#f2f2f2;color:#0a0a0a;--wpex-link-color:#0a0a0a}#sidebar{color:#ffffff}#sidebar .widget-title{color:#ffffff}#footer-callout-wrap{background-color:#ffffff;border-top-width:1px;border-bottom-width:1px}#footer{--wpex-surface-1:#242635;background-color:#242635;color:#ffffff;--wpex-heading-color:#ffffff;--wpex-text-2:#ffffff;--wpex-link-color:#ffffff;--wpex-hover-link-color:#ffffff;--wpex-hover-link-color:#dbdbdb}#footer-bottom{padding:0px 0 20px 0;background-color:#242635;color:#ffffff;--wpex-text-2:#ffffff;--wpex-link-color:#b5b5b5;--wpex-hover-link-color:#b5b5b5}</style><noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript></head>
+<body class="page-template-default page page-id-367 page-parent wp-custom-logo wp-embed-responsive wpex-theme wpex-responsive full-width-main-layout has-composer wpex-live-site site-full-width content-full-width has-topbar sidebar-widget-icons hasnt-overlay-header wpex-mobile-toggle-menu-icon_buttons has-mobile-menu togglebar-is-inline wpex-share-p-horizontal wpex-no-js wpb-js-composer js-comp-ver-6.9.0 vc_responsive">
+
+
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W76GX78" height="0" width="0" style="display:none;visibility:hidden" aria-hidden="true"></iframe></noscript>
+ <script type='text/javascript'>
+
+      function updateConfig() {
+        var eventsFilter = "Microdata,SubscribedButtonClick";
+        var eventsFilterList = eventsFilter.split(',');
+        fbq.instance.pluginConfig.set("310462953384304", 'openbridge',
+          {'endpoints':
+            [{
+              'targetDomain': window.location.href,
+              'endpoint': window.location.href + '.open-bridge'
+            }],
+            'eventsFilter': {
+              'eventNames':eventsFilterList,
+              'filteringMode':'blocklist'
+            }
+          }
+        );
+        fbq.instance.configLoaded("310462953384304");
+      }
+
+      window.onload = function() {
+        var s = document.createElement('script');
+        s.setAttribute('src', "https://www.hshairclinic.co.uk/wp-content/plugins/official-facebook-pixel/core/../js/openbridge_plugin.js");
+        s.setAttribute('onload', 'updateConfig()');
+        document.body.appendChild( s );
+      }
+    </script>
+<a href="#content" class="skip-to-content">skip to Main Content</a><span data-ls_id="#site_top"></span>
+<div id="outer-wrap" class="wpex-overflow-hidden">
+<div id="wrap" class="wpex-clr">
+<div id="top-bar-wrap" class="wpex-text-sm">
+<div id="top-bar" class="container wpex-relative wpex-py-15 wpex-md-flex wpex-justify-between wpex-items-center wpex-text-center wpex-md-text-initial wpex-flex-row-reverse">
+<!--div id="top-bar-content" class="has-content top-bar-right wpex-clr"><span class="wpex-inline"><span class="ticon ticon-phone" aria-hidden="true"></span><a href="tel:+44 (0) 207 177 2345">+44 (0)207 177 2345</a></span>
+<span class="wpex-mx-20 wpex-hidden wpex-md-inline wpex-lg-inline wpex-xl-inline"><span class="ticon ticon-envelope" aria-hidden="true"></span> <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="fe9d91908d8b928a9f8a9791908dbe968d969f978c9d929790979dd09d91d08b95">[email&#160;protected]</a></span>
+<span class="wpex-inline"><a href="#booking" title="Book A Consultation" class="vcex-button theme-button flat inline wpex-lightbox"><span class="theme-button-inner">Book a consultation</span></a> </span></div-->
+</div>
+</div>
+<!--header id="site-header" class="header-one header-full-width wpex-dropdown-style-minimal wpex-dropdowns-shadow-one fixed-scroll wpex-z-99 has-sticky-dropshadow shrink-sticky-header anim-shrink-header on-shrink-adjust-height dyn-styles wpex-relative wpex-clr" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
+<div id="site-header-inner" class="header-one-inner header-padding container wpex-relative wpex-h-100 wpex-py-30 wpex-clr">
+<div id="site-logo" class="site-branding header-one-logo logo-padding wpex-table">
+<div id="site-logo-inner" class="wpex-table-cell wpex-align-middle wpex-clr"><a id="site-logo-link" href="https://www.hshairclinic.co.uk/" rel="home" class="main-logo"><img src="https://www.hshairclinic.co.uk/wp-content/uploads/2021/05/logo.svg" alt="Harley Street Hair Clinic" class="logo-img" width="150" height="50" data-no-retina data-skip-lazy fetchpriority="high" srcset="https://www.hshairclinic.co.uk/wp-content/uploads/2021/05/logo.svg 1x,https://www.hshairclinic.co.uk/wp-content/uploads/2021/05/logo.svg 2x"></a></div>
+</div>
+<div id="site-navigation-wrap" class="navbar-style-one navbar-fixed-height has-menu-underline wpex-flush-dropdowns hide-at-mm-breakpoint wpex-clr">
+<nav id="site-navigation" class="navigation main-navigation main-navigation-one wpex-clr" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement" aria-label="Main menu">
+<ul id="menu-home" class="main-navigation-ul dropdown-menu wpex-dropdown-menu wpex-dropdown-menu--onhover wpex-dropdown-menu--animate"><li id="menu-item-198" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-198"><a href="https://www.hshairclinic.co.uk/hair-loss-treatment"><span class="link-inner">Hair Loss Treatment <span class="nav-arrow top-level"><span class="nav-arrow__icon ticon ticon-angle-down" aria-hidden="true"></span></span></span></a>
+<ul class="sub-menu">
+<li id="menu-item-199" class="menu-item menu-item-type-post_type menu-item-object-treatments menu-item-199"><a href="https://www.hshairclinic.co.uk/hair-loss-treatment/fue-hair-transplant"><span class="link-inner">Hair Transplant: FUE Hair Transplants</span></a></li>
+<li id="menu-item-6896" class="menu-item menu-item-type-post_type menu-item-object-treatments menu-item-6896"><a href="https://www.hshairclinic.co.uk/hair-loss-treatment/eyebrows-reconstruction"><span class="link-inner">FUE Eyebrows Reconstruction</span></a></li>
+<li id="menu-item-6914" class="menu-item menu-item-type-post_type menu-item-object-treatments menu-item-6914"><a href="https://www.hshairclinic.co.uk/hair-loss-treatment/scar-repair"><span class="link-inner">Hair Scar Repair</span></a></li>
+<li id="menu-item-6913" class="menu-item menu-item-type-post_type menu-item-object-treatments menu-item-6913"><a href="https://www.hshairclinic.co.uk/hair-loss-treatment/atp-advanced-tricho-pigmentation"><span class="link-inner">ATP Advanced Tricho Pigmentation</span></a></li>
+<li id="menu-item-6923" class="menu-item menu-item-type-post_type menu-item-object-treatments menu-item-6923"><a href="https://www.hshairclinic.co.uk/hair-loss-treatment/medications"><span class="link-inner">Hair Loss Medications</span></a></li>
+<li id="menu-item-6927" class="menu-item menu-item-type-post_type menu-item-object-treatments menu-item-6927"><a href="https://www.hshairclinic.co.uk/hair-loss-treatment/advice-and-consultation"><span class="link-inner">Hair Advice and Consultation</span></a></li>
+<li id="menu-item-8946" class="menu-item menu-item-type-post_type menu-item-object-treatments menu-item-8946"><a href="https://www.hshairclinic.co.uk/hair-loss-treatment/female-hair-transplant"><span class="link-inner">Female Hair Transplant</span></a></li>
+<li id="menu-item-6932" class="menu-item menu-item-type-post_type menu-item-object-treatments menu-item-6932"><a href="https://www.hshairclinic.co.uk/hair-loss-treatment/transgender-hair-transplant"><span class="link-inner">Transgender Hair Transplant</span></a></li>
+<li id="menu-item-6505" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6505"><a href="https://www.hshairclinic.co.uk/aftercare"><span class="link-inner">Aftercare</span></a></li>
+</ul>
+</li>
+<li id="menu-item-8467" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-8467"><a href="https://www.hshairclinic.co.uk/cosmetic-treatment"><span class="link-inner">Cosmetic Treatment <span class="nav-arrow top-level"><span class="nav-arrow__icon ticon ticon-angle-down" aria-hidden="true"></span></span></span></a>
+<ul class="sub-menu">
+<li id="menu-item-8468" class="menu-item menu-item-type-post_type menu-item-object-cosmetic menu-item-8468"><a href="https://www.hshairclinic.co.uk/cosmetic-treatment/gastric-band-pill"><span class="link-inner">Gastric Band Pill</span></a></li>
+<li id="menu-item-8469" class="menu-item menu-item-type-post_type menu-item-object-cosmetic menu-item-8469"><a href="https://www.hshairclinic.co.uk/cosmetic-treatment/profhilo"><span class="link-inner">Profhilo</span></a></li>
+</ul>
+</li>
+<li id="menu-item-222" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-222"><a href="https://www.hshairclinic.co.uk/patients-gallery"><span class="link-inner">Patients Gallery <span class="nav-arrow top-level"><span class="nav-arrow__icon ticon ticon-angle-down" aria-hidden="true"></span></span></span></a>
+<ul class="sub-menu">
+<li id="menu-item-8065" class="menu-item menu-item-type-post_type menu-item-object-portfolio menu-item-8065"><a href="https://www.hshairclinic.co.uk/patients-gallery/charlies-hair-transplant-results"><span class="link-inner">Charlie’s Hair transplant results</span></a></li>
+<li id="menu-item-8066" class="menu-item menu-item-type-post_type menu-item-object-portfolio menu-item-8066"><a href="https://www.hshairclinic.co.uk/patients-gallery/johannas-hair-transplant-results"><span class="link-inner">Johanna’s hair transplant results</span></a></li>
+<li id="menu-item-8067" class="menu-item menu-item-type-post_type menu-item-object-portfolio menu-item-8067"><a href="https://www.hshairclinic.co.uk/patients-gallery/spex-hair-transplant-story"><span class="link-inner">Spex Hair Transplant Update</span></a></li>
+<li id="menu-item-8069" class="menu-item menu-item-type-post_type menu-item-object-portfolio menu-item-8069"><a href="https://www.hshairclinic.co.uk/patients-gallery/mitch-s-hair-transplant-story"><span class="link-inner">Mitch’s 1 Year Hair Transplant Result</span></a></li>
+<li id="menu-item-8070" class="menu-item menu-item-type-post_type menu-item-object-portfolio menu-item-8070"><a href="https://www.hshairclinic.co.uk/patients-gallery/paul-s-1-year-hair-transplant-result"><span class="link-inner">Paul’s 1 Year Hair Transplant Result</span></a></li>
+<li id="menu-item-8071" class="menu-item menu-item-type-post_type menu-item-object-portfolio menu-item-8071"><a href="https://www.hshairclinic.co.uk/patients-gallery/wayne-rooney"><span class="link-inner">Wayne Rooney’s Hair Transplant Result</span></a></li>
+<li id="menu-item-8068" class="menu-item menu-item-type-post_type menu-item-object-portfolio menu-item-8068"><a href="https://www.hshairclinic.co.uk/patients-gallery/steven-fletcher"><span class="link-inner">Steven Fletcher’s Hair Transplant Result</span></a></li>
+<li id="menu-item-8072" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8072"><a href="https://www.hshairclinic.co.uk/patients-gallery-before-after"><span class="link-inner">Patients Gallery Before &amp; After</span></a></li>
+<li id="menu-item-8074" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8074"><a href="https://www.hshairclinic.co.uk/videos"><span class="link-inner">Patient Video Gallery</span></a></li>
+<li id="menu-item-8073" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8073"><a href="https://www.hshairclinic.co.uk/patients-gallery"><span class="link-inner">Full Patient Gallery</span></a></li>
+</ul>
+</li>
+<li id="menu-item-6528" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-367 current_page_item menu-item-6528"><a href="https://www.hshairclinic.co.uk/hair-loss-graft-calculator" aria-current="page"><span class="link-inner"><i class="ticon ticon-calculator"></i> Graft Calculator</span></a></li>
+<li id="menu-item-6757" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-6757"><a href="https://www.hshairclinic.co.uk/hair-loss"><span class="link-inner">Hair Loss <span class="nav-arrow top-level"><span class="nav-arrow__icon ticon ticon-angle-down" aria-hidden="true"></span></span></span></a>
+<ul class="sub-menu">
+<li id="menu-item-6759" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6759"><a href="https://www.hshairclinic.co.uk/hair-loss/causes-of-hair-loss"><span class="link-inner">Factors In Hair Loss</span></a></li>
+<li id="menu-item-6762" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6762"><a href="https://www.hshairclinic.co.uk/hair-loss/understanding-hair-loss/men-hair-loss"><span class="link-inner">Male Hair Loss</span></a></li>
+<li id="menu-item-6761" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6761"><a href="https://www.hshairclinic.co.uk/hair-loss/understanding-hair-loss/female-hair-loss"><span class="link-inner">Female Hair Loss</span></a></li>
+<li id="menu-item-6760" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6760"><a href="https://www.hshairclinic.co.uk/hair-loss/all-about-hair"><span class="link-inner">Hair Structure</span></a></li>
+<li id="menu-item-7190" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7190"><a href="https://www.hshairclinic.co.uk/hair-loss/understanding-hair-loss"><span class="link-inner">Understanding Hair Loss</span></a></li>
+<li id="menu-item-6763" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6763"><a href="https://www.hshairclinic.co.uk/hair-loss/medical-conditions"><span class="link-inner">Medical Conditions</span></a></li>
+<li id="menu-item-6764" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6764"><a href="https://www.hshairclinic.co.uk/hair-loss/stress"><span class="link-inner">Stress</span></a></li>
+</ul>
+</li>
+<li id="menu-item-7162" class="menu-item menu-item-type-post_type menu-item-object-treatments menu-item-7162"><a title="Hair Transplant Costs" href="https://www.hshairclinic.co.uk/hair-loss-treatment/fue-hair-transplant/hair-transplant-cost"><span class="link-inner">Costs</span></a></li>
+<li id="menu-item-6529" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6529"><a href="https://www.hshairclinic.co.uk/news"><span class="link-inner">News</span></a></li>
+<li id="menu-item-90" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-90"><a href="https://www.hshairclinic.co.uk/about-us"><span class="link-inner">About <span class="nav-arrow top-level"><span class="nav-arrow__icon ticon ticon-angle-down" aria-hidden="true"></span></span></span></a>
+<ul class="sub-menu">
+<li id="menu-item-9161" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9161"><a href="https://www.hshairclinic.co.uk/about-us"><span class="link-inner">About us</span></a></li>
+<li id="menu-item-9164" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9164"><a href="https://www.hshairclinic.co.uk/about-us/our-new-clinic"><span class="link-inner">Clinic tour</span></a></li>
+<li id="menu-item-9162" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9162"><a href="https://www.hshairclinic.co.uk/about-us/hair-transplant-clinic-in-london"><span class="link-inner">London Hair Clinic</span></a></li>
+<li id="menu-item-9300" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9300"><a href="https://www.hshairclinic.co.uk/about-us/hair-transplant-clinic-manchester"><span class="link-inner">Manchester Hair Clinic</span></a></li>
+</ul>
+</li>
+<li id="menu-item-6673" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-6673"><a href="https://www.hshairclinic.co.uk/faq"><span class="link-inner">FAQs <span class="nav-arrow top-level"><span class="nav-arrow__icon ticon ticon-angle-down" aria-hidden="true"></span></span></span></a>
+<ul class="sub-menu">
+<li id="menu-item-6677" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6677"><a href="https://www.hshairclinic.co.uk/faq/faq-general-procedure"><span class="link-inner">General Procedure</span></a></li>
+<li id="menu-item-6675" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6675"><a href="https://www.hshairclinic.co.uk/faq/faq-before-procedure"><span class="link-inner">Before Procedure</span></a></li>
+<li id="menu-item-6676" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6676"><a href="https://www.hshairclinic.co.uk/faq/faq-day-of-procedure"><span class="link-inner">Day Of Procedure</span></a></li>
+<li id="menu-item-6674" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6674"><a href="https://www.hshairclinic.co.uk/faq/faq-after-procedure"><span class="link-inner">After Procedure</span></a></li>
+<li id="menu-item-8241" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8241"><a href="https://www.hshairclinic.co.uk/glossary"><span class="link-inner">Glossary</span></a></li>
+</ul>
+</li>
+<li id="menu-item-6622" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6622"><a href="https://www.hshairclinic.co.uk/contact-us"><span class="link-inner">Contact</span></a></li>
+<li class="search-toggle-li menu-item wpex-menu-extra no-icon-margin"><a href="#" class="site-search-toggle search-header-replace-toggle" role="button" aria-expanded="false" aria-controls="searchform-header-replace" aria-label="Search"><span class="link-inner"><span class="wpex-menu-search-text">Search</span><span class="wpex-menu-search-icon ticon ticon-search" aria-hidden="true"></span></span></a></li></ul>
+</nav>
+</div>
+<div id="mobile-menu" class="wpex-mobile-menu-toggle show-at-mm-breakpoint wpex-flex wpex-items-center wpex-absolute wpex-top-50 -wpex-translate-y-50 wpex-right-0">
+<div class="wpex-inline-flex wpex-items-center">
+<a href="#" class="mobile-menu-toggle" role="button" aria-label="Toggle mobile menu" aria-expanded="false"><span class="mobile-menu-toggle__icon wpex-flex"><span class="wpex-hamburger-icon wpex-hamburger-icon--rounded wpex-hamburger-icon--inactive wpex-hamburger-icon--animate" aria-hidden="true"><span></span></span></span></a> </div>
+</div>
+<div id="searchform-header-replace" class="header-searchform-wrap wpex-surface-1 wpex-text-3 wpex-absolute wpex-z-999 wpex-inset-0 wpex-transition-all wpex-duration-300 wpex-invisible wpex-opacity-0" data-placeholder="Type then hit enter to search&hellip;" data-disable-autocomplete="true">
+<form method="get" class="searchform" action="https://www.hshairclinic.co.uk/">
+<label>
+<span class="screen-reader-text">Search</span>
+<input type="search" class="field" name="s" placeholder="Search" />
+</label>
+<button type="submit" class="searchform-submit"><span class="ticon ticon-search" aria-hidden="true"></span><span class="screen-reader-text">Submit</span></button>
+</form> <button id="searchform-header-replace-close" class="wpex-unstyled-button wpex-absolute wpex-top-50 wpex-right-0 -wpex-translate-y-50 wpex-transition-colors wpex-user-select-none wpex-hover-text-1">
+<span class="searchform-header-replace-close__icon" aria-hidden="true">&times;</span>
+<span class="screen-reader-text">Close search</span>
+</button>
+</div></div>
+</header-->
+<main id="main" class="site-main wpex-clr">
+<!--header class="page-header centered-minimal-page-header wpex-supports-mods has-aside wpex-relative wpex-mb-40 wpex-surface-1 wpex-py-30 wpex-border-t wpex-border-b wpex-border-solid wpex-border-main wpex-text-2 wpex-text-left">
+<div class="page-header-inner container">
+<div class="page-header-content">
+<h1 class="page-header-title wpex-block wpex-m-0 wpex-inherit-font-family wpex-not-italic wpex-tracking-normal wpex-leading-normal wpex-font-normal wpex-text-5xl wpex-text-1" itemprop="headline">
+<span>Find out how many grafts you’d need</span>
+</h1>
+<div class="page-subheading wpex-last-mb-0 wpex-text-xl wpex-font-light">Our easy to use graft calculator helps you work out how much your hair transplant will cost, based on your specific circumstances. Here at Harley Street Hair Clinic, we have developed our hair transplant graft calculator to help those struggling with hair loss identify the areas they want to restore and to better understand the extent of their hair loss.</div></div>
+<div class="page-header-aside wpex-mt-5"><nav class="site-breadcrumbs position-page_header_aside wpex-text-4 wpex-text-sm wpex-mt-25" aria-label="You are here:"><span class="breadcrumb-trail wpex-clr" itemscope itemtype="http://schema.org/BreadcrumbList"><span class="trail-begin" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://www.hshairclinic.co.uk/" rel="home"><span itemprop="name">Home</span></a><meta itemprop="position" content="1"></span><span class="sep sep-1"> &raquo; </span><span class="trail-end">Graft Calculator</span></span></nav></div></div>
+</header-->
+<div id="content-wrap" class="container wpex-clr">
+<div id="primary" class="content-area wpex-clr">
+<div id="content" class="site-content wpex-clr">
+<article id="single-blocks" class="single-page-article wpex-clr">
+<!--div class="single-page-content single-content entry wpex-clr"><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+<div class="wpb_text_column wpb_content_element ">
+<div class="wpb_wrapper">
+</div>
+</div-->
+</div></div></div></div><div class="vc_row wpb_row vc_row-fluid vc_custom_1609347660322"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_row wpb_row vc_inner vc_row-fluid wpex-bg-gray-100 wpex-shadow-xl vc_custom_1620906497211"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vcex-shortcode wpex-clr wpex-pb-0"><main class="hshc-graft-calc-main" role="main">
+<div class="form">
+<div class="page-section">
+<div class="calc">
+<h2>1. Tell us about yourself</h2>
+<fieldset class="type">
+<ul class="menu menu-inline">
+<li><label for="type_0" class="checked"><i></i> Male Pattern Hair Loss</label></li>
+<li><label for="type_1"><i></i> Female Pattern Hair Loss</label></li>
+<li><label for="type_2"><i></i> Eyebrow Reconstruction</label></li>
+</ul>
+</fieldset>
+<fieldset class="demographic">
+<div class="form-group demographic-age">
+<label>Your age in years</label>
+<select class="form-control" name="age">
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option>
+<option value="31">31</option>
+<option value="32">32</option>
+<option value="33">33</option>
+<option value="34">34</option>
+<option value="35">35</option>
+<option value="36">36</option>
+<option value="37">37</option>
+<option value="38">38</option>
+<option value="39">39</option>
+<option value="40">40</option>
+<option value="41">41</option>
+<option value="42">42</option>
+<option value="43">43</option>
+<option value="44">44</option>
+<option value="45">45</option>
+<option value="46">46</option>
+<option value="47">47</option>
+<option value="48">48</option>
+<option value="49">49</option>
+<option value="50">50</option>
+<option value="51">51</option>
+<option value="52">52</option>
+<option value="53">53</option>
+<option value="54">54</option>
+<option value="55">55</option>
+<option value="56">56</option>
+<option value="57">57</option>
+<option value="58">58</option>
+<option value="59">59</option>
+<option value="60">60</option>
+<option value="61">61</option>
+<option value="62">62</option>
+<option value="63">63</option>
+<option value="64">64</option>
+<option value="65">65</option>
+<option value="66">66</option>
+<option value="67">67</option>
+<option value="68">68</option>
+<option value="69">69</option>
+<option value="70">70</option>
+<option value="71">71</option>
+<option value="72">72</option>
+<option value="73">73</option>
+<option value="74">74</option>
+<option value="75">75</option>
+<option value="76">76</option>
+<option value="77">77</option>
+<option value="78">78</option>
+<option value="79">79</option>
+<option value="80">80</option>
+<option value="81">81</option>
+<option value="82">82</option>
+<option value="83">83</option>
+<option value="84">84</option>
+<option value="85">85</option>
+<option value="86">86</option>
+<option value="87">87</option>
+<option value="88">88</option>
+<option value="89">89</option>
+<option value="90">90</option>
+</select>
+</div>
+<div class="form-group demographic-ethnicity">
+<label>Ethnicity</label>
+<select class="form-control" name="ethnicity">
+<option value="">Select</option>
+<option value="white">White</option>
+<option value="mixed">Mixed/multiple ethnic groups</option>
+<option value="asian">Asian</option>
+<option value="black">Black/African/Caribbean</option>
+<option value="other">Other Ethnic Background</option>
+</select>
+</div>
+</fieldset>
+</div>
+
+</div>
+
+<div class="page-section">
+<h2>2. Select the areas where you have hair loss</h2>
+<fieldset class="areas">
+<input type="radio" id="type_0" checked="checked" value="0" name="type">
+<div class="radio-sibling-collapse-container">
+ <span class="img" style="padding-bottom:35.064935064935%">
+<svg width="791px" height="257px" viewBox="0 0 791 257" xmlns="http://www.w3.org/2000/svg">
+<g fill="none" fill-rule="evenodd">
+<g class="base">
+<g transform="translate(0.000000, 2.676000)">
+<path fill="#F0D8C5" d="M86.535,233.37c0,0-5.082-15.634-22.676-15.042c-17.594,0.592-36.302,13.748-41.326,1.798
+					c-5.58-13.271,1.358-13.36,2.358-18.44c0.996-5.056-4.802-12.299-5.872-15.424c-1.21-3.523,1.296-7.313,1.296-7.313
+					s0.012-14.32-0.132-19.742c0,0-16.404-2.276-19.148-6.242c-2.454-3.546-0.054-7.386,3.256-12.43
+					c2.208-3.362,3.57-8.054,4.94-11.42c2.798-6.864,6.894-10.416,6.878-14.612c-0.014-3.714-5.844-6.572-6.02-10.27
+					c-0.176-3.698,3.53-12.336,3.484-22.93c-0.046-10.592-0.292-34.144,7.256-45.336C28.375,24.774,66.973-6.44,120.549-1.09
+					c53.574,5.35,71.352,25.412,75.646,72.114c4.146,45.086-32.064,84.844-32.386,101.84l5.432,23.422c0,0-7.258,24.569-79.52,55.204
+					L86.535,233.37z" />
+<path fill="#D6BDAF" d="M94.808,35.531c0,0-17.172,4.362-24,8.666c-16.154,10.182-21.232,24.992-0.784,45.866
+					c14.544,14.848,9.238,27.908,8.176,35.06c-1.062,7.154-12.362,25.799-15.884,28.508c-3.522,2.711-25.744,11.719-25.744,11.719
+					l16.464,17.705l54.638-11.789c0,0-8.162-40.07-4.878-54.586c3.284-14.518,12.898-45.422,12.898-45.422l-16.25-33.862
+					C99.444,37.395,109.422,33.725,94.808,35.531" />
+<path fill="#D6BDAF" d="M70.091,218.428c-8.632-1.538,24.188-15.865,32.338-23.714
+					c8.15-7.847,17.24-14.446,16.374-21.464c-0.868-7.018-1.376-25.771,6.518-28.271c15.246-4.832,16.912-18.179,16.912-18.179
+					s13.638,21.242,16.65,33.8c3.012,12.561,10.752,29.838,10.677,33.838c-0.077,4-4.125,10.184-4.639,10.784
+					c-5.446,6.341-18.184,25.748-44.684,38.748c-26.502,13-29.828,10.784-30.516,7.521c0,0-1.89-14.477-4.854-17.019
+					c-2.966-2.542-10.512-8.228-13.6-15.233" />
+<path fill="#D6BDAF" d="M117.571,111.176c0,0,5.57-19.478,19.986-12.742c6.804,3.18,6.394,21.976,1.984,27.03
+					c-8.404,9.633-2.64,7.758-9.446,13.213c-3.516,2.82-7.432,3.92-9.636,1.379c-2.202-2.543-2.706-3.875-0.994-7.723
+					c1.444-3.246,7.48-12.072,2.552-11.342C119.919,121.302,118.309,117.48,117.571,111.176" />
+<path fill="#F6E9DD" d="M36.728,41.435c0,0-12.282,17.854-13.064,29.37c-0.138,2.03,0.362,3.866,0.362,3.866
+					l12.554-1.474l-13.134,4.412l-1.804,8.542l9.776-2.92l-10.676,6.998l-2.89,15.306l-2.762,2.256L11,106.609
+					c0,0-2.11-1.24-0.678-8.154c1.564-7.542,2.794-14.75,2.378-22.298c-0.446-8.084,3.244-33.116,7.612-39.284
+					C24.679,30.703,36.728,41.435,36.728,41.435" />
+<g transform="translate(0.000000, 100.000000)">
+<g>
+</g>
+<defs>
+<filter filterUnits="userSpaceOnUse" x="0" y="-1.546" width="46.104" height="61.293">
+<feColorMatrix type="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" />
+</filter>
+</defs>
+<mask maskUnits="userSpaceOnUse" x="0" y="-1.546" width="46.104" height="61.293">
+<g filter="url(#Adobe_OpacityMaskFilter)">
+<polygon fill="#FFFFFF" points="0,-1.546 46.104,-1.546 46.104,59.747 0,59.747 					" />
+</g>
+</mask>
+<path mask="url(#mask-2)" fill="#D6BDAF" d="M46.104,4.166c0,0-4.518-6.25-10.778-5.674
+						C29.066-0.932,15.998,8.52,15.998,8.52s2.286,2.96,5.018,5.326c2.732,2.366,2.644,7.754,1.044,12.026
+						c-4.732,12.616-4.452,15.964-0.276,18.802c3.598,2.445-8.018,8.846-15.3,2.936c-4.178-3.392-6.406,1.639-6.406,1.639
+						c-1.474,8.348,18.246,8.756,19.84,10.176c1.592,1.418,1.366-2.252,4.156-2.893c1.494-0.344,3.042-2.168,4.194-3.943
+						c0.192-1.227,4.194-5.282-0.59-9.382c-5.514-4.728,3.92-19.3,4.886-21.364c0.964-2.064,12.42-4.11,12.42-4.11
+						s-10.776-9.08-7.258-11.558S46.104,4.166,46.104,4.166" />
+</g>
+<path fill="#463A39" d="M29.606,150.377c-0.558,2.49-3.966,6.364-6.264,7.047c-2.346,0.697-0.708,2.226-2.526,2.229
+					c-1.428,0.002-0.14-1.722,4.148-4.86c2.464-1.804,4.374-2.802,4.328-7.373C29.268,144.885,30.622,145.845,29.606,150.377" />
+<path fill="#463A39" d="M13.02,70.272c0,0,4.888-15.4,18.532-20.304c13.642-4.902,38.648-13.33,46.516,7.754
+					c6.066,16.252,53.934-2.904,74.286,4.468c21.854,7.916,45.094,21.86,43.484,8.826c-5.75-46.546-22.072-66.764-75.646-72.114
+					C66.616-6.448,26.338,26.736,18.79,37.928C18.79,37.928,9.634,49.724,13.02,70.272" />
+<path fill="none" stroke="#463A39" stroke-width="2" d="M13.02,70.272c0,0,4.888-15.4,18.532-20.304
+					c13.642-4.902,38.648-13.33,46.516,7.754c6.066,16.252,53.934-2.904,74.286,4.468c21.854,7.916,45.094,21.86,43.484,8.826
+					c-5.75-46.546-22.072-66.764-75.646-72.114C66.616-6.448,26.338,26.736,18.79,37.928C18.79,37.928,9.634,49.724,13.02,70.272z" />
+<path fill="#463A39" d="M13.196,69.453c0,0,4.548-14.478,18.19-19.382c13.644-4.902,36.464-12.914,45.826,8.124
+					c9.306,20.908,6.314,18.61,8.298,32.65c1.984,14.042,13.592,17.51,13.996,22.52c0.406,5.008,1.234,12.636-1.97,19.558
+					c-0.734,1.588,7.922,33.468,7.922,33.468s30.208-22.364,18.328-20.31c-5.788,1.002-20.996-5.17-14.204-17.41
+					c3.29-5.926,1.434-9.682,1.878-16.406c0.018-0.276,3.902,0.572,3.97,0.186c0.954-5.272,6.844-19.958,20.878-17.346
+					c19.152,3.568,6.674,30.388,5.266,33.862c-1.504,3.706,2.356,4.916,5.396,15.976c3.042,11.059,7.72,16.977,15.574,37.422
+					c3.068,7.982,7.068,13.076,7.068,13.076l0.824-21.115c0.322-16.998,30.494-57.958,26.348-103.044
+					c-4.294-46.702-23.182-66.926-76.758-72.276c-53.574-5.35-92.172,25.864-99.72,37.056C20.306,36.061,13.314,44.906,13.196,69.453" />
+<path fill="#463A39" d="M27.634,153.963c0,0-5.424,5.424,0.068,6.146c5.01,0.66,5.56-0.356,11.296,2.298
+					c3.628,1.678,9.066,17.332,14.97,15.418c10.072-3.269,10.022-22.69,28.828-31.313c21.44-9.83,17.25-33.125,17.25-33.125
+					l0.482,10.874c0,0,2.336,11.438,10.558,17.624c3.16,2.377,6.564,5.69,14.234,3.092c5.848-1.979,0.12,24.176-1.392,33.787
+					c-4.48,28.455-42.668,40.094-53.44,42.748c0,0-40.902,13.771-48.246-0.15c-7.346-13.922,4.892-18.393-2.174-32.528
+					c-2.616-5.235,3.18-8.981-0.102-9.438c-2.202-0.306-3.054-4.981-3.054-4.981l1.298-9.138l1.088-6.336
+					C19.298,158.939,22.928,158.759,27.634,153.963" />
+<path fill="#D6BDAF" d="M19.79,188.693c1.816,3.104,14.322-5.018,14.322-5.018s0.736-0.351-1.384,5.627
+					c-2.12,5.979-8.068,9.484-9.278,13.576c-1.21,4.094,3.526,7.93,5.224,7.719c0.81-0.101,10.56-5.656,12.828-10.362
+					c2.27-4.706,5.618-14.13,1.896-19.856c-3.72-5.724-23.432-0.984-23.432-0.984s-1.096,0.457-1.382,1.929
+					C18.308,182.758,18.036,185.691,19.79,188.693" />
+<path fill="#F0D8C5" d="M87.043,30.095c-17.39-9.184-36.248-6.724-46.38-5.404c-3.438,0.446-6.952,1.17-10.282,1.99
+					c-5.734,4.854-9.482,9.074-11.014,11.346c-0.12,0.158-7.794,10.35-6.1,27.91c2.348-4.986,7.742-13.792,17.692-17.368
+					c5.94-2.134,16.996-6.108,26.796-5.922c4.038,0.076,7.556,0.852,10.57,2.29c4.122-2.462,9.324-4.254,15.754-4.132l0.6,0.016
+					c11.718,0.432,22.368,12.376,25.306,18.58c0.396,0.836,0.562,1.67,0.516,2.48c1.906-0.24,3.85-0.5,5.824-0.762
+					c0.002-0.002,0.006-0.002,0.008-0.002c-0.026-0.122-0.054-0.254-0.082-0.378C113.149,55.029,100.769,37.345,87.043,30.095" />
+<path fill="#F0D8C5" d="M87.977,28.327c11.072,5.846,21.826,17.862,26.724,25.74
+					c-2.632-10.602-7.174-25.628-13.55-35.086C94.261,8.763,79.643,5.295,71.223,4.379C55.525,9.385,42.801,16.907,33.897,23.833
+					c2.158-0.452,4.346-0.846,6.508-1.126C50.759,21.359,70.025,18.847,87.977,28.327" />
+<path fill="#F0D8C5" d="M157.931,25.428c8.934,4.316,18.002,4.462,24.386,3.72
+					c-9.202-15.066-23.816-23.304-46.798-27.53C138.009,6.743,145.13,19.243,157.931,25.428" />
+<path fill="#F0D8C5" d="M78.751,56.914c1.49,3.994,5.844,5.922,13.704,6.072c4.168,0.078,10.916-0.248,15.98-0.854
+					c0.128-0.592,0.056-1.21-0.258-1.874c-2.758-5.826-12.814-17.042-23.572-17.438l-0.564-0.016
+					c-5.486-0.104-10.01,1.286-13.69,3.274C74.113,48.462,76.939,52.057,78.751,56.914" />
+<path fill="#F0D8C5" d="M124.162-0.087c-1.416-0.168-2.854-0.328-4.324-0.474c-3.084-0.31-6.21-0.494-9.29-0.552
+					c-12.054-0.23-24.73,1.73-34.636,4.456c8.512,1.572,20.668,5.282,26.896,14.522c8.112,12.03,13.198,32.17,15.358,42.19
+					c0.152,0.286,0.29,0.548,0.402,0.764c7.65-1.014,15.428-1.962,22.248-1.832c0.13,0.002,0.242,0.014,0.37,0.018
+					C142.298,38.875,127.45,6.745,124.162-0.087" />
+<path fill="#F0D8C5" d="M186.135,36.428c-0.832-1.872-1.728-3.652-2.682-5.356c-2.286,0.31-4.942,0.518-7.85,0.464
+					c-5.572-0.106-12.052-1.172-18.542-4.308c-14.766-7.134-22.112-21.838-23.97-26.05c-2.11-0.354-4.308-0.668-6.558-0.96
+					c4.248,8.916,17.758,39.026,16.652,58.882c3.628,0.22,6.696,0.764,9.254,1.692c3.67,1.328,7.336,2.814,10.954,4.324
+					C176.551,58.664,183.883,42.248,186.135,36.428" />
+<path fill="#F0D8C5" d="M194.591,70.68c-1.542-12.486-3.884-22.902-7.346-31.59
+					c-2.854,6.888-9.718,20.504-21.442,27.034c0.95,0.4,1.902,0.802,2.842,1.202c9.068,3.846,17.632,7.478,22.382,7.568
+					c1.424,0.028,2.426-0.27,2.976-0.878C194.585,73.366,194.785,72.244,194.591,70.68" />
+<path fill="#1D1D1B" d="M116.252,60.739c0.026,0.124,0.056,0.256,0.082,0.378c0.038-0.006,0.076-0.012,0.114-0.016
+					C116.386,60.985,116.322,60.867,116.252,60.739" />
+</g>
+<g transform="translate(10.000000, 0.676000)">
+<path fill="#463A39" d="M41.071,118.475c-0.024-0.338-3.36-0.564-6.16-1.258c-0.3-0.074-3.628-1.782-5.012-2.092
+					c-0.894-0.264-1.734-0.446-2.534-0.454c-2.464-0.326-4.976-0.398-7.486-0.464c-0.158-0.004-0.486-0.04-0.452,0.412
+					c0.03,0.412,0.184,0.532,0.286,0.53c2.238-0.036,1.522,1.894,1.896,4.112c0.312,1.848,1.946,2.358,0.954,4.58
+					c3.996-1.034,7.844-2.09,11.666-3.454C38.838,119.077,41.095,118.809,41.071,118.475" />
+<path fill="#463A39" d="M112.515,119.349c0,0,0.074-5.254,4.31-3.942c4.234,1.31,3.23,1.546,5.18,5.326
+					c1.948,3.782,2.618,3.294,0.094,4.76c-2.522,1.466-5.508,0.172-5.81,3.922c-0.304,3.748-0.07,5.005-2.054,3.724
+					c-1.984-1.277-1.478-4.105-0.43-7.35C115.188,121.501,112.343,120.485,112.515,119.349" />
+<path fill="#463A39" d="M117.802,107.927c0,0,8.228-8.268,10.632-1.49c2.404,6.776,1.856,16.398,0.476,19.676
+					c-1.382,3.276,1.86-8.706-0.57-11.64C125.908,111.536,116.334,109.142,117.802,107.927" />
+<path fill="#463A39" d="M159.664,197.178c0,0-13.066-48.371-17.486-55.979c-4.42-7.606-10.604-10.232-10.604-10.232
+					s-1.722,6.309-6.768,10.801c0,0,2.056,15.213,8.002,25.598c6.18,10.792,16.054,16.136,26.592,31.132" />
+<path fill="#F6E9DD" d="M39.341,124.522c0,0-8.588,0.204-10.602,3.994s-3.466,5.594-1.834,7.83
+					c1.632,2.237,5.904-5.78,9.984-8.546C40.969,125.036,44.179,122.708,39.341,124.522" />
+<path fill="#D6BDAF" d="M6.874,176.292c0,0-0.024,2.124,0.144,2.983c0.168,0.849,0.93,1.648,3.54,2.496
+					c6.398,2.078,14.208-1.918,18.442-1.787c0,0-7.598-3.215-11.908-4.17C13.554,175.029,8.704,173.765,6.874,176.292" />
+<path fill="#463A39" d="M14.894,160.225c-0.176,1.187-1.588,1.468-5.462,0.892c-3.876-0.576-9.406-1.718-9.23-2.904
+					c0.176-1.186,4.12-1.758,7.994-1.18C12.072,157.609,15.07,159.039,14.894,160.225" />
+<path fill="#463A39" d="M36.104,106.166c-0.472,0.11-11.714-1.368-14.216,0.034
+					c-3.444,1.932-12.714,7.318-18.392,5.638c0,0-1.05-0.468-1.692-1.412c-0.708-1.044-1.22-2.122-1.22-2.122
+					c0.574-0.132,6.22-0.408,10.612-3.02c4.426-2.632,7.822-6.71,11.968-6.198c6.63,0.82,14.308,4.382,14.514,4.72
+					C37.882,104.146,36.576,106.055,36.104,106.166" />
+<path fill="#F0D8C5" d="M396.812,244.631c0,0,5.512-1.635,16.538-2.115c11.026-0.479,20.374-24.926,25.646-32.118
+					c5.67-7.729,19.212-35.522,21.058-40.851c2.156-6.231,2.138-31.892,2.138-31.892s2.435-0.168,3.668-2.5
+					c1.092-2.065,4.198-11.164,7.074-19.074c2.876-7.91,5.528-14.522,5.528-14.522s-0.994-3.196-2.672-5.832
+					c-1.679-2.636-12.5,18.214-12.5,18.214c-0.393-10.784-2.889-34.592-8.299-61.634c-2.396-11.984-12.033-28.62-21.808-34.846
+					C414.46,5.533,399.76,5.845,399.76,5.845l-12.09,0.949c0,0-17.532-1.198-36.256,10.73c-9.774,6.226-21.084,21.14-23.48,33.124
+					c-5.41,27.042-2.596,47.57-1.66,56.418c0,0-9.334-12.872-11.786-10.934c-4.319,3.414,0.444,13.478,2.771,19.58
+					c2.996,7.866,6.66,21.682,10.532,22.707c2.281,0.604-0.009,6.545-0.009,6.545s1.198,18.457,3.356,24.688
+					c2.156,6.231,16.778,33.556,22.05,40.746c5.274,7.192,14.622,31.64,25.648,32.118c11.025,0.48,16.538,2.115,16.538,2.115H396.812z
+					" />
+<path fill="#D6BDAF" d="M323.706,127.759c0,0-2.742-1.526-3.148-4.218c-0.324-2.136-0.07-2.67,1.39-2.836
+					c1.462-0.164,1,3.314,2.87,5.832S326.166,129.315,323.706,127.759" />
+<path fill="#D6BDAF" d="M317.307,115.823c0,0-1.686-7.944-2.186-10.318c-0.5-2.376,0.5-2.126,0.5-2.126
+					s8.124,13.126,8.624,16c0.5,2.876,2.952,6.39,3.075,5.764c0.169-0.838,0.286-10.89,0.551-13.264
+					c0.25-2.25-5.876-11.624-6.376-12.624s-3-3.5-3-3.5s-2.624-1.626-4-0.376c-1.374,1.25-3.25,5-2.75,6.376
+					C312.245,103.128,316.807,114.949,317.307,115.823" />
+<path fill="#D6BDAF" d="M466.668,127.759c0,0,2.742-1.526,3.147-4.218c0.324-2.136,0.07-2.67-1.39-2.836
+					c-1.462-0.164-1,3.314-2.87,5.832S464.208,129.315,466.668,127.759" />
+<path fill="#D6BDAF" d="M473.066,115.823c0,0,1.687-7.944,2.187-10.318c0.5-2.376-0.5-2.126-0.5-2.126
+					s-8.124,13.126-8.624,16c-0.5,2.876-2.467,6.642-2.59,6.016c-0.127-0.624-0.786-11.266-1.036-13.516s5.876-11.624,6.376-12.624
+					s3-3.5,3-3.5s2.624-1.626,4-0.376c1.374,1.25,3.25,5,2.75,6.376C478.129,103.128,473.566,114.949,473.066,115.823" />
+<path fill="#463A39" d="M467.553,50.179c-6.232-16.298-24.891-50.77-70.468-50.334
+					c-49.99,0.478-69.164,37.436-73.118,49.6c-6.232,19.176-1.187,52.506-1.187,52.506s5.227,27.141,5.706,30.496
+					c0.479,3.355,8.196-23.784,14.908-24.744c4.032-0.576,14.172,2.494,26.272,5.996c8.153,2.36,18.71,3.398,25.979,2.634
+					c8.8-0.926,16.326-1.162,23.592-2.332c1.63-0.264,1.971-0.282,4.048-0.742c3.862-0.852,9.206-2.128,12.402-2.264
+					c9.086-0.39,25.152,16.842,26.112,19.24c0.958,2.396,8.147-31.64,8.147-31.64S473.784,66.477,467.553,50.179" />
+<path fill="#463A39" d="M345.337,160.717c0.344-0.207,4.876,3.418,21.646,8.771
+					c6.464,2.063,15.827,1.387,15.92,2.406c0.092,1.021-1.002,2.74-1.969,2.98c-0.47,0.115-8.649,0.508-18.413-3.746
+					c-9.765-4.252-17.038-7.955-17.435-9.338C344.963,161.354,344.993,160.922,345.337,160.717" />
+<path fill="#D6BDAF" d="M379.587,209.672c0,0,7.979,8.442,15.372,8.088c6.462-0.31,13.63-4.162,15.548-7.302
+					c1.918-3.142-9.59,5.019-15.548,5.444C389.043,216.324,378.867,206.532,379.587,209.672" />
+<path fill="#F6E9DD" d="M353.377,145.672c0,0,21.29,8.442,41.017,8.088c17.244-0.31,36.372-4.162,41.488-7.302
+					c5.115-3.142-25.587,5.019-41.488,5.444C378.609,152.324,351.459,142.532,353.377,145.672" />
+<path fill="#F6E9DD" d="M366.551,141.34c0,0,13.609,3.924,26.222,3.76c11.021-0.145,23.25-1.937,26.521-3.396
+					c3.271-1.458-16.357,2.334-26.521,2.532C382.681,144.431,365.324,139.879,366.551,141.34" />
+<path fill="#463A39" d="M349.866,169.304c-0.898,0.329,4.554,8.407,12.943,8.647
+					c8.389,0.239,11.341-0.468,11.265-0.978c-0.074-0.511-11.479-0.353-14.895-1.521C355.766,174.286,350.764,168.974,349.866,169.304
+					" />
+<path fill="#463A39" d="M442.092,160.717c-0.344-0.207-4.876,3.418-21.646,8.771
+					c-6.464,2.063-15.828,1.387-15.92,2.406c-0.092,1.021,1.002,2.74,1.968,2.98c0.471,0.115,8.65,0.508,18.414-3.746
+					c9.765-4.252,17.038-7.955,17.435-9.338C442.466,161.354,442.436,160.922,442.092,160.717" />
+<path fill="#463A39" d="M437.563,169.304c0.898,0.329-4.554,8.407-12.944,8.647
+					c-8.388,0.239-11.34-0.468-11.264-0.978c0.074-0.511,11.479-0.353,14.895-1.521C431.662,174.286,436.665,168.974,437.563,169.304" />
+<path fill="#D6BDAF" d="M366.53,112.791c0,0-18.762-5.778-21.428,8.222c-2.668,14-12.002,31.687-11.842,44.968
+					c0,0-7.896-51.824-6.563-60.49c1.334-8.668,20.082-8.268,20.082-8.268L366.53,112.791z" />
+<path fill="#D6BDAF" d="M422.059,113.535c0,0,20.268-6.522,22.934,7.478c2.668,14,12.002,31.684,11.842,44.966
+					c0,0,7.896-51.822,6.563-60.49c-1.334-8.666-25.604-7.624-25.604-7.624L422.059,113.535z" />
+<path fill="#463A39" d="M464.237,109.91c0,0-1,53.64-3.156,59.873c-2.157,6.231-14.172,33.55-17.72,41.731
+					c-8.12,18.722-27.006,31.298-27.006,31.298s-10.313,4.76-20.888,4.76c-10.576,0-19.303-5.287-19.303-5.287
+					s-14.126-7.362-27.64-30.463c-4.502-7.695-15.198-35.808-17.354-42.039c-2.158-6.232-3.356-24.688-3.356-24.688l-2.944-42.68
+					c0,0,5.362,24.814,4.885,28.647c-0.48,3.836,3.294,41.362,8.088,46.637c2.188,2.408,8.52,10.195,13.812,17.605
+					c6.3,8.818,10.322,29.092,12.928,30.135c4.792,1.918,19.912-3.24,30.282-3.591c8.366-0.284,25.342,5.257,30.977,4.332
+					c4.785-0.786,3.777-19.728,13.174-31.288c7.229-8.896,15.626-17.932,16.67-26.27c2.396-19.174,6.656-52.312,6.656-52.312
+					L464.237,109.91z" />
+<path fill="#F0D8C5" d="M407.506,229.145c0.021,1.241-5.788,3.271-12.044,3.271c-5.974,0-11.281-2.187-11.302-3.363
+					c-0.01-0.637,7.904,1.471,11.49,1.471C399.172,230.523,407.494,228.385,407.506,229.145" />
+<path fill="#D6BDAF" d="M374.552,184.638c0,0,6.746,0.764,6.719,6.014c-0.026,5.076,0.172,5.473-1.843,7.37
+					c-2.016,1.897-2.535-6.104-6.037-9.57C369.886,184.986,370.536,183.875,374.552,184.638" />
+<path fill="#D6BDAF" d="M411.193,184.16c0,0-6.746,0.764-6.718,6.014c0.025,5.076-0.173,5.473,1.842,7.371
+					c2.016,1.897,2.536-6.104,6.038-9.57C415.859,184.508,415.209,183.396,411.193,184.16" />
+<path fill="#F0D8C5" d="M338.32,82.654c-5.689,0.686-10.598,1.384-14.644,2.014
+					c0.174,9.464,0.874,16.64,0.904,16.796c0.033,0.174,3.075,15.464,4.708,24.272c0.004-0.012,0.292-0.692,0.296-0.704
+					c4.424-10.708,8.17-18.766,13.195-19.482c2.929-0.412,9.057,1.986,15.971,4.598c2.466,0.932,5.092,1.818,7.779,2.642
+					C360.986,105.208,349.759,90.54,338.32,82.654" />
+<path fill="#F0D8C5" d="M449.557,81.853c-5.116-0.576-10.668-1.112-16.552-1.566
+					c-5.294-0.432-8.24,3.092-11.946,7.54c-4.976,5.97-11.166,13.394-25.746,13.394h-0.176c-17.254-0.07-23.388-8.188-27.866-14.114
+					c-2.968-3.928-5.086-6.75-9.306-6.414l-0.002-0.01c-6.048,0.488-11.622,1.046-16.66,1.622
+					c14.096,10.528,24.928,26.644,28.364,31.394c8.023,2.248,16.403,3.798,23.218,3.798c6.479,0,16.182-1.642,26.354-3.496
+					C424.755,106.417,436.942,89.987,449.557,81.853" />
+<path fill="#F0D8C5" d="M331.132,78.682l0.724-1.864c2.324,0.904,4.664,2.214,6.99,3.76
+					c14.908-1.774,34.882-3.442,58.132-3.596c21.016-0.146,40.269,1.382,55.442,3.18c1.117-0.6,2.233-1.146,3.346-1.582l0.73,1.864
+					c-0.124,0.048-0.248,0.12-0.372,0.17c4.199,0.532,8.04,1.078,11.462,1.6c0.226-8.486-0.076-18.72-2.082-26.622
+					c-13.438,2.42-39.316,6.27-69.347,6.596c-1.025,0.012-2.048,0.016-3.065,0.016c-29.082,0-54.87-4.396-67.396-6.95
+					c-1.729,8.474-2.132,18.708-2.048,27.394c3.426-0.53,7.456-1.106,12.034-1.682C334.155,80.066,332.634,79.266,331.132,78.682" />
+<path fill="#F0D8C5" d="M363.701,36.397c0-10.228,14.574-18.55,32.488-18.55c17.913,0,32.487,8.322,32.487,18.55
+					c0,10.23-14.574,18.552-32.487,18.552C378.275,54.949,363.701,46.627,363.701,36.397 M396.135,60.189
+					c29.776-0.324,55.426-4.124,68.826-6.532c-0.224-0.728-0.458-1.44-0.718-2.114c-6.36-16.536-15.046-27.632-24.286-35.034
+					c-12.188-1.816-27.426-3.332-43.676-3.126c-16.727,0.196-32.021,1.71-44.179,3.406c-15.104,11.098-22.644,25.74-24.901,32.65
+					c-0.4,1.222-0.754,2.516-1.074,3.862C338.999,55.923,365.991,60.507,396.135,60.189" />
+<path fill="#F0D8C5" d="M368.866,85.901c4.462,5.904,10.016,13.254,26.28,13.32h0.168
+					c13.644,0,19.256-6.732,24.208-12.676c2.18-2.614,4.292-5.148,6.92-6.716c-9.208-0.574-19.114-0.914-29.45-0.846
+					c-12.096,0.08-23.288,0.574-33.351,1.276C365.584,81.605,367.168,83.653,368.866,85.901" />
+<path fill="#F0D8C5" d="M436.677,14.034C423.325,4.676,409.261,2.482,399.64,2.482
+					c-1.106,0-4.528,0.088-5.669,0.136c-15.859,0.664-28.418,5.37-38.197,11.66c11.523-1.48,25.436-2.718,40.483-2.894
+					C411.063,11.204,425.043,12.44,436.677,14.034" />
+<path fill="#F0D8C5" d="M422.192,113.479c10.75-1.862,17.08-5.448,24.584-5.448c2.941,0,3.696,0.932,5.315,1.468
+					c5.908,1.958,9.305,5.726,10.32,10.91c1.63-6.358,3.004-14.448,4.668-22.286c0.145-1.29,0.73-6.806,0.992-13.888
+					c-4.271-0.654-9.206-1.344-14.69-2.002C441.227,89.047,428.204,105.306,422.192,113.479" />
+<path fill="#F0D8C5" d="M426.677,36.397c0-9.126-13.676-16.55-30.488-16.55c-16.81,0-30.488,7.424-30.488,16.55
+					s13.679,16.552,30.488,16.552C413.001,52.949,426.677,45.523,426.677,36.397" />
+<path fill="#1D1D1B" d="M456.123,80.614c-1.09,0.448-2.188,1-3.292,1.62c5.484,0.656,10.422,1.346,14.692,2.002
+					c0.023-0.66,0.044-1.338,0.062-2.022C464.163,81.69,460.325,81.146,456.123,80.614" />
+<path fill="#7B6D6C" d="M331.856,76.819l-0.725,1.864c1.502,0.584,3.024,1.382,4.551,2.282
+					c1.025-0.128,2.082-0.258,3.163-0.386C336.521,79.033,334.181,77.722,331.856,76.819" />
+<path fill="#1D1D1B" d="M455.766,78.58c-1.112,0.436-2.229,0.982-3.347,1.582c1.263,0.148,2.5,0.3,3.704,0.452
+					c0.124-0.05,0.248-0.122,0.372-0.17L455.766,78.58z" />
+<path fill="#463A39" d="M422.869,6.756c0,0,10.347,5.662,16.984,18.35c8.012,15.318,13.42,50.716,9.752,80.684
+					c-0.966,7.89,13.83,22.6,13.83,22.6s6.678-41.204,5.7-50.77c-0.977-9.566-1.918-33.804-16.984-50.17
+					C436.34,10.269,422.869,6.756,422.869,6.756" />
+<path fill="#463A39" d="M368.045,6.756c0,0-10.346,5.662-16.983,18.35c-8.013,15.318-13.42,50.716-9.752,80.684
+					c0.966,7.89-13.83,22.6-13.83,22.6s-6.679-41.204-5.7-50.77c0.976-9.566,1.918-33.804,16.984-50.17
+					C354.575,10.269,368.045,6.756,368.045,6.756" />
+<path fill="none" stroke="#463A39" stroke-width="2" d="M333.411,109.439c0,0,4.72-6.798,18.318-1.7
+					c13.596,5.1,32.798,9.632,43.81,9.632c11.519,0,22.274-0.97,40.601-7.744c8.686-3.21,17.371,0.756,17.371,0.756" />
+</g>
+<g transform="translate(632.000000, 2.676000)">
+<path fill="#F0D8C5" d="M36.685,199.222c0.43-8.479-10.267-48.305-10.646-48.034
+					c-0.382,0.272,42.104-86.954,42.104-86.954l32.756,28.77l43.54,30.504l-18.08,34.73c0,0-10.832,33.998-10.324,41.862
+					s27.912,26.858,25.271,30.612c-2.08,2.951-46.893,10.899-61.732,10.899c-18.771,0-60.063-7.952-62.604-10.899
+					C14.424,227.764,36.254,207.7,36.685,199.222" />
+<path fill="#F0D8C5" d="M39.207,199.049c0.43-8.479-10.267-48.305-10.646-48.034
+					c-0.382,0.272,42.104-86.954,42.104-86.954l32.756,28.77l43.54,30.504l-18.08,34.73c0,0-10.395,34.172-9.889,42.036
+					c0.509,7.864,24.895,26.332,22.252,30.084c-2.079,2.952-36.525,16.534-58.432,16.534c-31.174,0-62.914-13.043-65.458-15.992
+					C14.813,227.778,38.776,207.526,39.207,199.049" />
+<path fill="#D6BDAF" d="M36.685,199.222c0.43-8.479-10.267-48.305-10.646-48.034
+					c-0.382,0.272,42.104-86.954,42.104-86.954l32.756,28.77l43.54,30.504L55.723,144.49c0,0,10.1,63.643-20.841,81.006
+					c-5.134,2.881-17.18,6.068-17.914,5.217C14.424,227.764,36.254,207.7,36.685,199.222" />
+<path fill="#D6BDAF" d="M120.211,198.882c-0.43-8.478,11.643-47.964,12.022-47.692
+					c0.38,0.271-42.104-86.956-42.104-86.956l-32.756,28.77L13.831,123.51l80.924,20.736c0,0,3,64.118,24.79,79.752
+					c4.784,3.432,20.964,7.038,21.7,6.186C143.787,227.236,120.642,207.359,120.211,198.882" />
+<path fill="#F0D8C5" d="M142.113,109.744c2.05-3.412,8.794-11.484,11.624-9.886c2.83,1.596,4.042,5.57,2.886,12.228
+					c-1.157,6.656-3.773,13.22-7.464,19.361c-3.689,6.142-3.184,9.715-6.672,12.682c-3.486,2.966-9.074,4.382-9.074,4.382
+					L142.113,109.744z" />
+<path fill="#D6BDAF" d="M153.766,98.822c0,0,8.482,5.194,1.816,20.678c-11.33,26.32-13.908,25.976-15.862,26.494
+					c-2.69,0.715,17.148-36.844,12.9-40.96c-5.578-5.404-4.532-7.844-4.532-7.844L153.766,98.822z" />
+<path fill="#F0D8C5" d="M17.147,109.744c-2.05-3.412-8.794-11.484-11.624-9.886
+					c-2.83,1.596-4.042,5.57-2.886,12.228c1.157,6.656,3.773,13.22,7.464,19.361c3.689,6.142,3.184,9.715,6.672,12.682
+					c3.486,2.966,9.074,4.382,9.074,4.382L17.147,109.744z" />
+<path fill="#D6BDAF" d="M5.495,98.822c0,0-8.482,5.194-1.816,20.678c11.33,26.32,13.908,25.976,15.862,26.494
+					c2.69,0.715-17.148-36.844-12.9-40.96c5.578-5.404,4.532-7.844,4.532-7.844L5.495,98.822z" />
+<path fill="#F0D8C5" d="M79.134,19.506c-16.812,0-30.487,7.424-30.487,16.55c0,9.128,13.676,16.552,30.487,16.552
+					c16.811,0,30.488-7.424,30.488-16.552C109.622,26.929,95.944,19.506,79.134,19.506" />
+<path fill="#F0D8C5" d="M141.127,30.48c-2.313-5.088-5.178-9.806-8.778-13.468
+					c-9.624-9.79-24.636-19.298-51.844-18.63c-27.21,0.668-42.848,10.364-52.308,19.1c-3.185,2.94-5.727,6.378-7.805,10.056
+					C34.217,15.92,55.404,8.466,79.135,8.466C104.811,8.466,127.515,17.192,141.127,30.48" />
+<path fill="#F0D8C5" d="M79.134,54.607c-17.914,0-32.487-8.322-32.487-18.55c0-10.23,14.573-18.552,32.487-18.552
+					s32.488,8.322,32.488,18.552C111.622,46.285,97.048,54.607,79.134,54.607 M79.134,10.467c-25.546,0-48.06,8.758-61.198,22
+					c-2.863,6.468-4.621,13.302-6.077,19.334c2.896,2.056,6.189,3.984,9.909,5.732l0.116-0.036c0.01,0.036,0.028,0.074,0.038,0.11
+					c14.526,6.782,34.8,11.006,57.212,11.006c22.416,0,42.692-4.226,57.218-11.01c0.007-0.02,0.015-0.038,0.019-0.058l0.067,0.016
+					c4.263-1.996,8.021-4.212,11.192-6.608c-1.048-4.82-2.454-10.106-4.358-15.26C130.742,20.665,106.702,10.467,79.134,10.467" />
+<path fill="#F0D8C5" d="M22.802,60.066c5.668,14.098,23.264,33.388,56.332,33.388
+					c32.229,0,51.182-18.414,56.47-33.448c-14.708,6.564-34.592,10.606-56.47,10.606C57.325,70.612,37.495,66.594,22.802,60.066" />
+<path fill="#463A39" d="M79.134,52.607c-16.812,0-30.487-7.424-30.487-16.55c0-9.128,13.676-16.552,30.487-16.552
+					c16.811,0,30.488,7.424,30.488,16.552C109.622,45.183,95.944,52.607,79.134,52.607 M79.134,17.505
+					c-17.914,0-32.487,8.322-32.487,18.552c0,10.228,14.573,18.55,32.487,18.55s32.488-8.322,32.488-18.55
+					C111.622,25.827,97.048,17.505,79.134,17.505" />
+<path fill="#463A39" d="M78.773,70.47c21.876,0,41.762-4.044,56.468-10.608
+					c-5.286,15.036-24.238,33.448-56.468,33.448c-33.068,0-50.664-19.288-56.332-33.386C37.135,66.452,56.963,70.47,78.773,70.47
+					 M148.973,59.844c-0.34-2.108-0.762-4.494-1.279-7.04c-0.135-0.652-0.278-1.322-0.425-1.994c-3.172,2.396-6.93,4.612-11.191,6.608
+					l-0.068-0.016c-0.004,0.02-0.012,0.038-0.018,0.058c-14.526,6.784-34.802,11.01-57.218,11.01
+					c-22.412,0-42.687-4.224-57.213-11.006c-0.01-0.036-0.027-0.074-0.037-0.11l-0.116,0.036c-3.72-1.748-7.015-3.676-9.91-5.732
+					c-0.16,0.662-0.318,1.31-0.47,1.95c-0.536,2.236-1.046,4.346-1.566,6.236c-3.196,11.584-0.4,43.83,0.398,45.76
+					c0.8,1.93,16.578,49.804,21.361,64.636c1.63,5.051,17.168,9.854,30.17,12.766c13.33,2.984,22.881,2.717,35.652,0
+					c25.928-5.516,28.208-9.184,29.428-14.016c5.181-20.51,20.305-50.382,21.639-60.548C148.381,106.37,150.893,71.744,148.973,59.844
+					" />
+<path fill="#463A39" d="M79.134,10.467c27.568,0,51.608,10.198,64.138,25.226c-0.651-1.766-1.369-3.506-2.146-5.212
+					c-13.61-13.288-36.313-22.014-61.992-22.014c-23.729,0-44.918,7.454-58.74,19.072c-0.905,1.602-1.716,3.254-2.458,4.928
+					C31.074,19.224,53.588,10.467,79.134,10.467" />
+</g>
+<path fill="none" stroke="#463A39" stroke-width="2" d="M781.334,62.662c-1.901-11.79-6.246-32.05-16.985-42.974
+				c-9.624-9.79-24.636-19.298-51.845-18.63c-27.21,0.668-42.846,10.364-52.308,19.1c-12.572,11.61-15.18,30.92-18.376,42.504
+				c-3.194,11.584-0.397,43.83,0.4,45.76c0.8,1.932,14.928,53.962,26.764,64.097c4.396,3.765,11.6,1.719,24.782-0.213
+				c13.182-1.931,21.567-3.431,34.75-1.5c13.182,1.932,15.886,5.166,20.5,1.713c14.002-10.469,29.334-54.129,31.918-64.097
+				C781.458,106.4,783.254,74.564,781.334,62.662z" />
+</g>
+<g class="scalp"></g>
+<g class="unselected" id="_2" fill="#463A39">
+<path d="M87.043,32.771c-17.39-9.184-36.248-6.724-46.38-5.404
+				c-3.438,0.446-6.952,1.17-10.282,1.99c-5.734,4.854-9.482,9.074-11.014,11.346c-0.12,0.158-7.794,10.35-6.1,27.91
+				c2.348-4.986,7.742-13.792,17.692-17.368c5.94-2.134,16.996-6.108,26.796-5.922c4.038,0.076,7.556,0.852,10.57,2.29
+				c4.122-2.462,9.324-4.254,15.754-4.132l0.6,0.016c11.718,0.432,22.368,12.376,25.306,18.58c0.396,0.836,0.562,1.67,0.516,2.48
+				c1.906-0.24,3.85-0.5,5.824-0.762c0.002-0.002,0.006-0.002,0.008-0.002c-0.026-0.122-0.054-0.254-0.082-0.378
+				C113.149,57.705,100.769,40.021,87.043,32.771" />
+<path d="M459.557,82.529c-5.116-0.576-10.668-1.112-16.552-1.566c-5.294-0.432-8.24,3.092-11.946,7.54
+				c-4.976,5.97-11.166,13.394-25.746,13.394h-0.176c-17.254-0.07-23.388-8.188-27.866-14.114c-2.968-3.928-5.086-6.75-9.306-6.414
+				l-0.002-0.01c-6.048,0.488-11.622,1.046-16.66,1.622c14.096,10.528,24.928,26.644,28.364,31.394
+				c0.691,0.194,1.388,0.375,2.083,0.558c7.375,1.938,14.907,3.241,21.134,3.241c6.477,0,16.173-1.641,26.34-3.494
+				c0.005-0.001,0.009-0.001,0.014-0.002C434.755,107.093,446.942,90.663,459.557,82.529z" />
+</g>
+<g class="unselected" id="_3" fill="#463A39">
+<path d="M87.977,31.003c11.072,5.846,21.826,17.862,26.724,25.74
+				c-2.632-10.602-7.174-25.628-13.55-35.086C94.261,11.439,79.643,7.971,71.223,7.055c-15.698,5.006-28.422,12.528-37.326,19.454
+				c2.158-0.452,4.346-0.846,6.508-1.126C50.759,24.035,70.025,21.523,87.977,31.003" />
+<path d="M406.992,79.659c-12.096,0.08-23.288,0.574-33.351,1.276c1.942,1.346,3.526,3.394,5.225,5.642
+				c4.462,5.904,10.016,13.254,26.28,13.32h0.168c13.644,0,19.256-6.732,24.208-12.676c2.18-2.614,4.292-5.148,6.92-6.716
+				C427.234,79.931,417.328,79.591,406.992,79.659z" />
+</g>
+<g class="unselected" id="_1" fill="#463A39">
+<path d="M78.751,59.59c1.49,3.994,5.844,5.922,13.704,6.072c4.168,0.078,10.916-0.248,15.98-0.854
+				c0.128-0.592,0.056-1.21-0.258-1.874c-2.758-5.826-12.814-17.042-23.572-17.438l-0.564-0.016
+				c-5.486-0.104-10.01,1.286-13.69,3.274C74.113,51.138,76.939,54.733,78.751,59.59" />
+<path d="M350.149,84.659c-0.061,7.348,0.294,14.729,1.16,21.807c0.008,0.067,0.006,0.138,0.012,0.207
+				c0.476-0.211,0.959-0.375,1.458-0.446c2.929-0.412,9.057,1.986,15.971,4.598c2.457,0.929,5.073,1.812,7.75,2.633
+				c0.009,0.003,0.019,0.006,0.029,0.009c0,0,0,0,0-0.001C371.281,106.288,360.941,92.771,350.149,84.659z" />
+<path d="M459.806,109.196c-0.218-0.969-0.303-1.891-0.2-2.731c0.872-7.123,1.226-14.552,1.159-21.945
+				c-11.364,7.498-22.99,22.046-28.572,29.635c0.207-0.036,0.401-0.076,0.604-0.113c1.982-0.361,3.816-0.776,5.532-1.216
+				c7.271-1.863,12.493-4.119,18.447-4.119C458.172,108.707,459.068,108.919,459.806,109.196z" />
+</g>
+<g class="unselected" id="_6" fill="#463A39">
+<path d="M157.931,28.104c8.934,4.316,18.002,4.462,24.386,3.72
+				C173.115,16.758,158.5,8.52,135.519,4.293C138.009,9.419,145.13,21.919,157.931,28.104" />
+<path d="M436.677,37.073c0-9.126-13.676-16.55-30.488-16.55c-16.81,0-30.488,7.424-30.488,16.55
+				s13.679,16.552,30.488,16.552C423.001,53.625,436.677,46.199,436.677,37.073z" />
+<path d="M689.586,50.43c5.521,2.997,13.143,4.853,21.548,4.853s16.027-1.856,21.548-4.853
+				c5.521-2.997,8.94-7.134,8.94-11.698c0-3.423-1.924-6.606-5.214-9.248c-5.485-4.403-14.768-7.303-25.274-7.303
+				s-19.79,2.9-25.273,7.303c-3.29,2.642-5.214,5.825-5.214,9.248C680.646,43.296,684.065,47.434,689.586,50.43z" />
+</g>
+<g class="unselected" id="_4" fill="#463A39">
+<path d="M124.162,2.589c-1.416-0.168-2.854-0.328-4.324-0.474c-3.084-0.31-6.21-0.494-9.29-0.552
+				c-12.054-0.23-24.73,1.73-34.636,4.456c8.512,1.572,20.668,5.282,26.896,14.522c8.112,12.03,13.198,32.17,15.358,42.19
+				c0.152,0.286,0.29,0.548,0.402,0.764c7.65-1.014,15.428-1.962,22.248-1.832c0.13,0.002,0.242,0.014,0.37,0.018
+				C142.298,41.551,127.45,9.421,124.162,2.589" />
+<path d="M406.157,62.864c-1.025,0.012-2.048,0.016-3.065,0.016c-19.497,0-37.506-1.976-51.039-4.048
+				c-0.993,7.073-1.64,14.618-1.843,22.264c14.755-1.713,34.212-3.288,56.768-3.438c20.232-0.141,38.819,1.271,53.717,2.981
+				c-0.216-7.467-0.856-14.832-1.824-21.747C444.916,60.807,426.491,62.643,406.157,62.864z" />
+<path d="M711.135,11.142c11.682,0,22.734,1.822,32.609,5.042c6.894,2.248,13.2,5.184,18.736,8.677
+				c3.964,2.501,7.551,5.272,10.646,8.294c-2.313-5.088-5.178-9.806-8.778-13.468c-9.624-9.79-24.636-19.298-51.844-18.63
+				c-27.21,0.668-42.848,10.364-52.308,19.1c-3.185,2.94-5.727,6.378-7.805,10.056c4.018-3.376,8.674-6.388,13.817-8.98
+				c1.141-0.575,2.305-1.128,3.493-1.66C681.6,14.256,695.831,11.142,711.135,11.142z" />
+</g>
+<g class="unselected" id="_5" fill="#463A39">
+<path d="M186.135,39.104c-0.832-1.872-1.728-3.652-2.682-5.356
+				c-2.286,0.31-4.942,0.518-7.85,0.464c-5.572-0.106-12.052-1.172-18.542-4.308c-14.766-7.134-22.112-21.838-23.97-26.05
+				c-2.11-0.354-4.308-0.668-6.558-0.96c4.248,8.916,17.758,39.026,16.652,58.882c3.628,0.22,6.696,0.764,9.254,1.692
+				c3.67,1.328,7.336,2.814,10.954,4.324C176.551,61.34,183.883,44.924,186.135,39.104" />
+<path d="M406.135,60.865c20.241-0.22,38.571-2.047,52.447-3.951c-1.957-12.944-5.069-24.136-8.729-31.133
+				c-1.98-3.786-4.291-6.941-6.559-9.513c-10.887-1.376-23.603-2.38-37.014-2.21c-14.485,0.169-27.892,1.328-39.122,2.737
+				c-2.118,2.472-4.251,5.456-6.098,8.985c-3.654,6.986-6.762,18.153-8.719,31.071C366.489,59.018,385.577,61.082,406.135,60.865z
+				 M373.701,37.073c0-10.228,14.574-18.55,32.488-18.55c17.913,0,32.487,8.322,32.487,18.55c0,10.23-14.574,18.552-32.487,18.552
+				C388.275,55.625,373.701,47.303,373.701,37.073z" />
+<path d="M653.547,60.1c0.075,0.036,0.145,0.074,0.221,0.109l0.116-0.036c0.01,0.036,0.028,0.074,0.038,0.11
+				c1.728,0.807,3.543,1.574,5.428,2.306c13.907,5.334,31.85,8.557,51.424,8.557c22.416,0,42.691-4.226,57.218-11.01
+				c0.006-0.02,0.014-0.038,0.018-0.058l0.068,0.016c4.262-1.996,8.02-4.212,11.191-6.608c0.025,0.117,0.049,0.23,0.074,0.346
+				c0.092-0.069,0.195-0.134,0.287-0.204c-1.048-4.82-2.454-10.106-4.358-15.26c-12.529-15.028-36.569-25.226-64.138-25.226
+				c-25.546,0-48.06,8.758-61.198,22c-2.863,6.468-4.621,13.302-6.077,19.334c2.812,1.996,6.006,3.868,9.594,5.576l0.071-0.022
+				C653.529,60.053,653.538,60.076,653.547,60.1z M711.134,20.181c17.914,0,32.488,8.322,32.488,18.552
+				c0,10.228-14.574,18.55-32.488,18.55s-32.487-8.322-32.487-18.55C678.646,28.503,693.22,20.181,711.134,20.181z" />
+</g>
+<g class="unselected" id="_7" fill="#463A39">
+<path d="M194.591,73.356c-1.542-12.486-3.884-22.902-7.346-31.59
+				c-2.854,6.888-9.718,20.504-21.442,27.034c0.95,0.4,1.902,0.802,2.842,1.202c9.068,3.846,17.632,7.478,22.382,7.568
+				c1.424,0.028,2.426-0.27,2.976-0.878C194.585,76.042,194.785,74.92,194.591,73.356" />
+<path d="M369.226,14.531c10.81-1.286,23.449-2.313,37.031-2.472c12.548-0.152,24.485,0.716,34.921,1.954
+				c-4.487-4.487-8.309-6.582-8.309-6.582s0.069,0.019,0.192,0.055C424.307,4.132,416,3.158,409.64,3.158
+				c-1.106,0-4.528,0.088-5.669,0.136c-11.99,0.502-22.091,3.316-30.533,7.377C372.17,11.7,370.729,12.983,369.226,14.531z" />
+<path d="M684.455,91.182c7.367,2.96,16.102,4.805,26.318,4.805c31.978,0,50.877-18.124,56.334-33.093
+				c-11.464,5.034-26.003,8.542-42.146,9.835c-3.288,0.264-6.637,0.442-10.045,0.516c-1.255,0.027-2.515,0.043-3.783,0.043
+				c-0.343,0-0.681-0.01-1.023-0.012l-0.158-0.139c-0.922-0.004-1.842-0.013-2.757-0.032l0.159,0.139
+				c-3.409-0.073-6.757-0.252-10.045-0.515c-15.036-1.204-28.688-4.326-39.752-8.818c-0.936-0.375-1.852-0.761-2.75-1.156
+				C658.699,72.425,668.202,84.53,684.455,91.182z" />
+</g>
+<g class="numbers">
+<g fill="#463A39">
+<path fill="#463A39" d="M93.346,61.054h-2.185V52.82c-0.798,0.747-1.739,1.299-2.822,1.656v-1.982
+					c0.57-0.187,1.189-0.54,1.858-1.062c0.668-0.521,1.127-1.128,1.376-1.822h1.772V61.054z" />
+<path fill="#463A39" d="M45.598,39.358v2.029H37.94c0.083-0.767,0.332-1.494,0.747-2.181c0.415-0.687,1.233-1.598,2.457-2.732
+					c0.984-0.918,1.588-1.54,1.812-1.866c0.3-0.451,0.451-0.896,0.451-1.337c0-0.487-0.131-0.861-0.393-1.124
+					c-0.262-0.261-0.623-0.393-1.084-0.393c-0.456,0-0.819,0.138-1.088,0.412c-0.27,0.275-0.425,0.731-0.466,1.368l-2.177-0.217
+					c0.13-1.203,0.537-2.065,1.221-2.589s1.54-0.785,2.565-0.785c1.125,0,2.008,0.303,2.651,0.909
+					c0.643,0.606,0.964,1.36,0.964,2.263c0,0.513-0.092,1.001-0.276,1.465c-0.184,0.464-0.476,0.95-0.875,1.458
+					c-0.265,0.337-0.741,0.821-1.431,1.454c-0.689,0.632-1.126,1.052-1.31,1.259c-0.184,0.208-0.333,0.41-0.447,0.606H45.598z" />
+<path fill="#463A39" d="M74.096,18.379l2.115-0.256c0.067,0.539,0.249,0.95,0.544,1.235s0.653,0.428,1.073,0.428
+					c0.451,0,0.831-0.171,1.139-0.513c0.308-0.343,0.462-0.804,0.462-1.384c0-0.55-0.147-0.985-0.443-1.307s-0.656-0.481-1.081-0.481
+					c-0.28,0-0.614,0.054-1.003,0.163l0.241-1.78c0.591,0.016,1.042-0.113,1.353-0.385c0.311-0.272,0.466-0.634,0.466-1.085
+					c0-0.384-0.114-0.689-0.342-0.917c-0.228-0.229-0.531-0.342-0.909-0.342c-0.374,0-0.692,0.129-0.957,0.389
+					c-0.264,0.259-0.425,0.637-0.482,1.135l-2.014-0.342c0.14-0.689,0.351-1.24,0.634-1.652c0.282-0.412,0.676-0.736,1.182-0.972
+					c0.505-0.236,1.072-0.354,1.699-0.354c1.073,0,1.933,0.342,2.581,1.025c0.534,0.561,0.801,1.192,0.801,1.897
+					c0,1-0.547,1.799-1.641,2.395c0.653,0.14,1.175,0.453,1.567,0.94c0.391,0.487,0.587,1.075,0.587,1.765
+					c0,1.001-0.366,1.854-1.096,2.558c-0.731,0.705-1.641,1.058-2.729,1.058c-1.031,0-1.886-0.297-2.565-0.891
+					C74.598,20.114,74.205,19.338,74.096,18.379z" />
+<path fill="#463A39" d="M125.356,33.936v-2.293h-4.665v-1.913l4.944-7.237h1.835v7.229h1.415v1.921h-1.415v2.293H125.356z
+					 M125.356,29.722v-3.895l-2.62,3.895H125.356z" />
+<path fill="#463A39" d="M155.175,49.476l2.177-0.226c0.062,0.492,0.246,0.882,0.552,1.17c0.306,0.288,0.658,0.432,1.058,0.432
+					c0.456,0,0.842-0.186,1.158-0.556c0.316-0.371,0.474-0.93,0.474-1.676c0-0.699-0.157-1.225-0.47-1.574s-0.722-0.524-1.225-0.524
+					c-0.627,0-1.189,0.277-1.687,0.831l-1.772-0.256l1.12-5.932h5.776v2.044h-4.121l-0.342,1.937
+					c0.487-0.244,0.984-0.366,1.493-0.366c0.969,0,1.791,0.353,2.464,1.058s1.011,1.62,1.011,2.744c0,0.938-0.272,1.775-0.816,2.512
+					c-0.741,1.005-1.77,1.508-3.086,1.508c-1.052,0-1.91-0.282-2.573-0.848C155.701,51.188,155.305,50.429,155.175,49.476z" />
+<path fill="#463A39" d="M166.975,17.949l-2.115,0.233c-0.052-0.436-0.187-0.757-0.404-0.964s-0.5-0.311-0.847-0.311
+					c-0.461,0-0.852,0.207-1.17,0.621c-0.318,0.415-0.52,1.278-0.603,2.589c0.544-0.643,1.221-0.964,2.029-0.964
+					c0.912,0,1.693,0.348,2.344,1.042s0.976,1.591,0.976,2.689c0,1.167-0.342,2.103-1.026,2.807
+					c-0.684,0.705-1.563,1.058-2.636,1.058c-1.15,0-2.096-0.447-2.837-1.341c-0.741-0.895-1.112-2.359-1.112-4.396
+					c0-2.089,0.386-3.595,1.159-4.517c0.772-0.923,1.775-1.384,3.008-1.384c0.866,0,1.582,0.242,2.15,0.727
+					C166.458,16.323,166.819,17.027,166.975,17.949z M162.023,22.715c0,0.71,0.163,1.259,0.49,1.645
+					c0.326,0.386,0.7,0.579,1.119,0.579c0.404,0,0.741-0.158,1.011-0.474c0.27-0.316,0.404-0.835,0.404-1.556
+					c0-0.741-0.145-1.283-0.435-1.628c-0.291-0.345-0.653-0.518-1.089-0.518c-0.419,0-0.774,0.165-1.065,0.494
+					C162.168,21.587,162.023,22.072,162.023,22.715z" />
+<path fill="#463A39" d="M183.205,63.618V61.59h7.471v1.586c-0.617,0.606-1.244,1.477-1.881,2.611
+					c-0.638,1.136-1.124,2.342-1.458,3.619c-0.334,1.278-0.499,2.419-0.494,3.425h-2.107c0.036-1.575,0.361-3.183,0.976-4.82
+					s1.435-3.102,2.46-4.393H183.205z" />
+</g>
+<g fill="#463A39">
+<path fill="#463A39" d="M455.398,105.242h-1.911v-7.204c-0.698,0.653-1.521,1.137-2.47,1.449v-1.734
+					c0.499-0.164,1.041-0.473,1.627-0.929c0.584-0.456,0.986-0.987,1.203-1.596h1.551V105.242z" />
+<path fill="#463A39" d="M408.129,112.413v1.775h-6.699c0.072-0.671,0.289-1.308,0.652-1.908s1.079-1.397,2.149-2.391
+					c0.862-0.803,1.39-1.348,1.585-1.633c0.264-0.395,0.395-0.785,0.395-1.17c0-0.427-0.114-0.754-0.344-0.983
+					c-0.229-0.229-0.545-0.344-0.949-0.344c-0.398,0-0.716,0.12-0.951,0.361c-0.236,0.24-0.373,0.639-0.408,1.197l-1.905-0.19
+					c0.113-1.053,0.47-1.808,1.068-2.266s1.347-0.688,2.245-0.688c0.983,0,1.757,0.266,2.319,0.796
+					c0.562,0.531,0.843,1.19,0.843,1.979c0,0.449-0.08,0.877-0.24,1.282c-0.162,0.406-0.417,0.831-0.766,1.276
+					c-0.231,0.294-0.648,0.719-1.252,1.271c-0.604,0.554-0.985,0.921-1.146,1.103c-0.16,0.181-0.291,0.357-0.391,0.53H408.129z" />
+<path fill="#463A39" d="M401.602,92.235l1.851-0.225c0.06,0.472,0.218,0.833,0.476,1.082c0.26,0.249,0.572,0.374,0.939,0.374
+					c0.395,0,0.727-0.149,0.996-0.449c0.27-0.299,0.405-0.702,0.405-1.211c0-0.48-0.13-0.861-0.388-1.143
+					c-0.259-0.281-0.574-0.422-0.945-0.422c-0.245,0-0.537,0.048-0.878,0.144l0.211-1.559c0.517,0.014,0.911-0.099,1.184-0.336
+					c0.272-0.238,0.408-0.555,0.408-0.949c0-0.336-0.1-0.604-0.3-0.803c-0.199-0.199-0.465-0.3-0.795-0.3
+					c-0.327,0-0.605,0.114-0.838,0.341c-0.23,0.227-0.371,0.558-0.421,0.993l-1.763-0.3c0.123-0.603,0.308-1.085,0.555-1.445
+					c0.248-0.36,0.592-0.644,1.034-0.851c0.442-0.206,0.938-0.31,1.486-0.31c0.938,0,1.692,0.3,2.259,0.898
+					c0.467,0.489,0.701,1.043,0.701,1.659c0,0.876-0.479,1.574-1.436,2.096c0.57,0.122,1.027,0.396,1.37,0.823
+					c0.343,0.426,0.514,0.94,0.514,1.544c0,0.875-0.319,1.621-0.959,2.238c-0.64,0.616-1.436,0.925-2.388,0.925
+					c-0.902,0-1.65-0.26-2.245-0.778C402.041,93.754,401.697,93.074,401.602,92.235z" />
+<path fill="#463A39" d="M367.095,75.684v-2.007h-4.082v-1.673l4.327-6.334h1.605v6.327h1.238v1.68h-1.238v2.007H367.095z
+					 M367.095,71.997v-3.408l-2.292,3.408H367.095z" />
+<path fill="#463A39" d="M448.479,75.688v-2.007h-4.082v-1.673l4.326-6.334h1.605v6.327h1.238v1.68h-1.238v2.007H448.479z
+					 M448.479,72.001v-3.408l-2.293,3.408H448.479z" />
+<path fill="#463A39" d="M408.945,35.22l-1.85,0.204c-0.045-0.381-0.164-0.662-0.354-0.844c-0.191-0.182-0.438-0.272-0.742-0.272
+					c-0.403,0-0.744,0.182-1.023,0.545c-0.279,0.362-0.455,1.117-0.527,2.265c0.477-0.562,1.068-0.843,1.775-0.843
+					c0.799,0,1.482,0.304,2.051,0.911c0.569,0.607,0.854,1.393,0.854,2.354c0,1.021-0.299,1.839-0.897,2.456
+					c-0.599,0.616-1.367,0.925-2.306,0.925c-1.008,0-1.835-0.391-2.483-1.173c-0.648-0.783-0.973-2.065-0.973-3.848
+					c0-1.827,0.338-3.145,1.014-3.952c0.676-0.807,1.554-1.211,2.632-1.211c0.758,0,1.385,0.212,1.881,0.637
+					C408.493,33.797,408.81,34.412,408.945,35.22z M404.613,39.39c0,0.621,0.143,1.101,0.428,1.438s0.612,0.507,0.979,0.507
+					c0.354,0,0.648-0.138,0.884-0.415c0.236-0.276,0.354-0.729,0.354-1.36c0-0.648-0.127-1.123-0.381-1.425
+					c-0.255-0.302-0.571-0.453-0.952-0.453c-0.367,0-0.678,0.145-0.932,0.433C404.739,38.402,404.613,38.827,404.613,39.39z" />
+<path fill="#463A39" d="M442.955,49.343l1.904-0.197c0.055,0.431,0.216,0.772,0.483,1.023c0.268,0.252,0.575,0.378,0.925,0.378
+					c0.399,0,0.737-0.162,1.014-0.486c0.277-0.324,0.415-0.813,0.415-1.466c0-0.612-0.138-1.071-0.411-1.378
+					c-0.275-0.306-0.632-0.459-1.072-0.459c-0.549,0-1.041,0.242-1.476,0.728l-1.552-0.225l0.98-5.19h5.055v1.789h-3.605l-0.3,1.694
+					c0.427-0.213,0.862-0.319,1.306-0.319c0.849,0,1.567,0.308,2.156,0.925c0.59,0.617,0.885,1.417,0.885,2.401
+					c0,0.82-0.238,1.553-0.714,2.197c-0.649,0.88-1.549,1.319-2.7,1.319c-0.922,0-1.672-0.247-2.252-0.741
+					C443.415,50.842,443.068,50.177,442.955,49.343z" />
+<path fill="#463A39" d="M360.83,49.349l1.905-0.197c0.054,0.431,0.215,0.772,0.483,1.023c0.268,0.252,0.576,0.378,0.925,0.378
+					c0.399,0,0.737-0.162,1.014-0.486c0.277-0.324,0.415-0.813,0.415-1.466c0-0.612-0.137-1.071-0.412-1.378
+					c-0.274-0.306-0.631-0.459-1.071-0.459c-0.549,0-1.041,0.242-1.476,0.728l-1.551-0.225l0.98-5.19h5.054v1.789h-3.605
+					l-0.299,1.694c0.426-0.213,0.862-0.319,1.306-0.319c0.848,0,1.567,0.308,2.156,0.925s0.884,1.417,0.884,2.401
+					c0,0.82-0.238,1.553-0.714,2.197c-0.649,0.88-1.549,1.319-2.701,1.319c-0.921,0-1.671-0.247-2.252-0.741
+					S360.943,50.183,360.83,49.349z" />
+<path fill="#463A39" d="M358.007,103.746h-1.912v-7.204c-0.698,0.653-1.521,1.137-2.469,1.449v-1.734
+					c0.499-0.164,1.041-0.473,1.626-0.929c0.585-0.456,0.986-0.987,1.204-1.596h1.551V103.746z" />
+</g>
+<g fill="#463A39">
+<path fill="#463A39" d="M706.881,79.787v-2.028h7.471v1.586c-0.616,0.606-1.243,1.477-1.881,2.611
+					c-0.638,1.136-1.123,2.342-1.457,3.619c-0.335,1.278-0.5,2.419-0.494,3.425h-2.107c0.037-1.575,0.361-3.183,0.977-4.82
+					c0.613-1.638,1.434-3.102,2.46-4.393H706.881z" />
+<path fill="#463A39" d="M714.568,35.404l-2.115,0.233c-0.052-0.436-0.187-0.757-0.404-0.964s-0.5-0.311-0.848-0.311
+					c-0.461,0-0.852,0.207-1.17,0.621c-0.318,0.415-0.52,1.278-0.603,2.589c0.544-0.643,1.221-0.964,2.029-0.964
+					c0.912,0,1.693,0.348,2.344,1.042s0.976,1.591,0.976,2.689c0,1.167-0.342,2.103-1.025,2.807
+					c-0.685,0.705-1.563,1.058-2.637,1.058c-1.15,0-2.096-0.447-2.837-1.341c-0.741-0.895-1.112-2.359-1.112-4.396
+					c0-2.089,0.387-3.595,1.159-4.517c0.772-0.923,1.774-1.384,3.009-1.384c0.865,0,1.582,0.242,2.149,0.727
+					S714.412,34.482,714.568,35.404z M709.615,40.17c0,0.71,0.164,1.259,0.49,1.645s0.699,0.579,1.119,0.579
+					c0.404,0,0.741-0.158,1.011-0.474c0.27-0.316,0.404-0.835,0.404-1.556c0-0.741-0.146-1.283-0.435-1.628
+					c-0.291-0.345-0.654-0.518-1.09-0.518c-0.419,0-0.773,0.165-1.064,0.494C709.761,39.042,709.615,39.527,709.615,40.17z" />
+<path fill="#463A39" d="M756.504,45.833l2.176-0.226c0.063,0.492,0.246,0.882,0.553,1.17c0.306,0.288,0.658,0.432,1.057,0.432
+					c0.457,0,0.843-0.186,1.158-0.556c0.316-0.371,0.475-0.93,0.475-1.676c0-0.699-0.156-1.225-0.471-1.574
+					c-0.313-0.35-0.721-0.524-1.225-0.524c-0.627,0-1.189,0.277-1.687,0.831l-1.772-0.256l1.119-5.932h5.777v2.044h-4.121
+					l-0.342,1.937c0.486-0.244,0.984-0.366,1.492-0.366c0.969,0,1.791,0.353,2.465,1.058s1.011,1.62,1.011,2.744
+					c0,0.938-0.272,1.775-0.816,2.512c-0.741,1.005-1.771,1.508-3.087,1.508c-1.052,0-1.91-0.282-2.572-0.848
+					C757.029,47.546,756.633,46.786,756.504,45.833z" />
+<path fill="#463A39" d="M659.91,45.826l2.177-0.226c0.062,0.492,0.246,0.882,0.552,1.17c0.307,0.288,0.658,0.432,1.058,0.432
+					c0.456,0,0.843-0.186,1.158-0.556c0.315-0.371,0.474-0.93,0.474-1.676c0-0.699-0.156-1.225-0.47-1.574s-0.722-0.524-1.225-0.524
+					c-0.627,0-1.189,0.277-1.687,0.831l-1.773-0.256l1.12-5.932h5.776v2.044h-4.121l-0.342,1.937
+					c0.487-0.244,0.984-0.366,1.493-0.366c0.969,0,1.79,0.353,2.464,1.058s1.012,1.62,1.012,2.744c0,0.938-0.272,1.775-0.816,2.512
+					c-0.742,1.005-1.771,1.508-3.087,1.508c-1.052,0-1.91-0.282-2.573-0.848C660.436,47.539,660.039,46.779,659.91,45.826z" />
+</g>
+</g>
+</g>
+</svg> </span>
+<div class="svg-sibling-input-container">
+<label for="area_0_1">
+<span>1</span>
+<input type="checkbox" id="area_0_1" value="1" name="area_0_1" />
+</label>
+<label for="area_0_2">
+<span>2</span>
+<input type="checkbox" id="area_0_2" value="2" name="area_0_2" />
+</label>
+<label for="area_0_3">
+<span>3</span>
+<input type="checkbox" id="area_0_3" value="3" name="area_0_3" />
+</label>
+<label for="area_0_4">
+<span>4</span>
+<input type="checkbox" id="area_0_4" value="4" name="area_0_4" />
+</label>
+<label for="area_0_5">
+<span>5</span>
+<input type="checkbox" id="area_0_5" value="5" name="area_0_5" />
+</label>
+<label for="area_0_6">
+<span>6</span>
+<input type="checkbox" id="area_0_6" value="6" name="area_0_6" />
+</label>
+<label for="area_0_7">
+<span>7</span>
+<input type="checkbox" id="area_0_7" value="7" name="area_0_7" />
+</label>
+</div>
+</div>
+<input type="radio" id="type_1" value="1" name="type">
+<div class="radio-sibling-collapse-container">
+<span class="img" style="padding-bottom:35.064935064935%">
+<svg width="232px" height="290px" viewBox="0 0 232 290" xmlns="http://www.w3.org/2000/svg">
+<g fill="none" fill-rule="evenodd">
+<g class="base">
+<path fill="#F0D8C5" d="M120.135,290c29.338,0,46.607-32.279,53.43-41.59c7.336-10.011,25.319-49.599,27.379-60.416
+				c1.597-8.39,4.057-64.49,4.057-64.49c-0.508-13.963-191.971-5.609-188.965,2.292c3.877,10.187,8.621,28.075,13.63,29.404
+				c2.952,0.782,3.654,30.261,6.443,38.329c2.792,8.072,19.598,45.568,26.423,54.881C69.354,257.721,81.532,290,120.135,290" />
+<defs>
+<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="0.001" y="0.125" width="231.955" height="276.744">
+<feColorMatrix type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0" />
+</filter>
+</defs>
+<mask maskUnits="userSpaceOnUse" x="0.001" y="0.125" width="231.955" height="276.744" id="mask-2">
+<g filter="url(#Adobe_OpacityMaskFilter)">
+<polygon id="path-1" fill="#FFFFFF" points="0.001,0.125 231.957,0.125 231.957,276.869 0.001,276.869 			" />
+</g>
+</mask>
+<path mask="url(#mask-2)" fill="#463A39" d="M123.411,146.742c-4.515-0.023-9.042-1.336-13.578-0.443
+				C114.338,147.456,118.861,147.623,123.411,146.742L123.411,146.742z M70.341,176.66c5.15-1.219,9.469-4,13.477-7.351
+				C79.047,171.227,75.253,174.959,70.341,176.66L70.341,176.66z M125.803,144.558c-0.354-0.459-0.488-0.825-0.692-0.872
+				c-3.966-0.893-8.026-0.205-12.024-0.665c-0.485-0.057-0.609,0.707-0.563,1.117c0.066,0.575,0.659,0.514,1.097,0.551
+				C117.574,145.029,121.525,145.289,125.803,144.558L125.803,144.558z M128.09,152.156c2.906,4.09,6.194,7.459,9.861,10.486
+				c-1.695-3.094-3.756-5.904-5.52-8.892C131.42,152.035,130.312,151.329,128.09,152.156L128.09,152.156z M70.901,173.079
+				c-7.548,1.472-14.776,1.813-22.034,1.727C56.356,178.012,63.575,177.576,70.901,173.079L70.901,173.079z M144.553,169.573
+				c5.637,6.889,12.85,10.825,21.669,11.747C158.521,178.3,151.618,173.785,144.553,169.573L144.553,169.573z M189.715,215.543
+				c4.146-8.803,7.969-17.75,10.937-27.03c1.28-4.001,1.224-3.968-3.075-3.716c-0.838,0.05-1.949,1.027-2.715-0.445
+				c2.314-0.973,4.957-0.822,7.043-2.357c-6.223,1.027-12.547,0.584-18.756,1.557c-3.01-0.971-6.056-0.391-9.087-0.315
+				c3.031,0.73,6.058,1.805,9.13,0.276c-0.1,0.629-1.021,1.496,0.583,1.576c1.11,0.056,2.295-0.188,3.772,0.699
+				c-5.218-0.038-9.821,0.657-13.904,3.399c-0.908,0.61-2,0.949-3.018,1.397c-9.516,4.184-19.534,6.207-29.854,6.91
+				c-0.725,0.049-1.901,0.506-2.099-0.66c-0.198-1.168,0.855-1.491,1.814-1.638c1.19-0.181,2.381-0.36,3.579-0.474
+				c10.28-0.971,20.265-3.18,29.814-7.184c0.607-0.254,1.452-0.221,1.681-1.198c-10.826-0.434-20.876-3.022-29.624-9.726
+				c-9.179-7.032-15.788-16.064-20.923-26.297c-0.525-1.046-0.838-2.193-2.512-2.055c-4.452,0.363-8.877-0.132-13.285-0.739
+				c-0.565-0.078-1.466-0.146-1.363,0.452c0.624,3.631-1.37,3.486-3.874,2.952c-0.362-0.075-0.953,0.507-1.311,0.899
+				c-4.552,4.995-9.181,9.916-14.295,14.351c-0.275,0.16-0.553,0.32-0.831,0.48c0.424,0.351,0.812,0.24,1.182-0.092
+				c5.907-2.53,10.814-6.658,16.018-10.308c-18.77,22.24-41.189,32.268-70.112,20.11c0.358,4.146,1.106,7.565,1.942,10.96
+				c4.54,18.463,11.782,35.612,21.443,51.563c4.013,6.629,4.411,7.51,4.884,9.833c-2.9,3.319-6.856,6.687-10.24,9.275
+				c-0.612,0.472-1.073,1.593-1.977,1.169c-0.814-0.382-0.521-1.489-0.678-2.285c-0.07-0.354-0.117-0.715-0.19-1.16
+				c-0.162,0.252-0.353,0.41-0.344,0.559c0.445,7.601-6.521,8.161-10.777,11.225c-1.212,0.871-1.184-0.757-1.25-1.402
+				c-0.351-3.4-0.598-6.811-1.04-10.229c-0.299,3.786-0.318,7.589-0.826,11.358c-0.264,1.947-0.989,3.138-2.949,3.783
+				c-2.622,0.859-5.14,2.037-7.847,3.136c-0.692-2.307,0.063-4.372,0.042-6.432c0.423-1.63,0.193-3.249-0.073-4.87
+				c-0.221,1.619-0.445,3.24-0.666,4.858c-0.386,5.194-3.333,7.289-8.371,7.944c-5.143,0.666-10.222,1.416-15.712,1.166
+				c1.205-2.854,3.203-4.822,4.321-7.342c4.347-9.798,5.316-20.216,5.65-30.709c0.563-17.549-0.397-35.084-1.381-52.592
+				C6.026,140.548,13.513,97.074,35.69,56.698c9.951-18.117,22.516-34.069,40.361-45.114C87.927,4.236,100.725,0.22,114.976,0.33
+				c8.602,0.066,17.218-0.768,25.79,0.519c24.314,3.642,44.157,14.812,58.747,34.922c9.68,13.344,14.472,28.702,18.579,44.348
+				c4.669,17.783,7.488,35.902,9.628,54.142c2.975,25.374,4.528,50.813,4.191,76.371c-0.142,10.795-1.948,21.42-2.798,32.137
+				c-0.609,7.68-1.018,15.37,0.586,22.994c0.184,0.864,0.027,1.375-0.711,1.844c-5.027,3.184-10.354,5.289-16.451,5.15
+				c-1.761-0.039-2.443-0.684-2.719-2.292c-0.277-1.611-0.746-3.188-1.629-4.692c0.191,2.101,0.382,4.2,0.572,6.301l-0.094,0.106
+				c-3.684-0.249-6.832-2.023-10.066-3.548c-0.896-0.422-0.913-1.283-0.988-2.123c-0.23-2.572-0.487-5.141-0.734-7.711
+				c0.348-2.186-0.351-4.227-0.918-6.904c0.339,2.692-0.167,4.834,0.529,6.883c-0.447,2.606,0.485,5.315-0.531,8.152
+				c-8.561-6.328-14.435-15.168-18.609-24.879L189.715,215.543z" />
+<path fill="#463A39" d="M49,185.26c1.39-0.621,2.211,0.016,3.063,0.428c13.101,6.354,26.98,9.745,41.419,11.015
+				c1.175,0.105,2.344,0.3,3.51,0.494c1.015,0.169,2.062,0.642,2.006,1.741c-0.075,1.48-1.441,1.002-2.281,0.941
+				c-8.469-0.623-16.828-1.872-24.981-4.362C63.803,193.095,56.41,189.522,49,185.26" />
+<path fill="#463A39" d="M79,176c0.202-1.517,1.193-1.891,2-2.404c12.467-7.916,22.789-18.055,31.575-29.784
+				c0.713-0.953,1.504-1.854,2.293-2.751c0.687-0.784,1.653-1.435,2.573-0.812c1.24,0.84,0.1,1.763-0.399,2.451
+				c-5.046,6.945-10.575,13.463-17.071,19.16C93.655,167.398,86.632,171.873,79,176" />
+<path fill="#463A39" d="M75,176c0.202-1.517,1.193-1.891,2-2.404c12.467-7.916,22.789-18.055,31.575-29.784
+				c0.713-0.953,1.504-1.854,2.293-2.751c0.687-0.784,1.654-1.435,2.573-0.812c1.24,0.84,0.1,1.763-0.399,2.451
+				c-5.046,6.945-10.575,13.463-17.071,19.16C89.655,167.398,82.632,171.873,75,176" />
+<path fill="#463A39" d="M87,212.77c-11.84,5.175-26.21,0.975-29-8.77C66.142,213.18,75.819,215.48,87,212.77" />
+<path fill="#463A39" d="M149,213.289c11.258,2.947,20.961,0.391,29-8.289
+				C174.496,213.728,161.531,219.752,149,213.289" />
+<path fill="#463A39" d="M90,257.518c9.38,1.327,18.669,3.264,28.271,3.138c9.477-0.126,18.73-1.702,28.729-3.655
+				C140.076,262.125,100.003,262.355,90,257.518" />
+<path fill="#463A39" d="M104,267c9.394,3.116,18.787,2.348,28,0.143C124.957,272.311,110.043,272.309,104,267" />
+<path fill="#463A39" d="M107.035,241.051c5.194,2.816,10.492,4.354,16.965,1.088c-5.674,4.324-12.373,3.588-17-1.139
+				L107.035,241.051z" />
+<path fill="#F0D8C5" d="M197,74c0,37.557-34.249,68-76.501,68C78.249,142,44,111.557,44,74S78.249,6,120.499,6
+				C162.751,6,197,36.443,197,74" />
+<path fill="#463A39" d="M120.479,16.65c-2.34,0.702-5.782,21.705-5.782,57.851c0,36.047,3.424,57.031,5.802,57.842
+				c2.378-0.811,5.802-21.797,5.802-57.842C126.301,38.357,122.857,17.352,120.479,16.65 M120.499,134
+				C114.566,134,113,95.081,113,74.501C113,53.921,114.566,15,120.499,15S128,53.921,128,74.501C128,95.081,126.432,134,120.499,134" />
+<path fill="#463A39" d="M120.501,12.644c-9.134,0-16.848,28.098-16.848,61.356
+				c0,33.255,7.714,61.356,16.848,61.356S137.35,107.255,137.35,74C137.35,40.742,129.635,12.644,120.501,12.644 M120.501,137
+				C110.127,137,102,109.327,102,74c0-35.33,8.127-63,18.501-63S139,38.67,139,74C139,109.327,130.875,137,120.501,137" />
+<path fill="#463A39" d="M121,10.651c-16.182,0-29.346,28.867-29.346,64.348c0,35.483,13.164,64.348,29.346,64.348
+				s29.346-28.865,29.346-64.348C150.346,39.518,137.182,10.651,121,10.651 M121,141c-17.094,0-31-29.609-31-66.001
+				C90,38.606,103.906,9,121,9s31,29.606,31,65.999C152,111.391,138.094,141,121,141" />
+<path fill="#463A39" d="M121,10.651c-22.797,0-41.343,28.867-41.343,64.348c0,35.483,18.546,64.348,41.343,64.348
+				c22.795,0,41.341-28.865,41.341-64.348C162.341,39.518,143.795,10.651,121,10.651 M121,141c-23.711,0-43-29.609-43-66.001
+				C78,38.606,97.289,9,121,9s43,29.606,43,65.999C164,111.391,144.711,141,121,141" />
+<path fill="#463A39" d="M120.5,7.644c-29.142,0-52.85,29.991-52.85,66.857c0,36.864,23.708,66.855,52.85,66.855
+				s52.848-29.991,52.848-66.855C173.348,37.635,149.642,7.644,120.5,7.644 M120.5,143C90.449,143,66,112.272,66,74.501
+				C66,36.728,90.449,6,120.5,6C150.551,6,175,36.728,175,74.501C175,112.272,150.551,143,120.5,143" />
+<path fill="#463A39" d="M120.5,7.644c-35.76,0-64.852,29.991-64.852,66.857c0,36.864,29.091,66.855,64.852,66.855
+				c35.76,0,64.852-29.991,64.852-66.855C185.352,37.635,156.26,7.644,120.5,7.644 M120.5,143C83.831,143,54,112.272,54,74.501
+				C54,36.728,83.831,6,120.5,6C157.167,6,187,36.728,187,74.501C187,112.272,157.167,143,120.5,143" />
+</g>
+<g class="unselected" id="_1" fill="#463A39">
+<path d="M120.479,16.65c-2.34,0.702-5.782,21.705-5.782,57.851
+			c0,36.047,3.424,57.031,5.802,57.842c2.378-0.811,5.802-21.797,5.802-57.842C126.301,38.357,122.857,17.352,120.479,16.65z" />
+</g>
+<g class="unselected" id="_7" fill="#463A39">
+<path d="M197,74c0-37.555-34.245-67.997-76.494-68C157.17,6.003,187,36.729,187,74.501
+				c0,29.836-18.621,55.262-44.515,64.635C174.017,130.738,197,104.762,197,74z" />
+<path d="M54,74.501C54,36.728,83.831,6,120.5,6c-0.001,0-0.001,0-0.001,0C78.249,6,44,36.443,44,74
+				c0,30.762,22.983,56.739,54.515,65.136C72.621,129.763,54,104.337,54,74.501z" />
+</g>
+<g class="unselected" id="_6" fill="#463A39">
+<path d="M141.267,11.18C161.045,21.465,175,45.968,175,74.501c0,28.532-13.955,53.034-33.732,63.319
+				c25.601-8.948,44.084-33.942,44.084-63.319C185.352,45.122,166.868,20.128,141.267,11.18z" />
+<path d="M66,74.501c0-28.533,13.955-53.036,33.733-63.321c-25.602,8.948-44.084,33.942-44.084,63.321
+				c0,29.377,18.482,54.371,44.084,63.319C79.955,127.535,66,103.033,66,74.501z" />
+</g>
+<g class="unselected" id="_4" fill="#463A39">
+<path d="M152,74.999c0,28.892-8.769,53.49-20.935,62.41c17.946-7.015,31.275-32.33,31.275-62.41
+				c0-30.081-13.332-55.399-31.28-62.412C143.229,21.503,152,46.103,152,74.999z" />
+<path d="M110.935,137.41C98.769,128.49,90,103.891,90,74.999c0-28.897,8.771-53.498,20.941-62.413
+				C92.99,19.598,79.657,44.917,79.657,74.999C79.657,105.08,92.987,130.396,110.935,137.41z" />
+</g>
+<g class="unselected" id="_5" fill="#463A39">
+<path d="M120.5,141.356c29.142,0,52.848-29.991,52.848-66.855
+			c0-36.866-23.706-66.857-52.848-66.857S67.65,37.635,67.65,74.501C67.65,111.365,91.358,141.356,120.5,141.356z M121,9
+			c23.711,0,43,29.606,43,65.999C164,111.391,144.711,141,121,141s-43-29.609-43-66.001C78,38.606,97.289,9,121,9z" />
+</g>
+<g class="unselected" id="_2" fill="#463A39">
+<path d="M120.501,12.644c-9.134,0-16.848,28.098-16.848,61.356
+			c0,33.255,7.714,61.356,16.848,61.356S137.35,107.255,137.35,74C137.35,40.742,129.635,12.644,120.501,12.644z M120.499,134
+			C114.566,134,113,95.081,113,74.501C113,53.921,114.566,15,120.499,15S128,53.921,128,74.501C128,95.081,126.432,134,120.499,134z" />
+</g>
+<g class="unselected" id="_3" fill="#463A39">
+<path d="M121,10.651c-16.182,0-29.346,28.867-29.346,64.348
+			c0,35.483,13.164,64.348,29.346,64.348s29.346-28.865,29.346-64.348C150.346,39.518,137.182,10.651,121,10.651z M120.501,137
+			C110.127,137,102,109.327,102,74c0-35.33,8.127-63,18.501-63S139,38.67,139,74C139,109.327,130.875,137,120.501,137z" />
+</g>
+<g class="numbers">
+<path fill="#453A3A" d="M119,73.483v-1.071c0.569-0.021,0.965-0.054,1.193-0.1
+				c0.361-0.07,0.654-0.208,0.882-0.418c0.152-0.145,0.271-0.337,0.349-0.574c0.05-0.145,0.072-0.249,0.072-0.321H123v8h-1.845v-5.517
+				H119z" />
+<path fill="#453A3A" d="M129.403,77.437c0.247-0.531,0.827-1.093,1.74-1.688
+				c0.794-0.515,1.308-0.886,1.542-1.109c0.359-0.347,0.537-0.729,0.537-1.143c0-0.335-0.102-0.616-0.307-0.841
+				c-0.205-0.223-0.5-0.333-0.884-0.333c-0.522,0-0.879,0.178-1.069,0.531c-0.109,0.207-0.171,0.531-0.193,0.979h-1.673
+				c0.026-0.677,0.161-1.224,0.403-1.643c0.463-0.796,1.277-1.19,2.451-1.19c0.928,0,1.665,0.232,2.215,0.697
+				c0.549,0.468,0.822,1.087,0.822,1.854c0,0.589-0.193,1.116-0.582,1.572c-0.253,0.302-0.671,0.644-1.253,1.017l-0.69,0.443
+				c-0.431,0.279-0.728,0.479-0.887,0.605c-0.16,0.124-0.291,0.27-0.4,0.432H135V79h-6C129.015,78.429,129.148,77.907,129.403,77.437" />
+<path fill="#453A3A" d="M142.678,77.101c0,0.348,0.056,0.637,0.166,0.869
+				c0.209,0.417,0.586,0.63,1.128,0.63c0.336,0,0.628-0.114,0.878-0.346c0.248-0.232,0.373-0.565,0.373-1
+				c0-0.573-0.233-0.956-0.691-1.148c-0.266-0.108-0.68-0.163-1.244-0.163v-1.23c0.555-0.01,0.939-0.062,1.16-0.163
+				c0.375-0.17,0.564-0.511,0.564-1.025c0-0.333-0.096-0.605-0.289-0.813c-0.191-0.209-0.464-0.313-0.814-0.313
+				c-0.402,0-0.696,0.126-0.885,0.385c-0.191,0.254-0.283,0.6-0.275,1.03h-1.592c0.018-0.435,0.092-0.847,0.224-1.237
+				c0.138-0.341,0.355-0.657,0.655-0.946c0.225-0.205,0.49-0.36,0.794-0.469c0.31-0.109,0.687-0.163,1.13-0.163
+				c0.832,0,1.501,0.215,2.009,0.647c0.51,0.432,0.763,1.012,0.763,1.741c0,0.514-0.152,0.948-0.453,1.301
+				c-0.191,0.22-0.393,0.373-0.6,0.452c0.155,0,0.379,0.136,0.67,0.402c0.434,0.408,0.652,0.963,0.652,1.665
+				c0,0.741-0.255,1.39-0.763,1.951C145.73,79.721,144.975,80,143.979,80c-1.229,0-2.078-0.405-2.559-1.21
+				c-0.251-0.432-0.391-0.995-0.42-1.689H142.678z" />
+<path fill="#453A3A" d="M157.387,77.028v-3.465l-2.137,3.465H157.387z M160,78.267h-0.967V80h-1.646
+				v-1.733H154v-1.38L157.143,72h1.891v5.028H160V78.267z" />
+<path fill="#453A3A" d="M166.699,77.681c0.066,0.336,0.199,0.6,0.389,0.783
+				c0.191,0.183,0.473,0.274,0.838,0.274c0.422,0,0.744-0.136,0.965-0.406c0.221-0.27,0.331-0.611,0.331-1.021
+				c0-0.404-0.103-0.743-0.312-1.021c-0.206-0.277-0.527-0.417-0.967-0.417c-0.206,0-0.385,0.025-0.537,0.072
+				c-0.268,0.087-0.469,0.25-0.604,0.484l-1.53-0.065L165.881,72h4.778v1.32h-3.548l-0.309,1.724c0.26-0.156,0.467-0.259,0.615-0.308
+				c0.248-0.084,0.551-0.127,0.903-0.127c0.716,0,1.345,0.221,1.879,0.658c0.534,0.439,0.8,1.079,0.8,1.916
+				c0,0.731-0.258,1.383-0.772,1.956c-0.513,0.573-1.283,0.861-2.309,0.861c-0.827,0-1.503-0.203-2.033-0.602
+				c-0.532-0.406-0.827-0.977-0.886-1.717H166.699z" />
+<path fill="#453A3A" d="M179.089,78.167c0.253,0.294,0.571,0.444,0.959,0.444
+				c0.38,0,0.677-0.145,0.896-0.43c0.218-0.285,0.326-0.658,0.326-1.112c0-0.505-0.123-0.896-0.373-1.166
+				c-0.246-0.268-0.549-0.403-0.91-0.403c-0.289,0-0.547,0.086-0.77,0.263c-0.336,0.26-0.503,0.68-0.503,1.257
+				C178.714,77.492,178.836,77.872,179.089,78.167L179.089,78.167z M181.111,73.272c0-0.142-0.051-0.294-0.158-0.464
+				c-0.185-0.27-0.464-0.407-0.834-0.407c-0.555,0-0.949,0.312-1.185,0.935c-0.128,0.344-0.216,0.852-0.265,1.522
+				c0.213-0.25,0.459-0.435,0.738-0.55c0.277-0.116,0.598-0.174,0.959-0.174c0.768,0,1.399,0.263,1.893,0.785
+				c0.492,0.523,0.74,1.19,0.74,2.005c0,0.813-0.242,1.526-0.726,2.147c-0.481,0.619-1.233,0.928-2.251,0.928
+				c-1.092,0-1.9-0.457-2.418-1.375c-0.404-0.714-0.605-1.634-0.605-2.764c0-0.665,0.027-1.205,0.086-1.622
+				c0.098-0.736,0.291-1.35,0.578-1.846c0.25-0.415,0.572-0.753,0.974-1.011c0.399-0.255,0.88-0.383,1.439-0.383
+				c0.804,0,1.449,0.206,1.927,0.621c0.48,0.412,0.748,0.964,0.81,1.651H181.111z" />
+<path fill="#453A3A" d="M195,73.248c-0.248,0.236-0.596,0.652-1.042,1.254
+				c-0.442,0.602-0.813,1.223-1.114,1.864c-0.238,0.504-0.454,1.12-0.646,1.846c-0.188,0.726-0.284,1.323-0.284,1.788h-1.729
+				c0.051-1.454,0.55-2.965,1.494-4.534c0.611-0.971,1.123-1.651,1.537-2.035H189L189.023,72H195V73.248z" />
+</g>
+</g>
+</svg> </span>
+<div class="svg-sibling-input-container">
+<label for="area_1_1">
+<span>1</span>
+<input type="checkbox" id="area_1_1" value="1" name="area_1_1" />
+</label>
+<label for="area_1_2">
+<span>2</span>
+<input type="checkbox" id="area_1_2" value="2" name="area_1_2" />
+</label>
+<label for="area_1_3">
+<span>3</span>
+<input type="checkbox" id="area_1_3" value="3" name="area_1_3" />
+</label>
+<label for="area_1_4">
+<span>4</span>
+<input type="checkbox" id="area_1_4" value="4" name="area_1_4" />
+</label>
+<label for="area_1_5">
+<span>5</span>
+<input type="checkbox" id="area_1_5" value="5" name="area_1_5" />
+</label>
+<label for="area_1_6">
+<span>6</span>
+<input type="checkbox" id="area_1_6" value="6" name="area_1_6" />
+</label>
+<label for="area_1_7">
+<span>7</span>
+<input type="checkbox" id="area_1_7" value="7" name="area_1_7" />
+</label>
+</div>
+</div>
+<input type="radio" id="type_2" value="2" name="type">
+<div class="radio-sibling-collapse-container">
+<span class="img" style="padding-bottom:35.064935064935%">
+<svg width="1049" height="134" viewBox="0 0 1049 134" xmlns="http://www.w3.org/2000/svg">
+<g fill="none" fill-rule="evenodd">
+<path fill="#463A39" d="M445.2 92.4c-1.8-9.2-7.1-17.2-14.9-22.4-1.7-1.1-3.7-2.2-5.7-3.1l-64.4-27.5-1.2-.6c-.3-.1-.5-.2-.6-.3l-.1-.1c-.1-.1-.2-.1-.3-.1l-8.6-3.5c-8.5-3.3-16.9-6.4-25.9-9.6-19.3-6.7-36.6-12-53-16.2-10.1-2.5-19.2-4.5-27.8-5.9C234.9 1.8 224.5.4 213 .4h-.3c-1.5 0-2.8 0-4.1.1l-2.2.1-5.8.5c-1.3.1-2.6.3-3.8.5-4.7.7-9.6 1.6-14.8 2.8-8.7 2.1-17.7 4.9-27.5 8.6-15.3 5.8-31.2 13.2-50 23.2-31.2 16.7-62.3 36.2-92.3 55.2l-2.1 1.3-1.4.9c-3.7 2.4-11.8 9-5.9 19.7 2.4 4.4 6.4 6.8 11.5 6.8 4.3 0 8.2-1.7 9.7-2.4 6-2.9 11.9-5.8 17.7-8.6C66.5 97 89.9 85.6 116.1 75.3c18.6-7.3 34.1-12.5 48.6-16.1 8.7-2.2 16.6-3.7 24-4.6 4.1-.5 8-.8 11.5-.9h2.3l4.4.1 1.4.1c.8.1 1.7.2 2.6.3 6.4.8 13.8 2.4 22.5 4.9 7.2 2.1 14.9 4.7 23.4 8 15.5 6 133.6 60.7 134.8 61.2 7.1 3.5 14.1 5.2 20.9 5.2 11.5 0 21.3-5.3 27.8-15 4.9-7.5 6.7-16.8 4.9-26.1zm-3 20.5l-.9 1.8h-.1c-.6 1.2-1.3 2.5-2.1 3.7-10.5 15.7-28.8 18.4-47.4 9.4 0 0-119.1-55.2-134.8-61.3-7.8-3-15.7-5.8-23.5-8-7.8-2.3-15.5-4.1-22.6-5-.9-.1-1.8-.2-2.6-.3l-.6-.1h-.6l-1.5-.1H200c-3.8.1-7.7.4-11.6.9-7.9 1-16 2.6-24.1 4.6-16.2 4.1-32.5 9.8-48.7 16.2-32.4 12.8-60.3 27.1-92.3 42.5-3 1.5-13.9 5.8-19.5-3.3-.1 0-.2.1-.3.2l-.9-1.8c.1 0 .2-.1.3-.1-4.5-9.6 3-15.4 6.1-17.3l1.4-1c30-18.9 62.5-39.4 94.4-56.5 16-8.5 32.4-16.5 49.9-23.1C163.5 11 172.5 8 182 5.7c4.8-1.1 9.6-2.1 14.7-2.8 1.3-.2 2.5-.3 3.8-.5l1.9-.2 1-.1 1.1-.1 1.8-.1 1.2-.1h1c1.4-.1 2.7-.1 4-.1 10.6 0 20.4 1.2 29.9 2.7 9.5 1.6 18.7 3.6 27.8 5.9 18.1 4.6 35.6 10.1 52.9 16.1 8.7 3 17.2 6.2 25.8 9.6l6.5 2.6 1.7.7.9.4c-.9-.5 1.4.7 1.2.6h.1l.2.1.4.2 3.1 1.3 12.3 5.2 49 21c1.8.8 3.8 1.9 5.5 3 13.8 9.1 18.7 26.9 12.4 41.8zM429.7 70.9c-1.7-1.2-3.7-2.2-5.5-3l-49-21-12.3-5.2-3.1-1.3-.4-.2-.2-.1h-.1c.2.1-2.1-1.1-1.2-.6l-.9-.4-1.7-.7-6.5-2.6c-8.6-3.4-17.2-6.5-25.8-9.6-17.3-6-34.8-11.6-52.9-16.1-9.1-2.3-18.3-4.3-27.8-5.9-9.5-1.6-19.3-2.7-29.9-2.7-1.3 0-2.7 0-4 .1h1v1c.9 0 1.9 0 3-.1h.3c11.4 0 21.7 1.4 29.4 2.7 8.6 1.4 17.6 3.3 27.7 5.9 16.3 4.1 33.6 9.4 52.9 16.1 8.9 3.1 17.3 6.2 25.8 9.5l6.5 2.6 2.5 1c.1.1.3.2.5.2.3.2.5.2.6.3h.1l65 27.8c1.9.8 3.8 1.9 5.4 2.9 7.4 4.9 12.4 12.4 14.1 21.1 1.3 6.7.6 13.4-2.1 19.5l.9.4c6.5-14.5 1.6-32.3-12.3-41.6zM438.3 117.7c-6.2 9.2-15.2 14.1-26.1 14.1-6.4 0-13.1-1.7-20-5-1.2-.6-119.4-55.3-134.9-61.3-8.6-3.3-16.3-5.9-23.6-8.1-8.8-2.6-16.2-4.2-22.8-5-.5-.1-1-.1-1.5-.2v.7h-2V52l-1.9-.1-3.2-.1H200c-3.6.1-7.5.4-11.7.9-7.5.9-15.4 2.4-24.2 4.7-14.6 3.7-30.1 8.8-48.8 16.2C89 84 65.6 95.4 40.7 107.5c-5.8 2.8-11.7 5.7-17.7 8.6-1.4.7-5 2.2-8.9 2.2-4.1 0-7.2-1.7-9.3-5.1-.3.2-.6.3-.9.5 5.6 9.1 16.5 4.8 19.5 3.3 32-15.4 59.9-29.7 92.3-42.5 16.2-6.4 32.5-12.1 48.7-16.2 8.1-2 16.2-3.7 24.1-4.6 3.9-.5 7.8-.8 11.6-.9H205.6l1.5.1c.1 0-.1 0 0 0H207.7l.6.1c.9.1 1.7.2 2.6.3 7.1.9 14.9 2.7 22.6 5 7.8 2.3 15.6 5 23.5 8 15.7 6 134.8 61.3 134.8 61.3 18.5 9 36.9 6.3 47.4-9.4.8-1.2 1.5-2.4 2.1-3.7l-.9-.4c-.7 1.3-1.3 2.5-2.1 3.6zM9.6 95.6l3.5-2.3c30-18.9 61.1-38.5 92.2-55.1 18.7-10 34.6-17.3 49.8-23.1 9.7-3.7 18.6-6.5 27.2-8.5 5.1-1.2 9.9-2.1 14.6-2.8 1.3-.2 2.5-.3 3.8-.5l1.9-.2 4.9-.3v-1l-1.2.1-1.8.1-1.1.1-1 .1-1.9.2c-1.3.1-2.6.3-3.8.5-5 .7-9.9 1.7-14.7 2.8-9.5 2.3-18.6 5.3-27.3 8.6-17.5 6.6-33.9 14.6-49.9 23.1-31.9 17-64.4 37.6-94.4 56.5l-1.4 1c-3.1 1.9-10.6 7.7-6.1 17.3.3-.2.6-.3.9-.5C0 103.3 5.7 98 9.6 95.6zM207.5 27.5v-2C160.6 26.7 84.7 67.9 29 98c-8.9 4.8-17.4 9.4-25.2 13.5.2.4.3.7.6 1.1.1.2.3.4.4.7 7.8-4.1 16.3-8.7 25.2-13.5 55.4-30 131.1-71.1 177.5-72.3zM209.5 25.5v2c47.4-.1 134.4 40.8 135.3 41.2l95.6 45.5.9-1.8-95.5-45.5c-1-.4-88.4-41.6-136.3-41.4zM441.3 114.7l.9-1.8h-.1c-.3.5-.5 1.1-.8 1.8zM3 112c-.1 0-.2.1-.3.1l.9 1.8c.1 0 .2-.1.3-.2-.1-.2-.3-.4-.4-.7-.2-.2-.4-.6-.5-1zM4.4 112.7c-.2-.4-.4-.7-.6-1.1-.3.2-.6.3-.9.5.2.4.4.7.6 1.1.1.2.3.4.4.7.3-.2.6-.3.9-.5-.1-.3-.3-.5-.4-.7zM440.4 114.2l.9.4c.3-.6.6-1.2.8-1.8l-.9-.4c-.3.6-.5 1.2-.8 1.8zM207.5 2.7v22.8h2V2.7h-2zM208.6 27.5h-1.1v24.6H208.4c.4 0 .8.1 1.2.1V27.4c-.4.1-.7.1-1 .1zM207.5 1.7h1-1zM208 52.1h-.6v.9h2v-.7c-.4 0-.8-.1-1.2-.1l-.2-.1zM208.5 2.7h1v-1h-2v1h1zM208.6 27.5h.9v-2h-2v2h1.1zM608.5 118.8c6.5 9.7 16.3 15 27.8 15 6.7 0 13.7-1.8 20.9-5.2 1.2-.5 119.3-55.3 134.8-61.2 8.5-3.3 16.2-5.9 23.4-8 8.7-2.5 16-4.1 22.5-4.9.9-.1 1.7-.2 2.6-.3l1.4-.1 4.4-.1h2.3c3.5.1 7.4.4 11.5.9 7.4.9 15.2 2.4 24 4.6 14.5 3.7 30 8.8 48.6 16.1 26.2 10.4 49.6 21.8 74.4 33.8 5.8 2.8 11.7 5.7 17.7 8.6 1.5.7 5.4 2.4 9.7 2.4 5 0 9-2.3 11.5-6.8 5.9-10.8-2.1-17.4-5.9-19.7l-1.4-.9-2.1-1.3c-30-18.9-61.1-38.5-92.3-55.2-18.8-10-34.7-17.4-50-23.2-9.8-3.7-18.8-6.5-27.5-8.6-5.2-1.2-10-2.2-14.8-2.8-1.3-.2-2.6-.3-3.8-.5l-5.8-.5-2.2-.1c-1.2-.1-2.5-.1-4.1-.1h-.3c-11.5 0-21.9 1.5-29.7 2.7-8.6 1.4-17.7 3.4-27.8 5.9-16.4 4.1-33.7 9.4-53 16.2-8.9 3.1-17.4 6.3-25.9 9.6l-8.6 3.5c-.1 0-.2 0-.3.1l-.1.1-.6.3-1.2.6L623.9 67c-2 .9-4 2-5.7 3.1-7.8 5.2-13.1 13.2-14.9 22.4-1.9 9.2 0 18.5 5.2 26.3zm-2.1-6c-6.4-14.8-1.5-32.6 12.4-41.9 1.7-1.2 3.7-2.2 5.5-3l49-21 12.3-5.2 3.1-1.3.4-.2.2-.1h.1c-.2.1 2.1-1.1 1.2-.6l.9-.4 1.7-.7 6.5-2.6c8.6-3.4 17.2-6.5 25.8-9.6 17.3-6 34.8-11.6 52.9-16.1 9.1-2.3 18.3-4.3 27.8-5.9 9.5-1.6 19.3-2.7 29.9-2.7 1.3 0 2.7 0 4 .1h1l1.2.1 1.8.1 1.1.1 1 .1 1.9.2c1.3.1 2.6.3 3.8.5 5 .7 9.9 1.7 14.7 2.8 9.5 2.3 18.6 5.3 27.3 8.6 17.5 6.6 33.9 14.6 49.9 23.1 31.9 17 64.4 37.6 94.4 56.5l1.4 1c3.1 1.9 10.6 7.7 6.1 17.3.1 0 .2.1.3.1l-.9 1.8c-.1 0-.2-.1-.3-.2-5.6 9.1-16.5 4.8-19.5 3.3-32-15.4-59.9-29.7-92.3-42.5-16.2-6.4-32.5-12.1-48.7-16.2-8.1-2-16.2-3.7-24.1-4.6-3.9-.5-7.8-.8-11.6-.9H843.1l-1.5.1c-.1 0 .1 0 0 0H841l-.6.1c-.9.1-1.7.2-2.6.3-7.1.9-14.9 2.7-22.6 5-7.8 2.3-15.6 5-23.5 8-15.7 6-134.8 61.3-134.8 61.3-18.5 9-36.9 6.3-47.4-9.4-.8-1.2-1.5-2.4-2.1-3.7h-.1l-.9-1.7zM618.7 70.9c1.7-1.2 3.7-2.2 5.5-3l49-21 12.3-5.2 3.1-1.3.4-.2.2-.1h.1c-.2.1 2.1-1.1 1.2-.6l.9-.4 1.7-.7 6.5-2.6c8.6-3.4 17.2-6.5 25.8-9.6 17.3-6 34.8-11.6 52.9-16.1 9.1-2.3 18.3-4.3 27.8-5.9 9.5-1.6 19.3-2.7 29.9-2.7 1.3 0 2.7 0 4 .1h-1v1c-.9 0-1.9 0-3-.1h-.3c-11.4 0-21.7 1.4-29.4 2.7-8.6 1.4-17.6 3.3-27.7 5.9-16.3 4.1-33.6 9.4-52.9 16.1-8.9 3.1-17.3 6.2-25.8 9.5l-6.5 2.6-2.5 1c-.1.1-.3.2-.5.2-.3.2-.5.2-.6.3h-.1l-65 27.8c-1.9.8-3.8 1.9-5.4 2.9-7.4 4.9-12.4 12.4-14.1 21.1-1.3 6.7-.6 13.4 2.1 19.5l-.9.4c-6.5-14.5-1.6-32.3 12.3-41.6zM610.1 117.7c6.2 9.2 15.2 14.1 26.1 14.1 6.4 0 13.1-1.7 20-5 1.2-.6 119.4-55.3 134.9-61.3 8.6-3.3 16.3-5.9 23.6-8.1 8.8-2.6 16.2-4.2 22.8-5 .5-.1 1-.1 1.5-.2v.7h2V52l1.9-.1 3.2-.1h2.3c3.6.1 7.5.4 11.7.9 7.5.9 15.4 2.4 24.2 4.7 14.6 3.7 30.1 8.8 48.8 16.2 26.3 10.4 49.7 21.8 74.6 33.9 5.8 2.8 11.7 5.7 17.7 8.6 1.4.7 5 2.2 8.9 2.2 4.1 0 7.2-1.7 9.3-5.1.3.2.6.3.9.5-5.6 9.1-16.5 4.8-19.5 3.3-32-15.4-59.9-29.7-92.3-42.5-16.2-6.4-32.5-12.1-48.7-16.2-8.1-2-16.2-3.7-24.1-4.6-3.9-.5-7.8-.8-11.6-.9H842.8l-1.5.1c-.1 0 .1 0 0 0H840.7l-.6.1c-.9.1-1.7.2-2.6.3-7.1.9-14.9 2.7-22.6 5-7.8 2.3-15.6 5-23.5 8-15.7 6-134.8 61.3-134.8 61.3-18.5 9-36.9 6.3-47.4-9.4-.8-1.2-1.5-2.4-2.1-3.7l.9-.4c.7 1.3 1.4 2.5 2.1 3.6zM1038.9 95.6l-3.5-2.3c-30-18.9-61.1-38.5-92.2-55.1-18.7-10-34.6-17.3-49.8-23.1-9.7-3.7-18.6-6.5-27.2-8.5-5.1-1.2-9.9-2.1-14.6-2.8-1.3-.2-2.5-.3-3.8-.5l-1.9-.2-4.9-.3v-1l1.2.1 1.8.1 1.1.1 1 .1 1.9.2c1.3.1 2.6.3 3.8.5 5 .7 9.9 1.7 14.7 2.8 9.5 2.3 18.6 5.3 27.3 8.6 17.5 6.6 33.9 14.6 49.9 23.1 31.9 17 64.4 37.6 94.4 56.5l1.4 1c3.1 1.9 10.6 7.7 6.1 17.3-.3-.2-.6-.3-.9-.5 3.8-8.4-2-13.7-5.8-16.1zM841 27.5v-2c46.9 1.2 122.8 42.4 178.5 72.5 8.9 4.8 17.4 9.4 25.2 13.5-.2.4-.3.7-.6 1.1-.1.2-.3.4-.4.7-7.8-4.1-16.3-8.7-25.2-13.5-55.4-30-131.2-71.1-177.5-72.3zM839 25.5v2c-47.4-.1-134.4 40.8-135.3 41.2l-95.6 45.5-.9-1.8 95.5-45.5c1-.4 88.4-41.6 136.3-41.4zM607.1 114.7l-.9-1.8h.1c.3.5.6 1.1.8 1.8zM1045.5 112c.1 0 .2.1.3.1l-.9 1.8c-.1 0-.2-.1-.3-.2.1-.2.3-.4.4-.7l.5-1zM1044 112.7c.2-.4.4-.7.6-1.1.3.2.6.3.9.5-.2.4-.4.7-.6 1.1-.1.2-.3.4-.4.7-.3-.2-.6-.3-.9-.5.2-.3.3-.5.4-.7zM608.1 114.2l-.9.4c-.3-.6-.6-1.2-.8-1.8l.9-.4c.2.6.5 1.2.8 1.8zM841 2.7v22.8h-2V2.7h2zM839.9 27.5h1.1v24.6H840.1c-.4 0-.8.1-1.2.1V27.4c.4.1.7.1 1 .1zM841 1.7h-1 1zM840.4 52.1h.6v.9h-2v-.7c.4 0 .8-.1 1.2-.1l.2-.1zM839.9 2.7h-1v-1h2v1h-1zM839.9 27.5h-.9v-2h2v2h-1.1z" id="Shape" />
+<g fill="#F0D8C5">
+<path d="M841 25.5V2.7l4.9.3 1.9.2c1.3.1 2.5.3 3.8.5 4.7.7 9.5 1.6 14.6 2.8 8.6 2.1 17.5 4.9 27.2 8.5 15.2 5.8 31.1 13.1 49.8 23.1 31.1 16.6 62.2 36.2 92.2 55.1l3.5 2.3c3.9 2.5 9.6 7.7 5.7 16-7.8-4.1-16.3-8.7-25.2-13.5C963.8 67.9 887.8 26.7 841 25.5zM207.5 25.5V2.7l-4.9.3-1.9.2c-1.3.1-2.5.3-3.8.5-4.7.7-9.5 1.6-14.6 2.8-8.6 2.1-17.5 4.9-27.2 8.5-15.2 5.8-31.1 13.1-49.8 23.1-31.1 16.6-62.2 36.2-92.2 55.1l-3.5 2.3c-3.9 2.5-9.6 7.7-5.7 16 7.8-4.1 16.3-8.7 25.2-13.5 55.5-30.1 131.5-71.3 178.4-72.5z" id="1" />
+<path d="M1018.5 99.8c8.9 4.8 17.3 9.4 25.2 13.5-2.1 3.4-5.2 5.1-9.3 5.1-3.9 0-7.5-1.5-8.9-2.2-6-2.9-11.9-5.8-17.7-8.6-24.8-12.1-48.3-23.5-74.6-33.9-18.7-7.4-34.2-12.5-48.8-16.2-8.8-2.2-16.7-3.7-24.2-4.7-4.2-.5-8.1-.8-11.7-.9h-2.3l-3.2.1-1.9.1V27.5c46.2 1.2 122 42.3 177.4 72.3zM30 99.8c-8.9 4.8-17.3 9.4-25.2 13.5 2.1 3.4 5.2 5.1 9.3 5.1 3.9 0 7.5-1.5 8.9-2.2 6-2.9 11.9-5.8 17.7-8.6C65.5 95.5 89 84.1 115.3 73.7c18.7-7.4 34.2-12.5 48.8-16.2 8.8-2.2 16.7-3.7 24.2-4.7 4.2-.5 8.1-.8 11.7-.9h2.3l3.2.1 1.9.1V27.5C161.1 28.7 85.4 69.8 30 99.8z" id="2" />
+<path d="M702.8 66.9l-95.5 45.5c-2.6-6.1-3.4-12.9-2.1-19.5 1.7-8.7 6.7-16.2 14.1-21.1 1.6-1.1 3.5-2.1 5.4-2.9l65-27.8h.1c.1-.1.3-.2.6-.3.2-.1.3-.2.5-.2l2.5-1 6.5-2.6c8.4-3.3 16.9-6.4 25.8-9.5 19.2-6.7 36.5-12 52.9-16.1 10.1-2.5 19.1-4.4 27.7-5.9 7.7-1.3 18-2.7 29.4-2.7h.3c1.1 0 2.1 0 3 .1v22.8c-47.9-.4-135.3 40.8-136.2 41.2zM345.7 66.9l95.5 45.5c2.6-6.1 3.4-12.9 2.1-19.5-1.7-8.7-6.7-16.2-14.1-21.1-1.6-1.1-3.5-2.1-5.4-2.9l-65-27.8h-.1c-.1-.1-.3-.2-.6-.3-.2-.1-.3-.2-.5-.2l-2.5-1-6.5-2.6c-8.4-3.3-16.9-6.4-25.8-9.5-19.2-6.7-36.5-12-52.9-16.1-10.1-2.5-19.1-4.4-27.7-5.9-7.7-1.3-18-2.7-29.4-2.7h-.3c-1.1 0-2.1 0-3 .1v22.8c47.9-.4 135.3 40.8 136.2 41.2z" id="3" />
+<path d="M839 27.5v24.8c-.5 0-1 .1-1.5.2-6.6.8-14 2.4-22.8 5-7.3 2.1-15 4.8-23.6 8.1-15.5 6-133.7 60.8-134.9 61.3-6.9 3.3-13.6 5-20 5-10.9 0-20-4.9-26.1-14.1-.8-1.1-1.4-2.3-2-3.5l95.6-45.5c.8-.5 87.8-41.4 135.3-41.3zM412.2 132.1c-6.5 0-13.2-1.7-20.1-5-1.2-.5-119.2-55.3-134.9-61.3-8.6-3.3-16.3-5.9-23.5-8-8.8-2.6-16.2-4.2-22.7-5-.3 0-.7-.1-1-.1h-.5l-.3-.3V27.6l.3-.3h.2c47.4 0 134.4 40.9 135.2 41.3l95.6 45.5.1.4c-.6 1.3-1.3 2.5-2.1 3.6-6.2 9.1-15.3 14-26.3 14z" id="4" />
+</g>
+<g class="unselected" id="_7" fill="#463A39">
+<path d="M841 25.5V2.7l4.9.3 1.9.2c1.3.1 2.5.3 3.8.5 4.7.7 9.5 1.6 14.6 2.8 8.6 2.1 17.5 4.9 27.2 8.5 15.2 5.8 31.1 13.1 49.8 23.1 31.1 16.6 62.2 36.2 92.2 55.1l3.5 2.3c3.9 2.5 9.6 7.7 5.7 16-7.8-4.1-16.3-8.7-25.2-13.5C963.8 67.9 887.8 26.7 841 25.5z" id="7" />
+</g>
+<g class="unselected" id="_1" fill="#463A39">
+<path d="M207.5 25.5V2.7l-4.9.3-1.9.2c-1.3.1-2.5.3-3.8.5-4.7.7-9.5 1.6-14.6 2.8-8.6 2.1-17.5 4.9-27.2 8.5-15.2 5.8-31.1 13.1-49.8 23.1-31.1 16.6-62.2 36.2-92.2 55.1l-3.5 2.3c-3.9 2.5-9.6 7.7-5.7 16 7.8-4.1 16.3-8.7 25.2-13.5 55.5-30.1 131.5-71.3 178.4-72.5z" id="1" />
+</g>
+<g class="unselected" id="_8" fill="#463A39">
+<path d="M1043.7 113.3c-2.1 3.4-5.2 5.1-9.3 5.1-3.9 0-7.5-1.5-8.9-2.2-6-2.9-11.9-5.8-17.7-8.6-24.8-12.1-48.3-23.5-74.6-33.9-18.7-7.4-34.2-12.5-48.8-16.2-8.8-2.2-16.7-3.7-24.2-4.7-4.2-.5-8.1-.8-11.7-.9h-2.3l-3.2.1-1.9.1V27.5c46.2 1.2 122 42.3 177.4 72.3 8.9 4.8 17.3 9.4 25.2 13.5z" id="8" />
+</g>
+<g class="unselected" id="_2" fill="#463A39">
+<path d="M30 99.8c-8.9 4.8-17.3 9.4-25.2 13.5 2.1 3.4 5.2 5.1 9.3 5.1 3.9 0 7.5-1.5 8.9-2.2 6-2.9 11.9-5.8 17.7-8.6C65.5 95.5 89 84.1 115.3 73.7c18.7-7.4 34.2-12.5 48.8-16.2 8.8-2.2 16.7-3.7 24.2-4.7 4.2-.5 8.1-.8 11.7-.9h2.3l3.2.1 1.9.1V27.5C161.1 28.7 85.4 69.8 30 99.8z" id="2" />
+</g>
+<g class="unselected" id="_5" fill="#463A39">
+<path d="M702.8 66.9l-95.5 45.5c-2.6-6.1-3.4-12.9-2.1-19.5 1.7-8.7 6.7-16.2 14.1-21.1 1.6-1.1 3.5-2.1 5.4-2.9l65-27.8h.1c.1-.1.3-.2.6-.3.2-.1.3-.2.5-.2l2.5-1 6.5-2.6c8.4-3.3 16.9-6.4 25.8-9.5 19.2-6.7 36.5-12 52.9-16.1 10.1-2.5 19.1-4.4 27.7-5.9 7.7-1.3 18-2.7 29.4-2.7h.3c1.1 0 2.1 0 3 .1v22.8c-47.9-.4-135.3 40.8-136.2 41.2z" id="5" />
+</g>
+<g class="unselected" id="_3" fill="#463A39">
+<path d="M344.7 66.9l95.5 45.5c2.6-6.1 3.4-12.9 2.1-19.5-1.7-8.7-6.7-16.2-14.1-21.1-1.6-1.1-3.5-2.1-5.4-2.9l-65-27.8h-.1c-.1-.1-.3-.2-.6-.3-.2-.1-.3-.2-.5-.2l-2.5-1-6.5-2.6c-8.4-3.3-16.9-6.4-25.8-9.5-19.2-6.7-36.5-12-52.9-16.1-10.1-2.5-19.1-4.4-27.7-5.9-7.7-1.3-18-2.7-29.4-2.7h-.3c-1.1 0-2.1 0-3 .1v22.8c47.9-.4 135.3 40.8 136.2 41.2z" id="3" />
+</g>
+<g class="unselected" id="_6" fill="#463A39">
+<path d="M839 27.5v24.8c-.5 0-1 .1-1.5.2-6.6.8-14 2.4-22.8 5-7.3 2.1-15 4.8-23.6 8.1-15.5 6-133.7 60.8-134.9 61.3-6.9 3.3-13.6 5-20 5-10.9 0-20-4.9-26.1-14.1-.8-1.1-1.4-2.3-2-3.5l95.6-45.5c.8-.5 87.8-41.4 135.3-41.3z" id="6" />
+</g>
+<g class="unselected" id="_4" fill="#463A39">
+<path d="M412.2 132.1c-6.5 0-13.2-1.7-20.1-5-1.2-.5-119.2-55.3-134.9-61.3-8.6-3.3-16.3-5.9-23.5-8-8.8-2.6-16.2-4.2-22.7-5-.3 0-.7-.1-1-.1h-.5l-.3-.3V27.6l.3-.3h.2c47.4 0 134.4 40.9 135.2 41.3l95.6 45.5.1.4c-.6 1.3-1.3 2.5-2.1 3.6-6.2 9.1-15.3 14-26.3 14z" id="4" />
+</g>
+<path fill="#fff" d="M132.2 31.1v-1c1-.1 1.6-.2 2-.5.4-.2.7-.7.8-1.5h1v10.4h-1.4v-7.4h-2.4zM133.4 58.9c.3-.7 1-1.3 1.9-1.8l1.4-.8c.6-.4 1.1-.7 1.3-.9.4-.4.6-.9.6-1.4 0-.6-.2-1.1-.5-1.5-.4-.4-.9-.5-1.5-.5-.9 0-1.5.3-1.9 1-.2.4-.3.9-.3 1.5h-1.3c0-.9.2-1.7.5-2.2.6-1 1.6-1.5 3-1.5 1.2 0 2.1.3 2.6 1 .6.7.8 1.4.8 2.2 0 .8-.3 1.6-.9 2.2-.3.3-1 .8-1.8 1.3l-1 .6c-.5.3-.9.5-1.1.8-.5.4-.8.9-.9 1.4h5.7v1.2h-7.2c.1-1.1.3-1.9.6-2.6zM346.3 92.8v-2.6h-4.6V89l4.8-6.7h1.1v6.8h1.5v1.2h-1.5v2.6h-1.3v-.1zm0-3.7v-4.8l-3.4 4.8h3.4zM343.4 54c-.6-.7-.8-1.5-.8-2.5h1.4c.1.7.2 1.2.4 1.5.3.6 1 .8 1.9.8.7 0 1.2-.2 1.7-.6.4-.4.6-.8.6-1.4 0-.7-.2-1.2-.7-1.5-.4-.3-1.1-.4-1.8-.4h-.6v-1.2h.6c.5 0 .9-.1 1.2-.2.6-.3.8-.8.8-1.5 0-.5-.2-.9-.6-1.2-.4-.3-.8-.4-1.3-.4-.9 0-1.5.3-1.8.9-.2.3-.3.8-.3 1.4h-1.3c0-.8.2-1.4.5-2 .5-1 1.5-1.5 2.8-1.5 1.1 0 1.9.2 2.5.7.6.5.9 1.2.9 2.1 0 .6-.2 1.2-.5 1.6-.2.2-.5.4-.8.6.6.2 1 .4 1.3.9.3.4.5 1 .5 1.6 0 1-.3 1.8-1 2.4-.7.6-1.6.9-2.8.9-1.3 0-2.2-.3-2.8-1z" id="Shape" />
+<path d="M698.3 54.6c.1.8.4 1.3 1 1.6.3.1.7.2 1.1.2.8 0 1.4-.2 1.7-.7.4-.5.6-1 .6-1.7s-.2-1.3-.7-1.7c-.4-.4-1-.6-1.6-.6-.5 0-.8.1-1.2.3-.4.2-.6.4-.8.7l-1.1-.1.8-5.6h5.4v1.3h-4.4l-.4 2.9c.2-.2.5-.3.7-.4.4-.2.8-.2 1.4-.2 1 0 1.8.3 2.4.9.7.6 1 1.4 1 2.4s-.3 1.9-.9 2.6c-.6.8-1.6 1.1-2.9 1.1-.9 0-1.6-.2-2.3-.7-.7-.5-1-1.2-1.1-2.2h1.3v-.1zM703.3 83.1c.5.6.7 1.2.7 1.9h-1.3c-.1-.4-.2-.7-.4-1-.3-.4-.8-.7-1.4-.7-.7 0-1.3.3-1.8 1-.4.7-.7 1.7-.7 2.9.3-.4.7-.8 1.1-1 .4-.2.9-.3 1.4-.3.9 0 1.6.3 2.3.8.7.6 1 1.4 1 2.5 0 1-.3 1.8-.9 2.5-.6.7-1.5 1.1-2.7 1.1-1 0-1.8-.4-2.5-1.1-.7-.7-1.1-2-1.1-3.8 0-1.3.2-2.4.5-3.3.6-1.7 1.7-2.6 3.3-2.6 1.2.1 2 .4 2.5 1.1zm-1 8c.3-.5.5-1 .5-1.7 0-.5-.2-1-.5-1.5s-.9-.7-1.7-.7c-.6 0-1.1.2-1.5.6-.4.4-.6.9-.6 1.7 0 .7.2 1.2.6 1.7.4.5.9.7 1.6.7.7-.1 1.3-.4 1.6-.8zM917.3 29v1.2c-.3.3-.8.9-1.3 1.7-.6.8-1.1 1.7-1.5 2.6-.4.9-.7 1.7-1 2.5-.1.5-.3 1.3-.5 2.3h-1.5c.3-2 1.1-4 2.2-6 .7-1.2 1.4-2.2 2.1-3H910V29h7.3zM908 53.3c-.4-.4-.6-.9-.6-1.5 0-.8.3-1.5.8-2 .6-.6 1.4-.8 2.4-.8s1.8.3 2.4.8c.6.5.9 1.1.9 1.9 0 .7-.2 1.2-.5 1.6-.2.2-.5.5-.9.7.4.2.8.4 1 .7.5.5.7 1.1.7 1.9 0 .9-.3 1.7-.9 2.3-.6.6-1.5 1-2.6 1-1 0-1.9-.3-2.6-.8-.7-.6-1.1-1.4-1.1-2.4 0-.6.2-1.2.5-1.6.3-.5.8-.8 1.3-1-.3-.4-.5-.5-.8-.8zm4.3 4.8c.4-.3.6-.8.6-1.5s-.2-1.2-.6-1.5c-.4-.4-.9-.5-1.6-.5-.6 0-1.1.2-1.5.5-.4.4-.6.9-.6 1.5 0 .5.2 1 .5 1.4.4.4.9.6 1.7.6.6 0 1.1-.2 1.5-.5zm-.2-5.2c.3-.3.5-.7.5-1.2 0-.4-.2-.8-.5-1.1-.3-.3-.8-.5-1.4-.5-.6 0-1.1.2-1.4.5-.3.3-.4.7-.4 1.2s.2.9.5 1.2c.4.3.8.4 1.3.4.6 0 1-.2 1.4-.5z" id="Shape" fill="#fff" />
+</g>
+</svg>
+</span>
+<div class="svg-sibling-input-container">
+<label for="area_2_1">
+<span>1</span>
+<input type="checkbox" id="area_2_1" value="1" name="area_2_1" />
+</label>
+<label for="area_2_2">
+<span>2</span>
+<input type="checkbox" id="area_2_2" value="2" name="area_2_2" />
+</label>
+<label for="area_2_3">
+<span>3</span>
+<input type="checkbox" id="area_2_3" value="3" name="area_2_3" />
+</label>
+<label for="area_2_4">
+<span>4</span>
+<input type="checkbox" id="area_2_4" value="4" name="area_2_4" />
+</label>
+<label for="area_2_5">
+<span>5</span>
+<input type="checkbox" id="area_2_5" value="5" name="area_2_5" />
+</label>
+<label for="area_2_6">
+<span>6</span>
+<input type="checkbox" id="area_2_6" value="6" name="area_2_6" />
+</label>
+<label for="area_2_7">
+<span>7</span>
+<input type="checkbox" id="area_2_7" value="7" name="area_2_7" />
+</label>
+<label for="area_2_8">
+<span>8</span>
+<input type="checkbox" id="area_2_8" value="8" name="area_2_8" />
+</label>
+</div>
+</div>
+</fieldset>
+
+</div>
+
+<div class="page-section">
+<h2>3. Choose a graft density <small>Follicular Unit Hair Grafts per square centimeter.</small></h2>
+<p>Move the slider to your desired graft density and click to see your results!</p>
+<fieldset class="grafts">
+<div class="range">
+
+<span>Totally bald</span> <span>Appearance of fullness</span>
+<div class="type-range">
+<span></span>
+<output data-value="0" for="density"></output>
+<input type="range" name="density" min="0" max="40" value="0" />
+</div>
+</div>
+<div class="status">
+<dl>
+<dt>Grafts</dt>
+<input type="hidden" name="graft_count" />
+<dd class="my_grafts">0</dd>
+<dt>Grafts approximate</dt>
+<input type="hidden" name="graft_count"/>
+<dd class="my_grafts">0</dd>
+</dl>
+<dl>
+<dt>Hairs</dt>
+<dd>0</dd>
+</dl>
+</div>
+</fieldset>
+
+</div>
+
+<label for="results-toggle">
+<!--a class="vcex-button theme-button large inline"><span class="theme-button-inner">View my results</span></a-->
+<a onClick="window.location.reload();" class="vcex-button theme-button outline align-right inline"><span class="theme-button-inner">
+<span class="vcex-icon-wrap theme-button-icon-left"><span class="ticon ticon-undo" aria-hidden="true"></span></span>Start again</span></a>
+</label>
+<input type="checkbox" id="results-toggle" />
+<div class="results">
+<!--h3>Your Results</h3>
+<div class="results_0">
+<div class="age_18-25">
+<p>
+Hair retention with possible use of hair loss medications and a personal consultation advised to prevent hair loss as much as possible and help improve your hair quality. Hair transplantation not advised at this stage but lost volume or thinning can be helped with SMP or ATP treatment
+</p>
+</div>
+<div class="age_26-46">
+<p>
+Hair transplantation is the primary solution to restore lost hair and ideally used in conjunction with hair retention medication which would require a consultation to establish suitability. SMP / ATP treatment can assist in increasing the appearance of density and a fuller head of hair as a non-surgical option
+</p>
+</div>
+<div class="age_47-100">
+<p>
+Hair transplantation is the superior solution to restore lost hair and ideally used in conjunction with hair retention medication which would require a consultation to establish suitability. SMP / ATP treatment can assist in increasing the appearance of density and a fuller head of hair as a non-surgical option
+</p>
+</div>
+<div class="ethnicity_white">
+<p>
+The consultation will help identify the characteristics of your donor hair by our medical team, which is important to establish treatment objectives and create a surgical plan.
+</p>
+</div>
+<div class="ethnicity_mixed">
+<p>
+The consultation will help identify the characteristics of your donor hair by our medical team, which is important to establish treatment objectives and create a surgical plan. If you have wavy or curly hair we would like to examine the donor area in detail.
+</p>
+</div>
+<div class="ethnicity_asian">
+<p>
+The consultation will help identify the characteristics of your donor hair by our medical team, which is important to establish treatment objectives and create a surgical plan.
+</p>
+</div>
+<div class="ethnicity_black">
+<p>
+The consultation will help identify the characteristics of your donor hair by our medical team, which is important to establish treatment objectives and create a surgical plan. If you have wavy or curly hair we would like to examine the donor area in detail.
+</p>
+</div>
+<div class="ethnicity_other">
+<p>
+The consultation will help identify the characteristics of your donor hair by our medical team, which is important to establish treatment objectives and create a surgical plan. If you have wavy or curly hair we would like to examine the donor area in detail.
+</p>
+</div>
+</div>
+<div class="results_1">
+<div class="age_18-25">
+<p>
+Hair retention with possible use of hair loss medications and a personal consultation advised to prevent hair loss as much as possible and help improve your hair quality. Hair transplantation may be advised at this stage for lost volume or thinning. The non-surgical options like SMP and ATP can help assist in increasing the appearance of density and volume.
+</p>
+<p>
+We may require a blood test to examine your health history to help identify the factors in your hair loss.
+</p>
+</div>
+<div class="age_26-46">
+<p>
+Hair transplantation is the primary option to restore lost hair and ideally used in conjunction with hair retention medication which would require a consultation to establish suitability. SMP / ATP treatment can assist in increasing the appearance of density and a fuller head of hair as a non-surgical option.
+</p>
+<p>
+We may require a blood test to examine your health history to help identify the factors in your hair loss.
+</p>
+</div>
+<div class="age_47-100">
+<p>
+Hair transplantation is the superior solution to restore lost hair and ideally used in conjunction with hair retention medication which would require a consultation to establish suitability. SMP / ATP treatment can assist in increasing the appearance of density and a fuller head of hair as a non-surgical option.
+</p>
+<p>
+We may require a blood test to examine your health history to help identify the factors in your hair loss.
+</p>
+</div>
+<div class="ethnicity_white">
+<p>
+The consultation will help identify the characteristics of your donor hair by our medical team, which is important to establish treatment objectives and create a surgical plan.
+</p>
+</div>
+<div class="ethnicity_mixed">
+<p>
+The consultation will help identify the characteristics of your donor hair by our medical team, which is important to establish treatment objectives and create a surgical plan. If you have wavy or curly hair we would like to examine the donor area in detail.
+</p>
+</div>
+<div class="ethnicity_asian">
+<p>
+The consultation will help identify the characteristics of your donor hair by our medical team, which is important to establish treatment objectives and create a surgical plan.
+</p>
+</div>
+<div class="ethnicity_black">
+<p>
+The consultation will help identify the characteristics of your donor hair by our medical team, which is important to establish treatment objectives and create a surgical plan. If you have wavy or curly hair we would like to examine the donor area in detail.
+</p>
+</div>
+<div class="ethnicity_other">
+<p>
+The consultation will help identify the characteristics of your donor hair by our medical team, which is important to establish treatment objectives and create a surgical plan. If you have wavy or curly hair we would like to examine the donor area in detail.
+</p>
+</div>
+</div>
+<div class="results_2">
+<div class="age_18-25">
+<p>
+Eyebrow transplantation may be advised at this stage for lost volume or thinning. The non-surgical options like SMP and ATP can help assist in increasing the appearance of density and volume.
+</p>
+<p>
+We may require a blood test to examine your health history to help identify the factors in your eyebrow hair loss.
+</p>
+</div>
+<div class="age_26-46">
+<p>
+Eyebrow transplantation may be advised at this stage for lost volume or thinning. The non-surgical options like SMP and ATP can help assist in increasing the appearance of density and volume.
+</p>
+<p>
+We may require a blood test to examine your health history to help identify the factors in your eyebrow hair loss.
+</p>
+</div>
+<div class="age_47-100">
+<p>
+Eyebrow transplantation may be advised at this stage for lost volume or thinning. The non-surgical options like SMP and ATP can help assist in increasing the appearance of density and volume.
+</p>
+<p>
+We may require a blood test to examine your health history to help identify the factors in your eyebrow hair loss.
+</p>
+</div>
+<div class="ethnicity_white">
+<p>
+The consultation will help identify the characteristics of your donor hair by our medical team, which is important to establish treatment objectives and create a surgical plan.
+</p>
+</div>
+<div class="ethnicity_mixed">
+<p>
+The consultation will help identify the characteristics of your donor hair by our medical team, which is important to establish treatment objectives and create a surgical plan. If you have wavy or curly hair we would like to examine the donor area in detail.
+</p>
+</div>
+<div class="ethnicity_asian">
+<p>
+The consultation will help identify the characteristics of your donor hair by our medical team, which is important to establish treatment objectives and create a surgical plan.
+</p>
+</div>
+<div class="ethnicity_black">
+<p>
+The consultation will help identify the characteristics of your donor hair by our medical team, which is important to establish treatment objectives and create a surgical plan. If you have wavy or curly hair we would like to examine the donor area in detail.
+</p>
+</div>
+<div class="ethnicity_other">
+<p>
+The consultation will help identify the characteristics of your donor hair by our medical team, which is important to establish treatment objectives and create a surgical plan. If you have wavy or curly hair we would like to examine the donor area in detail.
+</p>
+</div>
+</div>
+<h3>Consultation advised</h3>
+<p>
+The consultation will help identify characteristics of your donor hair by our medical team, which is important to establish treatment objectives and create a surgical plan.
+</p>
+<button type="button" style="background-color:#44DA79; border-radius: 0;" class="show_request_form">Cost estimate</button>
+<div class="request_consultation">
+<div class="form_result">
+<h3>Your Cost Estimate</h3>
+<p>Please enter your email address and we will email you your cost estimate immediately</p>
+<div class="wpforms-container wpforms-container-full" id="wpforms-8383"><form id="wpforms-form-8383" class="wpforms-validate wpforms-form" data-formid="8383" method="post" enctype="multipart/form-data" action="/hair-loss-graft-calculator" data-token="9df2f4daa2401d7cd9fc6f691fd553c4"><noscript class="wpforms-error-noscript">Please enable JavaScript in your browser to complete this form.</noscript><div class="wpforms-field-container"><div id="wpforms-8383-field_1-container" class="wpforms-field wpforms-field-name" data-field-id="1"><label class="wpforms-field-label wpforms-label-hide" for="wpforms-8383-field_1">Your Name <span class="wpforms-required-label">*</span></label><div class="wpforms-field-row wpforms-field-large"><div class="wpforms-field-row-block wpforms-first wpforms-one-half"><input type="text" id="wpforms-8383-field_1" class="wpforms-field-name-first wpforms-field-required" name="wpforms[fields][1][first]" placeholder="First" required><label for="wpforms-8383-field_1" class="wpforms-field-sublabel after wpforms-sublabel-hide">First</label></div><div class="wpforms-field-row-block wpforms-one-half"><input type="text" id="wpforms-8383-field_1-last" class="wpforms-field-name-last wpforms-field-required" name="wpforms[fields][1][last]" placeholder="Last" required><label for="wpforms-8383-field_1-last" class="wpforms-field-sublabel after wpforms-sublabel-hide">Last</label></div></div></div><div id="wpforms-8383-field_2-container" class="wpforms-field wpforms-field-email" data-field-id="2"><label class="wpforms-field-label wpforms-label-hide" for="wpforms-8383-field_2">Your Email <span class="wpforms-required-label">*</span></label><input type="email" id="wpforms-8383-field_2" class="wpforms-field-large wpforms-field-required" name="wpforms[fields][2]" placeholder="Email address" required></div><div id="wpforms-8383-field_5-container" class="wpforms-field wpforms-field-phone" data-field-id="5"><label class="wpforms-field-label wpforms-label-hide" for="wpforms-8383-field_5">Phone</label><input type="tel" id="wpforms-8383-field_5" class="wpforms-field-large wpforms-smart-phone-field" data-rule-smart-phone-field="true" name="wpforms[fields][5]" placeholder="Phone Number"></div><div id="wpforms-8383-field_6-container" class="wpforms-field wpforms-field-hidden mc_grafts" data-field-id="6"><input type="hidden" id="wpforms-8383-field_6" name="wpforms[fields][6]"></div><div id="wpforms-8383-field_8-container" class="wpforms-field wpforms-field-html" data-field-id="8"><div id="wpforms-8383-field_8"><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>jQuery(".graft_count").on("change", function() {
+jQuery(".mc_grafts input").val(this.value);
+});
+</script></div></div><div id="wpforms-8383-field_9-container" class="wpforms-field wpforms-field-checkbox" data-field-id="9"><label class="wpforms-field-label" for="wpforms-8383-field_9">Marketing Consent</label><ul id="wpforms-8383-field_9"><li class="choice-1 depth-1 wpforms-selected"><input type="checkbox" id="wpforms-8383-field_9_1" name="wpforms[fields][9][]" value="I agree to The Harley Street Hair Clinic keeping me informed with personalised offers and news. I understand that I can withdraw my consent at any time." checked='checked'><label class="wpforms-field-label-inline" for="wpforms-8383-field_9_1">I agree to The Harley Street Hair Clinic keeping me informed with personalised offers and news. I understand that I can withdraw my consent at any time.</label></li></ul></div></div><div class="wpforms-field wpforms-field-hp"><label for="wpforms-8383-field-hp" class="wpforms-field-label">Message</label><input type="text" name="wpforms[hp]" id="wpforms-8383-field-hp" class="wpforms-field-medium"></div><input type="hidden" name="wpforms[recaptcha]" value=""><div class="wpforms-submit-container"><input type="hidden" name="wpforms[id]" value="8383"><input type="hidden" name="wpforms[author]" value="1"><input type="hidden" name="wpforms[post_id]" value="367"><button type="submit" name="wpforms[submit]" id="wpforms-submit-8383" class="wpforms-submit" data-alt-text="Loading...." data-submit-text="Receive estimate" aria-live="assertive" value="wpforms-submit">Receive estimate</button></div></form></div>  </div>
+</div>
+<div id="hscs-preview-widget">
+<h3>Hair loss similar to yours</h3>
+<p style="display: none;" class="hshc-no-previews-found">We couldn't find any images at this time.</p>
+<div id="hairloss-preview" class="hshc-previews"></div>
+</div>
+</div>
+
+</div>
+</main></div><h2 class="vcex-heading vcex-module wpex-text-2xl wpex-font-normal wpex-m-auto wpex-max-w-100 vcex-heading-bottom-border wpex-block wpex-text-center hidden vc_custom_1617970467954 wpex-border-b wpex-border-solid wpex-border-main" style="font-size:24px;"><span class="vcex-heading-inner wpex-inline-block wpex-clr">Your hair transplant recomendations</span></h2></div></div></div></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+<div class="wpb_text_column wpb_content_element ">
+<div class="wpb_wrapper">
+</div>
+</div>
+<h2 class="vcex-heading vcex-module wpex-text-2xl wpex-font-normal wpex-m-auto wpex-max-w-100 vcex-heading-bottom-border wpex-block vc_custom_1609349439690 wpex-border-b wpex-border-solid wpex-border-main" style="font-size:24px;"><span class="vcex-heading-inner wpex-inline-block wpex-clr">How Much Does A Hair Transplant Cost Per Graft cost?</span></h2-->
+<div class="wpb_text_column wpb_content_element ">
+<div class="wpb_wrapper">
+</div>
+</div>
+<h2 class="vcex-heading vcex-module wpex-text-2xl wpex-font-normal wpex-m-auto wpex-max-w-100 vcex-heading-bottom-border wpex-block wpex-text-center hidden vc_custom_1618845194912 wpex-border-b wpex-border-solid wpex-border-main" style="font-size:24px;"><span class="vcex-heading-inner wpex-inline-block wpex-clr">Your hair transplant recomendations</span></h2></div></div></div></div>
+</div>
+<!--div class="wpex-social-share style-flat position-horizontal wpex-mx-auto wpex-mb-40" data-target="_blank" data-source="https%3A%2F%2Fwww.hshairclinic.co.uk%2F" data-url="https%3A%2F%2Fwww.hshairclinic.co.uk%2Fhair-loss-graft-calculator" data-title="Graft Calculator" data-twitter-handle="hshairclinic" data-summary="When%20using%20our%20graft%20calculator%2C%20you%20simply%20tell%20us%20a%20little%20about%20yourself.%20The%20tool%20is%20then%20able%20to%20predict%20the%20status%20or%20stage%20of%20your%20hair%20loss%20and%20what" data-email-subject="I wanted you to see this link" data-email-body="I wanted you to see this link https%3A%2F%2Fwww.hshairclinic.co.uk%2Fhair-loss-graft-calculator">
+<div class="theme-heading border-bottom social-share-title"><span class="text">Share this</span></div>
+<ul class="wpex-social-share__list wpex-flex wpex-flex-wrap">
+<li class="wpex-social-share__item">
+<a href="#" role="button" class="wpex-social-share__link wpex-twitter wpex-social-bg">
+<span class="wpex-social-share__icon"><span class="ticon ticon-twitter" aria-hidden="true"></span></span>
+<span class="wpex-social-share__label wpex-label">Twitter</span>
+</a>
+</li>
+<li class="wpex-social-share__item">
+<a href="#" role="button" class="wpex-social-share__link wpex-facebook wpex-social-bg">
+<span class="wpex-social-share__icon"><span class="ticon ticon-facebook" aria-hidden="true"></span></span>
+<span class="wpex-social-share__label wpex-label">Facebook</span>
+</a>
+</li>
+<li class="wpex-social-share__item">
+<a href="#" role="button" class="wpex-social-share__link wpex-linkedin wpex-social-bg">
+<span class="wpex-social-share__icon"><span class="ticon ticon-linkedin" aria-hidden="true"></span></span>
+<span class="wpex-social-share__label wpex-label">LinkedIn</span>
+</a>
+</li>
+<li class="wpex-social-share__item">
+<a href="#" role="button" class="wpex-social-share__link wpex-email wpex-social-bg">
+<span class="wpex-social-share__icon"><span class="ticon ticon-envelope" aria-hidden="true"></span></span>
+<span class="wpex-social-share__label wpex-label">Email</span>
+</a>
+</li>
+</ul>
+</div>
+</article>
+</div>
+</div>
+</div-->
+</main>
+<!--footer id="footer" class="site-footer wpex-surface-dark" itemscope="itemscope" itemtype="https://schema.org/WPFooter">
+<div id="footer-inner" class="site-footer-inner container wpex-pt-40 wpex-clr">
+<div id="footer-widgets" class="wpex-row wpex-clr gap-40">
+<div class="footer-box span_1_of_4 col col-1"><div id="media_image-3" class="footer-widget widget wpex-pb-40 wpex-clr widget_media_image"><img width="300" height="300" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20300'%3E%3C/svg%3E" class="image wp-image-8492  attachment-medium size-medium" alt="" decoding="async" style="max-width: 100%; height: auto;" data-lazy-src="https://www.hshairclinic.co.uk/wp-content/uploads/2021/05/logo-white.svg" /><noscript><img width="300" height="300" src="https://www.hshairclinic.co.uk/wp-content/uploads/2021/05/logo-white.svg" class="image wp-image-8492  attachment-medium size-medium" alt="" decoding="async" style="max-width: 100%; height: auto;" /></noscript></div><div id="wpex_fontawesome_social_widget-3" class="footer-widget widget wpex-pb-40 wpex-clr widget_wpex_fontawesome_social_widget"><style>#wpex_fontawesome_social_widget-3 .wpex-social-btn{font-size:22px;}</style><div class="wpex-fa-social-widget textcenter"><ul class="wpex-list-none wpex-m-0 wpex-last-mr-0 wpex-text-md wpex-flex wpex-flex-wrap"><li class="wpex-inline-block wpex-mb-5 wpex-mr-5 wpex-flex-grow"><a href="https://www.facebook.com/harleystreethairclinic/" title="Facebook" class="wpex-facebook wpex-social-btn wpex-social-btn-no-style wpex-w-100" rel="nofollow noopener noreferrer" target="_blank"><span class="ticon ticon-facebook" aria-hidden="true"></span><span class="screen-reader-text">Facebook</span></a></li><li class="wpex-inline-block wpex-mb-5 wpex-mr-5 wpex-flex-grow"><a href="https://twitter.com/hshairclinic/" title="Twitter" class="wpex-twitter wpex-social-btn wpex-social-btn-no-style wpex-w-100" rel="nofollow noopener noreferrer" target="_blank"><span class="ticon ticon-twitter" aria-hidden="true"></span><span class="screen-reader-text">Twitter</span></a></li><li class="wpex-inline-block wpex-mb-5 wpex-mr-5 wpex-flex-grow"><a href="https://www.instagram.com/hshairclinic/" title="Instagram" class="wpex-instagram wpex-social-btn wpex-social-btn-no-style wpex-w-100" rel="nofollow noopener noreferrer" target="_blank"><span class="ticon ticon-instagram" aria-hidden="true"></span><span class="screen-reader-text">Instagram</span></a></li><li class="wpex-inline-block wpex-mb-5 wpex-mr-5 wpex-flex-grow"><a href="https://www.pinterest.co.uk/HShairclinic/" title="Pinterest" class="wpex-pinterest wpex-social-btn wpex-social-btn-no-style wpex-w-100" rel="nofollow noopener noreferrer" target="_blank"><span class="ticon ticon-pinterest" aria-hidden="true"></span><span class="screen-reader-text">Pinterest</span></a></li></ul></div></div><div id="custom_html-10" class="widget_text footer-widget widget wpex-pb-40 wpex-clr widget_custom_html"><div class="textwidget custom-html-widget"><div class="theme-button-wrap textcenter wpex-clr"><a href="#booking" class="vcex-button theme-button medium align-center inline wpex-lightbox" rel="nofollow"><span class="theme-button-inner">Book a consultation</span></a></div> </div></div></div>
+<div class="footer-box span_1_of_4 col col-2"><div id="nav_menu-4" class="wpex-bordered-list footer-widget widget wpex-pb-40 wpex-clr widget_nav_menu"><div class="menu-footer-1-container"><ul id="menu-footer-1" class="menu"><li id="menu-item-223" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-223"><a href="https://www.hshairclinic.co.uk/hair-loss-treatment">Hair Loss Treatment</a></li>
+<li id="menu-item-8077" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8077"><a href="https://www.hshairclinic.co.uk/patients-gallery">Patients Gallery</a></li>
+<li id="menu-item-224" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-224"><a href="https://www.hshairclinic.co.uk/about-us">About Us</a></li>
+<li id="menu-item-8078" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8078"><a href="https://www.hshairclinic.co.uk/hair-loss">Hair Loss</a></li>
+<li id="menu-item-8079" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8079"><a href="https://www.hshairclinic.co.uk/about-us">About Harley Street Hair Clinic</a></li>
+<li id="menu-item-8080" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-367 current_page_item menu-item-8080"><a href="https://www.hshairclinic.co.uk/hair-loss-graft-calculator" aria-current="page">Graft Calculator</a></li>
+<li id="menu-item-8082" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8082"><a href="https://www.hshairclinic.co.uk/news">Latest News</a></li>
+</ul></div></div></div>
+<div class="footer-box span_1_of_4 col col-3"><div id="nav_menu-3" class="wpex-bordered-list footer-widget widget wpex-pb-40 wpex-clr widget_nav_menu"><div class="menu-footer-2-container"><ul id="menu-footer-2" class="menu"><li id="menu-item-6627" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6627"><a href="https://www.hshairclinic.co.uk/contact-us">Contact Us</a></li>
+<li id="menu-item-8083" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8083"><a href="https://www.hshairclinic.co.uk/faq">FAQs</a></li>
+<li id="menu-item-6626" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6626"><a href="https://www.hshairclinic.co.uk/care-quality-commission">Care Quality Commission</a></li>
+<li id="menu-item-227" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-227"><a href="https://www.hshairclinic.co.uk/privacy-policy">Privacy Policy</a></li>
+<li id="menu-item-6623" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6623"><a href="https://www.hshairclinic.co.uk/cookie-policy">Cookie Policy</a></li>
+<li id="menu-item-6624" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6624"><a href="https://www.hshairclinic.co.uk/duty-of-candour">Duty of Candour</a></li>
+<li id="menu-item-6625" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6625"><a href="https://www.hshairclinic.co.uk/sitemap">Sitemap</a></li>
+</ul></div></div></div>
+<div class="footer-box span_1_of_4 col col-4"><div id="wpex_info_widget-3" class="footer-widget widget wpex-pb-40 wpex-clr widget_wpex_info_widget"><div class="widget-title wpex-heading wpex-text-md wpex-mb-20">Harley Street Hair Clinic</div><ul class="wpex-info-widget wpex-last-mb-0"><li class="wpex-info-widget-address wpex-flex wpex-mb-10"><div class="wpex-info-widget-icon wpex-mr-15"><span class="ticon ticon-map-marker" aria-hidden="true"></span></div><div class="wpex-info-widget-data wpex-flex-grow wpex-last-mb-0"><p>75 Wimpole Street<br />
+London<br />
+W1G 9RS</p>
+</div></li><li class="wpex-info-widget-phone wpex-flex wpex-mb-10"><div class="wpex-info-widget-icon wpex-mr-15"><span class="ticon ticon-phone" aria-hidden="true"></span></div><div class="wpex-info-widget-data wpex-flex-grow"><a class="wpex-no-underline" href="tel:+44 (0)207 177 2345">+44 (0)207 177 2345</a></div></li><li class="wpex-info-widget-email wpex-flex wpex-mb-10"><div class="wpex-info-widget-icon wpex-mr-15"><span class="ticon ticon-envelope" aria-hidden="true"></span></div><div class="wpex-info-widget-data wpex-flex-grow"><a href="/cdn-cgi/l/email-protection#eccacfd5d5d783cacfdddddcd79f9980988dcacfdddddad7cacfdddcd9d7cacfddddddd7cacfdddddcd7cacfddddd9d7cacfdad8d7cacfdddcd8d7cacfddddd9d7cacfdddcd8d7cacfd5dbd7cacfdddcd9d79ecacfd5d5d780cacfdddcd9d782cacfdddcd9d7cacfd5d5d7cacfd8dad78fcacfddddddd7cacfd8dad79987" class="wpex-inherit-color wpex-no-underline">&#99;o&#110;sulta&#116;&#105;&#111;&#110;&#115;&#64;&#104;&#115;&#104;&#97;&#105;r&#99;l&#105;n&#105;&#99;&#46;c&#111;&#46;uk</a></div></li></ul></div><div id="custom_html-8" class="widget_text footer-widget widget wpex-pb-40 wpex-clr widget_custom_html"><div class="textwidget custom-html-widget"><div id="booking" style="display:none;"><div class="wpforms-container wpforms-container-full" id="wpforms-6969"><form id="wpforms-form-6969" class="wpforms-validate wpforms-form wpforms-ajax-form" data-formid="6969" method="post" enctype="multipart/form-data" action="/hair-loss-graft-calculator?wpforms_form_id=6969" data-token="70f29a68e2c6cb0713ab40f1e8adbf48"><div class="wpforms-head-container"><div class="wpforms-title">Online Consultation</div></div><noscript class="wpforms-error-noscript">Please enable JavaScript in your browser to complete this form.</noscript><div class="wpforms-field-container"><div id="wpforms-6969-field_1-container" class="wpforms-field wpforms-field-name" data-field-id="1"><label class="wpforms-field-label" for="wpforms-6969-field_1">Name <span class="wpforms-required-label">*</span></label><div class="wpforms-field-row wpforms-field-large"><div class="wpforms-field-row-block wpforms-first wpforms-one-half"><input type="text" id="wpforms-6969-field_1" class="wpforms-field-name-first wpforms-field-required" name="wpforms[fields][1][first]" placeholder="First" required><label for="wpforms-6969-field_1" class="wpforms-field-sublabel after wpforms-sublabel-hide">First</label></div><div class="wpforms-field-row-block wpforms-one-half"><input type="text" id="wpforms-6969-field_1-last" class="wpforms-field-name-last wpforms-field-required" name="wpforms[fields][1][last]" placeholder="Last" required><label for="wpforms-6969-field_1-last" class="wpforms-field-sublabel after wpforms-sublabel-hide">Last</label></div></div></div><div id="wpforms-6969-field_2-container" class="wpforms-field wpforms-field-email" data-field-id="2"><label class="wpforms-field-label" for="wpforms-6969-field_2">Email <span class="wpforms-required-label">*</span></label><input type="email" id="wpforms-6969-field_2" class="wpforms-field-large wpforms-field-required" name="wpforms[fields][2]" placeholder="Email Address" required></div><div id="wpforms-6969-field_3-container" class="wpforms-field wpforms-field-phone" data-field-id="3"><label class="wpforms-field-label" for="wpforms-6969-field_3">Phone</label><input type="tel" id="wpforms-6969-field_3" class="wpforms-field-large" data-rule-int-phone-field="true" name="wpforms[fields][3]" placeholder="Phone Number"></div><div id="wpforms-6969-field_4-container" class="wpforms-field wpforms-field-radio" data-field-id="4"><label class="wpforms-field-label" for="wpforms-6969-field_4">Type Of Consultation <span class="wpforms-required-label">*</span></label><ul id="wpforms-6969-field_4" class="wpforms-field-required"><li class="choice-1 depth-1 wpforms-selected"><input type="radio" id="wpforms-6969-field_4_1" name="wpforms[fields][4]" value="Video Consultation " required checked='checked'><label class="wpforms-field-label-inline" for="wpforms-6969-field_4_1">Video Consultation </label></li><li class="choice-2 depth-1"><input type="radio" id="wpforms-6969-field_4_2" name="wpforms[fields][4]" value="Clinic Visit " required><label class="wpforms-field-label-inline" for="wpforms-6969-field_4_2">Clinic Visit </label></li></ul></div><div id="wpforms-6969-field_6-container" class="wpforms-field wpforms-field-textarea" data-field-id="6"><label class="wpforms-field-label" for="wpforms-6969-field_6">Comments <span class="wpforms-required-label">*</span></label><textarea id="wpforms-6969-field_6" class="wpforms-field-small wpforms-field-required" name="wpforms[fields][6]" placeholder="Please inform us if you are currently taking any hair loss medications or have had any other hair loss treatments." required></textarea></div><div id="wpforms-6969-field_5-container" class="wpforms-field wpforms-field-file-upload" data-field-id="5"><label class="wpforms-field-label" for="wpforms-6969-field_5">Upload Images</label><div class="wpforms-uploader" data-field-id="5" data-form-id="6969" data-input-name="wpforms_6969_5" data-extensions="jpg,jpeg,png" data-max-size="3145728" data-max-file-number="5" data-post-max-size="536870912" data-max-parallel-uploads="4" data-parallel-uploads="true" data-file-chunk-size="2097152">
+<div class="dz-message">
+<svg viewBox="0 0 1024 1024" focusable="false" data-icon="inbox" width="50px" height="50px" fill="#b1b1b1" aria-hidden="true">
+<path d="M885.2 446.3l-.2-.8-112.2-285.1c-5-16.1-19.9-27.2-36.8-27.2H281.2c-17 0-32.1 11.3-36.9 27.6L139.4 443l-.3.7-.2.8c-1.3 4.9-1.7 9.9-1 14.8-.1 1.6-.2 3.2-.2 4.8V830a60.9 60.9 0 0 0 60.8 60.8h627.2c33.5 0 60.8-27.3 60.9-60.8V464.1c0-1.3 0-2.6-.1-3.7.4-4.9 0-9.6-1.3-14.1zm-295.8-43l-.3 15.7c-.8 44.9-31.8 75.1-77.1 75.1-22.1 0-41.1-7.1-54.8-20.6S436 441.2 435.6 419l-.3-15.7H229.5L309 210h399.2l81.7 193.3H589.4zm-375 76.8h157.3c24.3 57.1 76 90.8 140.4 90.8 33.7 0 65-9.4 90.3-27.2 22.2-15.6 39.5-37.4 50.7-63.6h156.5V814H214.4V480.1z"></path>
+</svg>
+<span class="modern-title">Click or drag files to this area to upload.</span>
+<span class="modern-hint">You can upload up to 5 files.</span>
+</div>
+</div>
+<input type="text" autocomplete="off" class="dropzone-input" style="position:absolute!important;clip:rect(0,0,0,0)!important;height:1px!important;width:1px!important;border:0!important;overflow:hidden!important;padding:0!important;margin:0!important;" id="wpforms-6969-field_5" name="wpforms_6969_5" value="">
+<div class="wpforms-field-description">Use this space to upload any images of your required treatment locations.</div></div><div id="wpforms-6969-field_7-container" class="wpforms-field wpforms-field-html" data-field-id="7"><div id="wpforms-6969-field_7"><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type='text/javascript'>
+jQuery(document).ready(function($){
+    var $myDiv = $('#wpforms-confirmation-6969');
+    if ( $myDiv.length){
+        gtag('event', 'contact', { 'event_category' : 'Form Completion', 'event_action' : 'Submitted', 'event_label' : 'Book a Consultation Form'})
+fbq('track', 'SubmitApplication');
+    }
+});
+</script></div></div></div><div class="wpforms-field wpforms-field-hp"><label for="wpforms-6969-field-hp" class="wpforms-field-label">Website</label><input type="text" name="wpforms[hp]" id="wpforms-6969-field-hp" class="wpforms-field-medium"></div><input type="hidden" name="wpforms[recaptcha]" value=""><div class="wpforms-submit-container"><input type="hidden" name="wpforms[id]" value="6969"><input type="hidden" name="wpforms[author]" value="1"><input type="hidden" name="wpforms[post_id]" value="367"><button type="submit" name="wpforms[submit]" id="wpforms-submit-6969" class="wpforms-submit" data-alt-text="Sending…" data-submit-text="Submit Request" aria-live="assertive" value="wpforms-submit">Submit Request</button><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2026%2026'%3E%3C/svg%3E" class="wpforms-submit-spinner" style="display: none;" width="26" height="26" alt="Loading" data-lazy-src="https://www.hshairclinic.co.uk/wp-content/plugins/wpforms/assets/images/submit-spin.svg"><noscript><img src="https://www.hshairclinic.co.uk/wp-content/plugins/wpforms/assets/images/submit-spin.svg" class="wpforms-submit-spinner" style="display: none;" width="26" height="26" alt="Loading"></noscript></div></form></div> </div></div></div></div>
+</div><noscript><style>body .vc_toggle_content {display:block !important}</style></noscript></div>
+</footer-->
+<div id="footer-bottom" class="wpex-py-20 wpex-text-sm wpex-surface-dark wpex-bg-gray-900 wpex-text-center wpex-md-text-left">
+<div id="footer-bottom-inner" class="container"><div class="footer-bottom-flex wpex-md-flex wpex-md-justify-between wpex-md-items-center">
+<!--div id="copyright" class="wpex-last-mb-0"><strong>FCA Authorised</strong>
+<p class="wpex-text-xs">The Harley Street Hair Clinic is authorised and regulated by the Financial Conduct Authority, register number 619087 and act as a credit broker and not a lender. Finance is provided through the Deko platform by Omni Capital Retail Finance Limited. Omni Capital Retail Finance Limited is authorised and regulated by the Financial Conduct Authority (register number 720279). <a href="https://www.hshairclinic.co.uk/finance-policy">Finance Terms &amp; Conditions</a></p>
+<hr />
+<p class="wpex-text-xs">© 2023 The Harley Street Hair Clinic Limited. All rights reserved.</p></div></div></div>
+</div-->
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-1924614-1"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-1924614-1');
+gtag('config', 'AW-1066547965');
+</script>
+<script> gtag('config', 'AW-1066547965/P6eMCJqeiNYBEP31yPwD', { 'phone_conversion_number': '0207 177 2345' }); </script>
+</div>
+</div>
+<a href="#outer-wrap" id="site-scroll-top" class="wpex-flex wpex-items-center wpex-justify-center wpex-fixed wpex-rounded-full wpex-text-center wpex-box-content wpex-transition-all wpex-duration-200 wpex-bottom-0 wpex-right-0 wpex-mr-25 wpex-mb-25 wpex-no-underline wpex-surface-2 wpex-text-4 wpex-hover-bg-accent wpex-invisible wpex-opacity-0" data-scroll-speed="1000" data-scroll-offset="100"><span class="ticon ticon-chevron-up" aria-hidden="true"></span><span class="screen-reader-text">Back To Top</span></a>
+<nav class="mobile-toggle-nav wpex-mobile-menu mobile-toggle-nav--animate wpex-surface-1 wpex-hidden wpex-text-2 wpex-togglep-absolute wpex-z-9999 wpex-absolute wpex-top-100 wpex-left-0 wpex-w-100 wpex-overflow-y-auto" aria-expanded="false" aria-label="Mobile menu" data-wpex-append-to="#site-header">
+<div class="mobile-toggle-nav-inner container">
+<ul class="mobile-toggle-nav-ul wpex-h-auto wpex-leading-inherit wpex-list-none wpex-my-0 wpex-mx-auto"></ul>
+</div>
+</nav>
+
+<script type='text/javascript'>
+        document.addEventListener( 'wpcf7mailsent', function( event ) {
+        if( "fb_pxl_code" in event.detail.apiResponse){
+          eval(event.detail.apiResponse.fb_pxl_code);
+        }
+      }, false );
+    </script>
+
+<div id='fb-pxl-ajax-code'></div><script type="text/html" id="wpb-modifications"></script><div id="qlwapp" data-autoloadelay="10000" class="qlwapp-premium auto-load qlwapp-bubble qlwapp-bottom-left qlwapp-all qlwapp-rounded qlwapp- ">
+<!--div class="qlwapp-container">
+<div class="qlwapp-box">
+<div class="qlwapp-header">
+<div class="qlwapp-carousel">
+<div class="qlwapp-slide">
+<i class="qlwapp-close" data-action="close">&times;</i>
+<div class="qlwapp-description">
+<div class="qlwapp-description-container">
+<h3>Do you need assistance?</h3>
+<p>Chat with one of our representatives via WhatsApp now.</p>
+</div>
+</div>
+</div>
+<div class="qlwapp-slide">
+<div class="qlwapp-contact">
+<div class="qlwapp-previous" data-action="previous">
+<i class="qlwf-arrow_left"></i>
+</div>
+<div class="qlwapp-info">
+<span class="qlwapp-name">%</span>
+<span class="qlwapp-label">%</span>
+</div>
+<div class="qlwapp-avatar">
+<div class="qlwapp-avatar-container">
+<img alt="#" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" data-lazy-src="#" /><noscript><img alt="#" src="#" /></noscript>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="qlwapp-body">
+<div class="qlwapp-carousel">
+<div class="qlwapp-slide">
+<a class="qlwapp-account qlwapp-all" data-action="open" data-visibility="readonly" data-timefrom="09:00" data-timeto="17:30" data-phone="447879991606" data-timedays="[]" data-timezone="0" data-message="Hello, how can we help?" data-type="phone" href="javascript:void(0);" target="_blank">
+<div class="qlwapp-avatar">
+<div class="qlwapp-avatar-container">
+<picture>
+<source type="image/webp" data-lazy-srcset="https://www.hshairclinic.co.uk/wp-content/uploads/2021/12/favicon.png.webp" srcset="data:image/svg+xml,%3Csvg%20xmlns=&#039;http://www.w3.org/2000/svg&#039;%20viewBox=&#039;0%200%200%200&#039;%3E%3C/svg%3E" />
+<img alt="Patient Reception" src="data:image/svg+xml,%3Csvg%20xmlns=&#039;http://www.w3.org/2000/svg&#039;%20viewBox=&#039;0%200%200%200&#039;%3E%3C/svg%3E" data-lazy-src="https://www.hshairclinic.co.uk/wp-content/uploads/2021/12/favicon.png" />
+</picture>
+<noscript><picture>
+<source type="image/webp" srcset="https://www.hshairclinic.co.uk/wp-content/uploads/2021/12/favicon.png.webp"/>
+<img alt="Patient Reception" src="https://www.hshairclinic.co.uk/wp-content/uploads/2021/12/favicon.png"/>
+</picture>
+</noscript>
+</div>
+</div>
+<div class="qlwapp-info">
+<span class="qlwapp-label">The Harley Street Hair Clinic</span>
+<span class="qlwapp-name">Patient Reception</span>
+
+<span class="qlwapp-time">Available from <span class="from">09:00</span> to <span class="to">17:30</span></span>
+</div>
+</a>
+</div>
+<div class="qlwapp-slide">
+<div class="qlwapp-chat">
+<div class="qlwapp-message">
+</div>
+
+</div>
+</div>
+</div>
+</div>
+<div class="qlwapp-footer" data-data-visibility="">
+<p>We will respond as soon as possible. </p>
+</div>
+<div class="qlwapp-response" data-action="response">
+<pre></pre>
+<textarea maxlength="500" name="message" placeholder="Your message..." aria-label="Your message..." tabindex="0"></textarea>
+<div class="qlwapp-buttons">
+<i class="qlwf-emoji"></i>
+<a class="qlwapp-reply" data-action="open" data-message="Hi, how can the Harley Street Hair Clinic help?" href="javascript:void(0);" target="_blank">
+<i class="qlwf-send"></i>
+</a>
+</div>
+</div>
+</div>
+<a class="qlwapp-toggle" data-action="box" data-visibility="readonly" data-phone="447392606606" data-type="phone" data-timefrom="00:00" data-timedays="[]" data-timeto="00:00" data-phone="447392606606" data-timezone="0" data-message="Hi, how can the Harley Street Hair Clinic help?" href="javascript:void(0);" target="_blank">
+<i class="qlwapp-icon qlwapp-whatsapp-icon"></i>
+<i class="qlwapp-close" data-action="close">&times;</i>
+</a>
+</div>
+</div-->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js?ver=1.1.0' id='nice-select-js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.2/jquery.matchHeight-min.js?ver=0.7.2' id='match-height-js'></script>
+<script id='stickThis-js-extra'>
+var sticky_anything_engage = {"element":"#sidebar","topspace":"180","minscreenwidth":"500","maxscreenwidth":"999999","zindex":"1","legacymode":"","dynamicmode":"","debugmode":"","pushup":"#footer-callout-wrap","adminbar":"1"};
+</script>
+<script src='https://www.hshairclinic.co.uk/wp-content/plugins/sticky-menu-or-anything-on-scroll/assets/js/stickThis.js?ver=2.1.1' id='stickThis-js'></script>
+<script src='https://www.hshairclinic.co.uk/wp-content/plugins/duracelltomi-google-tag-manager/js/gtm4wp-form-move-tracker.js?ver=1.16.2' id='gtm4wp-form-move-tracker-js'></script>
+<script id='rocket-browser-checker-js-after'>
+"use strict";var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}var RocketBrowserCompatibilityChecker=function(){function RocketBrowserCompatibilityChecker(options){_classCallCheck(this,RocketBrowserCompatibilityChecker),this.passiveSupported=!1,this._checkPassiveOption(this),this.options=!!this.passiveSupported&&options}return _createClass(RocketBrowserCompatibilityChecker,[{key:"_checkPassiveOption",value:function(self){try{var options={get passive(){return!(self.passiveSupported=!0)}};window.addEventListener("test",null,options),window.removeEventListener("test",null,options)}catch(err){self.passiveSupported=!1}}},{key:"initRequestIdleCallback",value:function(){!1 in window&&(window.requestIdleCallback=function(cb){var start=Date.now();return setTimeout(function(){cb({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-start))}})},1)}),!1 in window&&(window.cancelIdleCallback=function(id){return clearTimeout(id)})}},{key:"isDataSaverModeOn",value:function(){return"connection"in navigator&&!0===navigator.connection.saveData}},{key:"supportsLinkPrefetch",value:function(){var elem=document.createElement("link");return elem.relList&&elem.relList.supports&&elem.relList.supports("prefetch")&&window.IntersectionObserver&&"isIntersecting"in IntersectionObserverEntry.prototype}},{key:"isSlowConnection",value:function(){return"connection"in navigator&&"effectiveType"in navigator.connection&&("2g"===navigator.connection.effectiveType||"slow-2g"===navigator.connection.effectiveType)}}]),RocketBrowserCompatibilityChecker}();
+</script>
+<script id='rocket-preload-links-js-extra'>
+var RocketPreloadLinksConfig = {"excludeUris":"\/news|\/(?:.+\/)?feed(?:\/(?:.+\/?)?)?$|\/(?:.+\/)?embed\/|\/(index\\.php\/)?(.*)wp\\-json(\/.*|$)|\/refer\/|\/go\/|\/recommend\/|\/recommends\/","usesTrailingSlash":"","imageExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php","fileExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php|html|htm","siteUrl":"https:\/\/www.hshairclinic.co.uk","onHoverDelay":"100","rateThrottle":"3"};
+</script>
+<script id='rocket-preload-links-js-after'>
+(function() {
+"use strict";var r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},e=function(){function i(e,t){for(var n=0;n<t.length;n++){var i=t[n];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}return function(e,t,n){return t&&i(e.prototype,t),n&&i(e,n),e}}();function i(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var t=function(){function n(e,t){i(this,n),this.browser=e,this.config=t,this.options=this.browser.options,this.prefetched=new Set,this.eventTime=null,this.threshold=1111,this.numOnHover=0}return e(n,[{key:"init",value:function(){!this.browser.supportsLinkPrefetch()||this.browser.isDataSaverModeOn()||this.browser.isSlowConnection()||(this.regex={excludeUris:RegExp(this.config.excludeUris,"i"),images:RegExp(".("+this.config.imageExt+")$","i"),fileExt:RegExp(".("+this.config.fileExt+")$","i")},this._initListeners(this))}},{key:"_initListeners",value:function(e){-1<this.config.onHoverDelay&&document.addEventListener("mouseover",e.listener.bind(e),e.listenerOptions),document.addEventListener("mousedown",e.listener.bind(e),e.listenerOptions),document.addEventListener("touchstart",e.listener.bind(e),e.listenerOptions)}},{key:"listener",value:function(e){var t=e.target.closest("a"),n=this._prepareUrl(t);if(null!==n)switch(e.type){case"mousedown":case"touchstart":this._addPrefetchLink(n);break;case"mouseover":this._earlyPrefetch(t,n,"mouseout")}}},{key:"_earlyPrefetch",value:function(t,e,n){var i=this,r=setTimeout(function(){if(r=null,0===i.numOnHover)setTimeout(function(){return i.numOnHover=0},1e3);else if(i.numOnHover>i.config.rateThrottle)return;i.numOnHover++,i._addPrefetchLink(e)},this.config.onHoverDelay);t.addEventListener(n,function e(){t.removeEventListener(n,e,{passive:!0}),null!==r&&(clearTimeout(r),r=null)},{passive:!0})}},{key:"_addPrefetchLink",value:function(i){return this.prefetched.add(i.href),new Promise(function(e,t){var n=document.createElement("link");n.rel="prefetch",n.href=i.href,n.onload=e,n.onerror=t,document.head.appendChild(n)}).catch(function(){})}},{key:"_prepareUrl",value:function(e){if(null===e||"object"!==(void 0===e?"undefined":r(e))||!1 in e||-1===["http:","https:"].indexOf(e.protocol))return null;var t=e.href.substring(0,this.config.siteUrl.length),n=this._getPathname(e.href,t),i={original:e.href,protocol:e.protocol,origin:t,pathname:n,href:t+n};return this._isLinkOk(i)?i:null}},{key:"_getPathname",value:function(e,t){var n=t?e.substring(this.config.siteUrl.length):e;return n.startsWith("/")||(n="/"+n),this._shouldAddTrailingSlash(n)?n+"/":n}},{key:"_shouldAddTrailingSlash",value:function(e){return this.config.usesTrailingSlash&&!e.endsWith("/")&&!this.regex.fileExt.test(e)}},{key:"_isLinkOk",value:function(e){return null!==e&&"object"===(void 0===e?"undefined":r(e))&&(!this.prefetched.has(e.href)&&e.origin===this.config.siteUrl&&-1===e.href.indexOf("?")&&-1===e.href.indexOf("#")&&!this.regex.excludeUris.test(e.href)&&!this.regex.images.test(e.href))}}],[{key:"run",value:function(){"undefined"!=typeof RocketPreloadLinksConfig&&new n(new RocketBrowserCompatibilityChecker({capture:!0,passive:!0}),RocketPreloadLinksConfig).init()}}]),n}();t.run();
+}());
+</script>
+<script id='wpex-core-js-extra'>
+var wpex_theme_params = {"menuWidgetAccordion":"1","mobileMenuBreakpoint":"1444","i18n":{"openSubmenu":"Open submenu of %s","closeSubmenu":"Close submenu of %s"},"stickyHeaderStyle":"shrink_animated","hasStickyMobileHeader":"1","stickyHeaderBreakPoint":"1445","hasStickyHeaderShrink":"1","hasStickyMobileHeaderShrink":"1","shrinkHeaderHeight":"65","selectArrowIcon":"<span class=\"wpex-select-arrow__icon ticon ticon-angle-down\" aria-hidden=\"true\"><\/span>","customSelects":".widget_categories form,.widget_archive select,.vcex-form-shortcode select","scrollToHash":"1","localScrollFindLinks":"1","localScrollHighlight":"1","localScrollUpdateHash":"","scrollToHashTimeout":"500","localScrollTargets":"li.local-scroll a, a.local-scroll, .local-scroll-link, .local-scroll-link > a","localScrollSpeed":"1000","scrollToBehavior":"smooth","mobileMenuOpenSubmenuIcon":"<span class=\"wpex-open-submenu__icon wpex-transition-all wpex-duration-300 ticon ticon-angle-down\" aria-hidden=\"true\"><\/span>"};
+</script>
+<script src='https://www.hshairclinic.co.uk/wp-content/themes/Total/assets/js/total.min.js?ver=5.7.0' id='wpex-core-js'></script>
+<script src='https://www.hshairclinic.co.uk/wp-content/themes/Total/assets/lib/fancybox/jquery.fancybox.min.js?ver=3.5.7' id='fancybox-js'></script>
+<script id='wpex-fancybox-js-extra'>
+var wpex_fancybox_params = {"animationEffect":"fade","zoomOpacity":"auto","animationDuration":"400","transitionEffect":"zoom-in-out","transitionDuration":"400","gutter":"50","loop":"","arrows":"1","infobar":"1","smallBtn":"auto","closeExisting":"1","buttons":["zoom","slideShow","close","thumbs"],"slideShow":{"autoStart":false,"speed":3000},"lang":"en","i18n":{"en":{"CLOSE":"Close","NEXT":"Next","PREV":"Previous","ERROR":"The requested content cannot be loaded. Please try again later.","PLAY_START":"Start slideshow","PLAY_STOP":"Pause slideshow","FULL_SCREEN":"Full screen","THUMBS":"Thumbnails","DOWNLOAD":"Download","SHARE":"Share","ZOOM":"Zoom"}},"thumbs":{"autoStart":false,"hideOnClose":true,"axis":"y"}};
+</script>
+<script src='https://www.hshairclinic.co.uk/wp-content/themes/Total/assets/js/dynamic/wpex-fancybox.min.js?ver=5.7.0' id='wpex-fancybox-js'></script>
+<script src='https://www.hshairclinic.co.uk/wp-content/plugins/wp-whatsapp-chat/build/frontend/js/index.js?ver=5cf11c421167aee95e6c' id='qlwapp-js'></script>
+<script src='https://www.hshairclinic.co.uk/wp-content/themes/Total/assets/js/dynamic/wpex-social-share.min.js?ver=5.7.0' id='wpex-social-share-js'></script>
+<script src='https://www.hshairclinic.co.uk/wp-content/plugins/wpforms/assets/js/wpforms.min.js?ver=1.7.9.1' id='wpforms-js'></script>
+<script src='https://www.hshairclinic.co.uk/wp-content/plugins/wpforms/assets/pro/js/wpforms-conditional-logic-fields.min.js?ver=1.7.9.1' id='wpforms-builder-conditionals-js'></script>
+<script id='wpforms-choicesjs-js-extra'>
+var wpforms_choicesjs_config = {"removeItemButton":"1","shouldSort":"","fuseOptions":{"threshold":0.1000000000000000055511151231257827021181583404541015625,"distance":1000},"loadingText":"Loading\u2026","noResultsText":"No results found","noChoicesText":"No choices to choose from","itemSelectText":"Press to select","uniqueItemText":"Only unique values can be added","customAddItemText":"Only values matching specific conditions can be added"};
+</script>
+<script src='https://www.hshairclinic.co.uk/wp-content/plugins/wpforms/assets/lib/choices.min.js?ver=9.0.1' id='wpforms-choicesjs-js'></script>
+<script src='https://www.hshairclinic.co.uk/wp-content/plugins/wpforms/assets/pro/lib/intl-tel-input/jquery.intl-tel-input.min.js?ver=17.0.17' id='wpforms-smart-phone-field-js'></script>
+<script id='wpforms-dropzone-js-extra'>
+var wpforms_file_upload = {"url":"https:\/\/www.hshairclinic.co.uk\/wp-admin\/admin-ajax.php","errors":{"default_error":"Something went wrong, please try again.","file_not_uploaded":"This file was not uploaded.","file_limit":"File uploads exceed the maximum number allowed ({fileLimit}).","file_extension":"File type is not allowed.","file_size":"File exceeds the max size allowed.","post_max_size":"File exceeds the upload limit allowed (512 MB)."},"loading_message":"File upload is in progress. Please submit the form once uploading is completed."};
+</script>
+<script src='https://www.hshairclinic.co.uk/wp-content/plugins/wpforms/assets/pro/lib/dropzone.min.js?ver=5.9.3' id='wpforms-dropzone-js'></script>
+<script src='https://www.hshairclinic.co.uk/wp-includes/js/underscore.min.js?ver=1.13.4' id='underscore-js'></script>
+<script id='wp-util-js-extra'>
+var _wpUtilSettings = {"ajax":{"url":"\/wp-admin\/admin-ajax.php"}};
+</script>
+<script src='https://www.hshairclinic.co.uk/wp-includes/js/wp-util.min.js?ver=6.1.1' id='wp-util-js'></script>
+<script src='https://www.hshairclinic.co.uk/wp-content/plugins/wpforms/assets/pro/js/wpforms-file-upload.min.js?ver=1.7.9.1' id='wpforms-file-upload-js'></script>
+<script src='https://www.hshairclinic.co.uk/wp-content/plugins/wpforms/assets/pro/lib/jquery.payment.min.js?ver=1.7.9.1' id='wpforms-payment-js'></script>
+<script src='https://www.hshairclinic.co.uk/wp-content/plugins/wpforms/assets/pro/js/fields/richtext.min.js?ver=1.7.9.1' id='wpforms-richtext-field-js'></script>
+<script src='https://www.hshairclinic.co.uk/wp-content/plugins/wpforms/assets/lib/jquery.validate.min.js?ver=1.19.5' id='wpforms-validation-js'></script>
+<script src='https://www.hshairclinic.co.uk/wp-content/plugins/wpforms/assets/lib/flatpickr/flatpickr.min.js?ver=4.6.9' id='wpforms-flatpickr-js'></script>
+<script src='https://www.hshairclinic.co.uk/wp-content/plugins/wpforms/assets/lib/jquery.timepicker/jquery.timepicker.min.js?ver=1.11.5' id='wpforms-jquery-timepicker-js'></script>
+<script src='https://www.hshairclinic.co.uk/wp-content/plugins/wpforms/assets/lib/jquery.inputmask.min.js?ver=5.0.7-beta.29' id='wpforms-maskedinput-js'></script>
+<script src='https://www.hshairclinic.co.uk/wp-content/plugins/wpforms/assets/lib/mailcheck.min.js?ver=1.1.2' id='wpforms-mailcheck-js'></script>
+<script src='https://www.hshairclinic.co.uk/wp-content/plugins/wpforms/assets/lib/punycode.min.js?ver=1.0.0' id='wpforms-punycode-js'></script>
+<script src='https://www.hshairclinic.co.uk/wp-content/plugins/wpforms/assets/js/utils.min.js?ver=1.7.9.1' id='wpforms-generic-utils-js'></script>
+<script src='https://www.google.com/recaptcha/api.js?render=6LfC114aAAAAAKikdXyREO6xyzIj1dbyw9E8QpHb' id='wpforms-recaptcha-js'></script>
+<script id='wpforms-recaptcha-js-after'>
+var wpformsDispatchEvent = function (el, ev, custom) {
+				var e = document.createEvent(custom ? "CustomEvent" : "HTMLEvents");
+				custom ? e.initCustomEvent(ev, true, true, false) : e.initEvent(ev, true, true);
+				el.dispatchEvent(e);
+			};
+		var wpformsRecaptchaV3Execute = function ( callback ) {
+					grecaptcha.execute( "6LfC114aAAAAAKikdXyREO6xyzIj1dbyw9E8QpHb", { action: "wpforms" } ).then( function ( token ) {
+						Array.prototype.forEach.call( document.getElementsByName( "wpforms[recaptcha]" ), function ( el ) {
+							el.value = token;
+						} );
+						if ( typeof callback === "function" ) {
+							return callback();
+						}
+					} );
+				}
+				grecaptcha.ready( function () {
+					wpformsDispatchEvent( document, "wpformsRecaptchaLoaded", true );
+				} );
+			
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpforms_settings = {"val_required":"This field is required.","val_email":"Please enter a valid email address.","val_email_suggestion":"Did you mean {suggestion}?","val_email_suggestion_title":"Click to accept this suggestion.","val_email_restricted":"This email address is not allowed.","val_number":"Please enter a valid number.","val_number_positive":"Please enter a valid positive number.","val_confirm":"Field values do not match.","val_checklimit":"You have exceeded the number of allowed selections: {#}.","val_limit_characters":"{count} of {limit} max characters.","val_limit_words":"{count} of {limit} max words.","val_recaptcha_fail_msg":"Google reCAPTCHA failed, please try again later.","val_inputmask_incomplete":"Please fill out the field in required format.","uuid_cookie":"1","locale":"en","wpforms_plugin_url":"https:\/\/www.hshairclinic.co.uk\/wp-content\/plugins\/wpforms\/","gdpr":"","ajaxurl":"https:\/\/www.hshairclinic.co.uk\/wp-admin\/admin-ajax.php","mailcheck_enabled":"1","mailcheck_domains":[],"mailcheck_toplevel_domains":["dev"],"is_ssl":"1","page_title":"Graft Calculator","page_id":"367","currency_code":"USD","currency_thousands":",","currency_decimals":"2","currency_decimal":".","currency_symbol":"$","currency_symbol_pos":"left","val_requiredpayment":"Payment is required.","val_creditcard":"Please enter a valid credit card number.","val_post_max_size":"The total size of the selected files {totalSize} MB exceeds the allowed limit {maxSize} MB.","val_time12h":"Please enter time in 12-hour AM\/PM format (eg 8:45 AM).","val_time24h":"Please enter time in 24-hour format (eg 22:45).","val_time_limit":"Please enter time between {minTime} and {maxTime}.","val_url":"Please enter a valid URL.","val_fileextension":"File type is not allowed.","val_filesize":"File exceeds max size allowed. File was not uploaded.","post_max_size":"536870912","val_password_strength":"A stronger password is required. Consider using upper and lower case letters, numbers, and symbols.","val_phone":"Please enter a valid phone number.","richtext_add_media_button":"","entry_preview_iframe_styles":["https:\/\/www.hshairclinic.co.uk\/wp-includes\/js\/tinymce\/skins\/lightgray\/content.min.css?ver=6.1.1","https:\/\/www.hshairclinic.co.uk\/wp-includes\/css\/dashicons.min.css?ver=6.1.1","https:\/\/www.hshairclinic.co.uk\/wp-includes\/js\/tinymce\/skins\/wordpress\/wp-content.css?ver=6.1.1"]}
+/* ]]> */
+</script>
+<script>
+		(function ( $ ) {
+			'use strict';
+
+			$( window ).on( 'load', function() {
+               
+                   $( '#before_after .wpex-lightbox-group-item a ' ).addClass( 'wpex-lightbox-group-item' );
+                         
+
+			} );
+
+		} )( jQuery );
+	</script>
+<script>window.lazyLoadOptions=[{elements_selector:"img[data-lazy-src],.rocket-lazyload",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,callback_loaded:function(element){if(element.tagName==="IFRAME"&&element.dataset.rocketLazyload=="fitvidscompatible"){if(element.classList.contains("lazyloaded")){if(typeof window.jQuery!="undefined"){if(jQuery.fn.fitVids){jQuery(element).parent().fitVids()}}}}}},{elements_selector:".rocket-lazyload",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,}];window.addEventListener('LazyLoad::Initialized',function(e){var lazyLoadInstance=e.detail.instance;if(window.MutationObserver){var observer=new MutationObserver(function(mutations){var image_count=0;var iframe_count=0;var rocketlazy_count=0;mutations.forEach(function(mutation){for(var i=0;i<mutation.addedNodes.length;i++){if(typeof mutation.addedNodes[i].getElementsByTagName!=='function'){continue}
+if(typeof mutation.addedNodes[i].getElementsByClassName!=='function'){continue}
+images=mutation.addedNodes[i].getElementsByTagName('img');is_image=mutation.addedNodes[i].tagName=="IMG";iframes=mutation.addedNodes[i].getElementsByTagName('iframe');is_iframe=mutation.addedNodes[i].tagName=="IFRAME";rocket_lazy=mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');image_count+=images.length;iframe_count+=iframes.length;rocketlazy_count+=rocket_lazy.length;if(is_image){image_count+=1}
+if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_count>0){lazyLoadInstance.update()}});var b=document.getElementsByTagName("body")[0];var config={childList:!0,subtree:!0};observer.observe(b,config)}},!1)</script><script data-no-minify="1" async src="https://www.hshairclinic.co.uk/wp-content/plugins/wp-rocket/assets/js/lazyload/17.5/lazyload.min.js"></script>
+</body>
+</html>
